@@ -3,11 +3,12 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
-const seedArtists = require("./data/seedArtists");
-const seedAlbums = require("./data/seedAlbums");
+const { createDataStore } = require("./lib/dataStore");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+
+const { store, source: dataSource } = createDataStore();
 
 app.use(
   cors({
@@ -17,9 +18,6 @@ app.use(
   })
 );
 app.use(express.json());
-
-let artists = structuredClone(seedArtists);
-let albums = structuredClone(seedAlbums);
 
 const ARTIST_TYPES = new Set(["Solo", "Group"]);
 const CERTS = new Set(["Gold", "Platinum", "Diamond"]);
@@ -35,27 +33,6 @@ function genId(name) {
     if (slug) return `${slug}-${Math.random().toString(36).slice(2, 6)}`;
   }
   return Math.random().toString(36).slice(2, 10);
-}
-
-function findArtistIndex(id) {
-  return artists.findIndex((a) => a.id === id);
-}
-
-function findAlbumIndex(id) {
-  return albums.findIndex((a) => a.id === id);
-}
-
-function findArtist(id) {
-  return artists.find((a) => a.id === id) || null;
-}
-
-function enrichAlbum(album) {
-  const artist = findArtist(album.artistId);
-  return {
-    ...album,
-    artistName: artist ? artist.name : "",
-    artistPhoto: artist ? artist.photo : "",
-  };
 }
 
 function validateArtistBody(body, { requireAll = false } = {}) {
@@ -173,145 +150,185 @@ function buildAlbum(body, id) {
   };
 }
 
+function asyncHandler(fn) {
+  return (req, res, next) => {
+    Promise.resolve(fn(req, res, next)).catch(next);
+  };
+}
+
 // ─── Artists ─────────────────────────────────────────────────────────────────
 
-app.get("/artists", (_req, res) => {
-  res.json(artists);
-});
+app.get(
+  "/artists",
+  asyncHandler(async (_req, res) => {
+    res.json(await store.getArtists());
+  })
+);
 
-app.get("/artists/:id", (req, res) => {
-  const artist = findArtist(req.params.id);
-  if (!artist) {
-    return res.status(404).json({ message: `Artist not found: ${req.params.id}` });
-  }
-  res.json(artist);
-});
+app.get(
+  "/artists/:id",
+  asyncHandler(async (req, res) => {
+    const artist = await store.getArtist(req.params.id);
+    if (!artist) {
+      return res.status(404).json({ message: `Artist not found: ${req.params.id}` });
+    }
+    res.json(artist);
+  })
+);
 
-app.post("/artists", (req, res) => {
-  const error = validateArtistBody(req.body, { requireAll: true });
-  if (error) return res.status(400).json({ message: error });
+app.post(
+  "/artists",
+  asyncHandler(async (req, res) => {
+    const error = validateArtistBody(req.body, { requireAll: true });
+    if (error) return res.status(400).json({ message: error });
 
-  const artist = buildArtist(req.body, genId(req.body.name));
-  artists.push(artist);
-  res.status(201).json({
-    message: "Artist created",
-    creationType: "artist",
-    created: true,
-    artist,
-  });
-});
+    const artist = await store.createArtist(buildArtist(req.body, genId(req.body.name)));
+    res.status(201).json({
+      message: "Artist created",
+      creationType: "artist",
+      created: true,
+      artist,
+    });
+  })
+);
 
-app.put("/artists/:id", (req, res) => {
-  const index = findArtistIndex(req.params.id);
-  if (index === -1) {
-    return res.status(404).json({ message: `Artist not found: ${req.params.id}` });
-  }
+app.put(
+  "/artists/:id",
+  asyncHandler(async (req, res) => {
+    const error = validateArtistBody(req.body, { requireAll: true });
+    if (error) return res.status(400).json({ message: error });
 
-  const error = validateArtistBody(req.body, { requireAll: true });
-  if (error) return res.status(400).json({ message: error });
+    const artist = await store.updateArtist(req.params.id, buildArtist(req.body, req.params.id));
+    if (!artist) {
+      return res.status(404).json({ message: `Artist not found: ${req.params.id}` });
+    }
 
-  const artist = buildArtist(req.body, req.params.id);
-  artists[index] = artist;
-  res.json({
-    message: "Artist updated",
-    updateType: "artist",
-    updated: true,
-    artist,
-  });
-});
+    res.json({
+      message: "Artist updated",
+      updateType: "artist",
+      updated: true,
+      artist,
+    });
+  })
+);
 
-app.delete("/artists/:id", (req, res) => {
-  const index = findArtistIndex(req.params.id);
-  if (index === -1) {
-    return res.status(404).json({ message: `Artist not found: ${req.params.id}` });
-  }
+app.delete(
+  "/artists/:id",
+  asyncHandler(async (req, res) => {
+    const result = await store.deleteArtist(req.params.id);
+    if (!result) {
+      return res.status(404).json({ message: `Artist not found: ${req.params.id}` });
+    }
 
-  const [artist] = artists.splice(index, 1);
-  const removed = albums.filter((al) => al.artistId === artist.id);
-  albums = albums.filter((al) => al.artistId !== artist.id);
-
-  res.json({
-    message: "Artist deleted",
-    deletionType: "artist",
-    deleted: true,
-    artist,
-    deletedAlbumCount: removed.length,
-  });
-});
+    res.json({
+      message: "Artist deleted",
+      deletionType: "artist",
+      deleted: true,
+      artist: result.artist,
+      deletedAlbumCount: result.deletedAlbumCount,
+    });
+  })
+);
 
 // ─── Albums ──────────────────────────────────────────────────────────────────
 
-app.get("/albums", (_req, res) => {
-  res.json(albums.map(enrichAlbum));
-});
+app.get(
+  "/albums",
+  asyncHandler(async (_req, res) => {
+    res.json(await store.getAlbums());
+  })
+);
 
-app.get("/albums/:id", (req, res) => {
-  const album = albums.find((a) => a.id === req.params.id);
-  if (!album) {
-    return res.status(404).json({ message: `Album not found: ${req.params.id}` });
-  }
-  res.json(enrichAlbum(album));
-});
+app.get(
+  "/albums/:id",
+  asyncHandler(async (req, res) => {
+    const album = await store.getAlbum(req.params.id);
+    if (!album) {
+      return res.status(404).json({ message: `Album not found: ${req.params.id}` });
+    }
+    res.json(album);
+  })
+);
 
-app.post("/albums", (req, res) => {
-  const error = validateAlbumBody(req.body, { requireAll: true });
-  if (error) return res.status(400).json({ message: error });
+app.post(
+  "/albums",
+  asyncHandler(async (req, res) => {
+    const error = validateAlbumBody(req.body, { requireAll: true });
+    if (error) return res.status(400).json({ message: error });
 
-  if (!findArtist(req.body.artistId)) {
-    return res.status(404).json({ message: `Artist not found: ${req.body.artistId}` });
-  }
+    if (!(await store.getArtist(req.body.artistId))) {
+      return res.status(404).json({ message: `Artist not found: ${req.body.artistId}` });
+    }
 
-  const album = buildAlbum(req.body, genId(req.body.title));
-  albums.push(album);
-  res.status(201).json({
-    message: "Album created",
-    creationType: "album",
-    created: true,
-    album: enrichAlbum(album),
+    const album = await store.createAlbum(buildAlbum(req.body, genId(req.body.title)));
+    res.status(201).json({
+      message: "Album created",
+      creationType: "album",
+      created: true,
+      album,
+    });
+  })
+);
+
+app.put(
+  "/albums/:id",
+  asyncHandler(async (req, res) => {
+    const error = validateAlbumBody(req.body, { requireAll: true });
+    if (error) return res.status(400).json({ message: error });
+
+    if (!(await store.getArtist(req.body.artistId))) {
+      return res.status(404).json({ message: `Artist not found: ${req.body.artistId}` });
+    }
+
+    const album = await store.updateAlbum(req.params.id, buildAlbum(req.body, req.params.id));
+    if (!album) {
+      return res.status(404).json({ message: `Album not found: ${req.params.id}` });
+    }
+
+    res.json({
+      message: "Album updated",
+      updateType: "album",
+      updated: true,
+      album,
+    });
+  })
+);
+
+app.delete(
+  "/albums/:id",
+  asyncHandler(async (req, res) => {
+    const album = await store.deleteAlbum(req.params.id);
+    if (!album) {
+      return res.status(404).json({ message: `Album not found: ${req.params.id}` });
+    }
+
+    res.json({
+      message: "Album deleted",
+      deletionType: "album",
+      deleted: true,
+      album,
+    });
+  })
+);
+
+app.use((err, _req, res, _next) => {
+  console.error(err);
+  res.status(500).json({
+    message: err.message || "Internal server error",
   });
 });
 
-app.put("/albums/:id", (req, res) => {
-  const index = findAlbumIndex(req.params.id);
-  if (index === -1) {
-    return res.status(404).json({ message: `Album not found: ${req.params.id}` });
-  }
-
-  const error = validateAlbumBody(req.body, { requireAll: true });
-  if (error) return res.status(400).json({ message: error });
-
-  if (!findArtist(req.body.artistId)) {
-    return res.status(404).json({ message: `Artist not found: ${req.body.artistId}` });
-  }
-
-  const album = buildAlbum(req.body, req.params.id);
-  albums[index] = album;
-  res.json({
-    message: "Album updated",
-    updateType: "album",
-    updated: true,
-    album: enrichAlbum(album),
+async function start() {
+  const counts = await store.counts();
+  app.listen(PORT, () => {
+    console.log(
+      `Modern Music Catalog API running on ${process.env.SERVER_URL || "http://localhost"}:${PORT}`
+    );
+    console.log(`DATA_SOURCE=${dataSource} — ${counts.artists} artists, ${counts.albums} albums`);
   });
-});
+}
 
-app.delete("/albums/:id", (req, res) => {
-  const index = findAlbumIndex(req.params.id);
-  if (index === -1) {
-    return res.status(404).json({ message: `Album not found: ${req.params.id}` });
-  }
-
-  const [album] = albums.splice(index, 1);
-  res.json({
-    message: "Album deleted",
-    deletionType: "album",
-    deleted: true,
-    album: enrichAlbum(album),
-  });
-});
-
-app.listen(PORT, () => {
-  console.log(
-    `Modern Music Catalog API running on ${process.env.SERVER_URL || "http://localhost"}:${PORT}`
-  );
-  console.log(`Seeded ${artists.length} artists and ${albums.length} albums`);
+start().catch((err) => {
+  console.error("Failed to start server:", err.message || err);
+  process.exit(1);
 });

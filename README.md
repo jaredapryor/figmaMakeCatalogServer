@@ -1,15 +1,59 @@
 # Modern Music Catalog API
 
-Express REST API aligned with the Figma Make *Modern Music Catalog* schema. Seeded with 30 artists and 116 albums. Data is in-memory and resets on restart.
+Express REST API aligned with the Figma Make *Modern Music Catalog* schema. Seeded with 30 artists and 116 albums.
+
+Supports two data backends via `DATA_SOURCE`:
+
+- **`local`** (default) — in-memory JS seeds; resets on restart
+- **`supabase`** — persists to Supabase tables `artistsAlt` / `albumsAlt`
 
 ## Setup
 
 ```bash
+cp .env.example .env
 npm install
 npm start
 ```
 
 Server: `http://localhost:3001` (see `.env`). CORS allows `http://localhost:5174`.
+
+Copy `.env.example` to `.env` and fill in real values locally. **Never commit secrets** — `.env` is gitignored. `.env.example` only has placeholders.
+
+## Data source
+
+| Variable | Values | Default |
+|----------|--------|---------|
+| `DATA_SOURCE` | `local` or `supabase` | `local` |
+
+### Local mode
+
+Uses [`data/seedArtists.js`](data/seedArtists.js) and [`data/seedAlbums.js`](data/seedAlbums.js) in memory. No Supabase credentials required.
+
+### Supabase mode
+
+1. Create a Supabase project (if you do not already have one).
+2. In the dashboard, open **Project Settings → API Keys** (or the **Connect** dialog) and copy:
+   - **Project URL** → `SUPABASE_URL`
+   - **Service role** key (legacy `service_role` JWT, or a new `sb_secret_...` secret key) → `SUPABASE_SERVICE_ROLE_KEY`  
+   The key already exists when the project is created; you do not create it manually. Either legacy or secret key works (both bypass RLS). Use them **only** in the server `.env`, never in the React app or README.
+3. In the Supabase SQL editor, run [`supabase/01_schema.sql`](supabase/01_schema.sql), then [`supabase/02_seed.sql`](supabase/02_seed.sql).
+4. Set in `.env`:
+
+```env
+DATA_SOURCE=supabase
+SUPABASE_URL=https://YOUR_PROJECT.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=your-real-key
+```
+
+5. Restart the server. Startup fails fast if URL/key are missing.
+
+To regenerate seed SQL after editing the JS seed files:
+
+```bash
+node scripts/generate-seed-sql.cjs
+```
+
+Then re-run `02_seed.sql` in Supabase.
 
 ## Schema
 
