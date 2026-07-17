@@ -1,32 +1,287 @@
 module.exports = [
-  { id: "a1",  name: "Neon Veins",           country: "United States",  countryCode: "us", countryFlag: "🇺🇸", photoUrl: "https://images.unsplash.com/photo-1445375011782-2384686778a0?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 4, activeSince: 2008 },
-  { id: "a2",  name: "Mara Soleil",          country: "France",         countryCode: "fr", countryFlag: "🇫🇷", photoUrl: "https://images.unsplash.com/photo-1517230878791-4d28214057c2?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2014 },
-  { id: "a3",  name: "The Drift Collective", country: "United Kingdom", countryCode: "gb", countryFlag: "🇬🇧", photoUrl: "https://images.unsplash.com/photo-1761956339937-81d6f6aaa213?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 5, activeSince: 2005 },
-  { id: "a4",  name: "Kai Sundara",          country: "Japan",          countryCode: "jp", countryFlag: "🇯🇵", photoUrl: "https://images.unsplash.com/photo-1619361368200-b2e41e9c3104?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2017 },
-  { id: "a5",  name: "Echo Assembly",        country: "Germany",        countryCode: "de", countryFlag: "🇩🇪", photoUrl: "https://images.unsplash.com/photo-1780564645646-ef08aa8a81ad?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 3, activeSince: 2010 },
-  { id: "a6",  name: "Lena Voss",            country: "Sweden",         countryCode: "se", countryFlag: "🇸🇪", photoUrl: "https://images.unsplash.com/photo-1731461296152-3b5934ba3267?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2012 },
-  { id: "a7",  name: "Static Empire",        country: "Canada",         countryCode: "ca", countryFlag: "🇨🇦", photoUrl: "https://images.unsplash.com/photo-1626608213124-8b2c52e83139?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 6, activeSince: 2003 },
-  { id: "a8",  name: "Priya Menon",          country: "India",          countryCode: "in", countryFlag: "🇮🇳", photoUrl: "https://images.unsplash.com/photo-1608319917470-9d9179430f8d?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2019 },
-  { id: "a9",  name: "The Lunar Wolves",     country: "Australia",      countryCode: "au", countryFlag: "🇦🇺", photoUrl: "https://images.unsplash.com/photo-1767000171517-5f0556f13735?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 4, activeSince: 2007 },
-  { id: "a10", name: "Rafael Dumont",        country: "Brazil",         countryCode: "br", countryFlag: "🇧🇷", photoUrl: "https://images.unsplash.com/photo-1730148138018-3304deb3d74b?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2011 },
-  { id: "a11", name: "Void Signal",          country: "South Korea",    countryCode: "kr", countryFlag: "🇰🇷", photoUrl: "https://images.unsplash.com/photo-1767000295378-3aa6dece5a80?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 7, activeSince: 2016 },
-  { id: "a12", name: "Isla Crane",           country: "New Zealand",    countryCode: "nz", countryFlag: "🇳🇿", photoUrl: "https://images.unsplash.com/photo-1730724620532-c3844e38f81a?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2015 },
-  { id: "a13", name: "The Amber Circuit",    country: "Netherlands",    countryCode: "nl", countryFlag: "🇳🇱", photoUrl: "https://images.unsplash.com/photo-1780564645665-47ada9704804?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 3, activeSince: 2009 },
-  { id: "a14", name: "Soren Holt",           country: "Denmark",        countryCode: "dk", countryFlag: "🇩🇰", photoUrl: "https://images.unsplash.com/photo-1614302092816-3a081c6e7d86?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2013 },
-  { id: "a15", name: "Pulsar Twins",         country: "United States",  countryCode: "us", countryFlag: "🇺🇸", photoUrl: "https://images.unsplash.com/photo-1763244737837-fdef959467c4?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 2, activeSince: 2018 },
-  { id: "a16", name: "Yara Osei",            country: "Ghana",          countryCode: "gh", countryFlag: "🇬🇭", photoUrl: "https://images.unsplash.com/photo-1520872024865-3ff2805d8bb3?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2020 },
-  { id: "a17", name: "The Iron Shore",       country: "Ireland",        countryCode: "ie", countryFlag: "🇮🇪", photoUrl: "https://images.unsplash.com/photo-1750188179642-a60dd3e24369?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 5, activeSince: 2006 },
-  { id: "a18", name: "Dmitri Volkov",        country: "Russia",         countryCode: "ru", countryFlag: "🇷🇺", photoUrl: "https://images.unsplash.com/photo-1730148138168-6f53ddda1f02?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2010 },
-  { id: "a19", name: "Crimson Atlas",        country: "Argentina",      countryCode: "ar", countryFlag: "🇦🇷", photoUrl: "https://images.unsplash.com/photo-1634027593002-f0b652051278?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 4, activeSince: 2014 },
-  { id: "a20", name: "Nadia Fontaine",       country: "Belgium",        countryCode: "be", countryFlag: "🇧🇪", photoUrl: "https://images.unsplash.com/photo-1615748562188-07be820cff5b?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2016 },
-  { id: "a21", name: "The Glass Menagerie",  country: "United Kingdom", countryCode: "gb", countryFlag: "🇬🇧", photoUrl: "https://images.unsplash.com/photo-1777428411863-627ed0d1880f?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 4, activeSince: 2004 },
-  { id: "a22", name: "Tomas Reyes",          country: "Mexico",         countryCode: "mx", countryFlag: "🇲🇽", photoUrl: "https://images.unsplash.com/photo-1596807323443-a1528e2cd0ec?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2009 },
-  { id: "a23", name: "Orbit Black",          country: "United States",  countryCode: "us", countryFlag: "🇺🇸", photoUrl: "https://images.unsplash.com/photo-1763889167677-5627a7b6182c?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 3, activeSince: 2015 },
-  { id: "a24", name: "Hana Mizuki",          country: "Japan",          countryCode: "jp", countryFlag: "🇯🇵", photoUrl: "https://images.unsplash.com/photo-1619361368198-53f950a51dfa?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2018 },
-  { id: "a25", name: "The Salt Flats",       country: "Canada",         countryCode: "ca", countryFlag: "🇨🇦", photoUrl: "https://images.unsplash.com/photo-1737305918799-f6d473a42891?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 5, activeSince: 2011 },
-  { id: "a26", name: "Elara Vind",           country: "Norway",         countryCode: "no", countryFlag: "🇳🇴", photoUrl: "https://images.unsplash.com/photo-1620653616528-7da9a2005478?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2013 },
-  { id: "a27", name: "Deep Current",         country: "South Africa",   countryCode: "za", countryFlag: "🇿🇦", photoUrl: "https://images.unsplash.com/photo-1763889594062-04a75c7cb821?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 6, activeSince: 2008 },
-  { id: "a28", name: "Cleo Sterling",        country: "Australia",      countryCode: "au", countryFlag: "🇦🇺", photoUrl: "https://images.unsplash.com/photo-1530189873666-a792be008b5b?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2021 },
-  { id: "a29", name: "Fractal Dawn",         country: "Germany",        countryCode: "de", countryFlag: "🇩🇪", photoUrl: "https://images.unsplash.com/photo-1541126274323-dbac58d14741?w=300&h=300&fit=crop&auto=format", type: "group", memberCount: 3, activeSince: 2017 },
-  { id: "a30", name: "Zuri Nakamura",        country: "United States",  countryCode: "us", countryFlag: "🇺🇸", photoUrl: "https://images.unsplash.com/photo-1531463368359-151247409561?w=300&h=300&fit=crop&auto=format", type: "solo",  activeSince: 2012 },
+  {
+    "id": "cleo-sterling",
+    "name": "Cleo Sterling",
+    "photo": "629591e353030fa597f22547cf5a231c2df4ca33.png",
+    "flag": "AU",
+    "countryCode": "AU",
+    "type": "Solo",
+    "since": 2021
+  },
+  {
+    "id": "crimson-atlas",
+    "name": "Crimson Atlas",
+    "photo": "3d50ead32c01ecb5b47119643b3ecca40f989248.png",
+    "flag": "AR",
+    "countryCode": "AR",
+    "type": "Group",
+    "since": 2014,
+    "groupSize": 4
+  },
+  {
+    "id": "deep-current",
+    "name": "Deep Current",
+    "photo": "74cbb3469032b1458d4a61826025a00fc39bb1cf.png",
+    "flag": "ZA",
+    "countryCode": "ZA",
+    "type": "Group",
+    "since": 2009,
+    "groupSize": 6
+  },
+  {
+    "id": "dmitri-volkov",
+    "name": "Dmitri Volkov",
+    "photo": "840b1445a965dde9c17ff977f5e596285dd0af2c.png",
+    "flag": "RU",
+    "countryCode": "RU",
+    "type": "Solo",
+    "since": 2010
+  },
+  {
+    "id": "echo-assembly",
+    "name": "Echo Assembly",
+    "photo": "fd9e78c0d36b29e95d78bc0061110af5925b95bb.png",
+    "flag": "DE",
+    "countryCode": "DE",
+    "type": "Group",
+    "since": 2010,
+    "groupSize": 5
+  },
+  {
+    "id": "elara-vind",
+    "name": "Elara Vind",
+    "photo": "f57af44522dcfc86b6bd37afc67442c47b22ed45.png",
+    "flag": "NO",
+    "countryCode": "NO",
+    "type": "Solo",
+    "since": 2013
+  },
+  {
+    "id": "fractal-dawn",
+    "name": "Fractal Dawn",
+    "photo": "9db23c15a2487b4f4592608380e712c7d8ede527.png",
+    "flag": "DE",
+    "countryCode": "DE",
+    "type": "Group",
+    "since": 2017,
+    "groupSize": 5
+  },
+  {
+    "id": "hana-mizuki",
+    "name": "Hana Mizuki",
+    "photo": "26d1caa7ae5d95a76994d531f9e7cd874ede70c2.png",
+    "flag": "JP",
+    "countryCode": "JP",
+    "type": "Solo",
+    "since": 2018
+  },
+  {
+    "id": "isla-crane",
+    "name": "Isla Crane",
+    "photo": "9a58aa7ded7d1a91ac6d14186862fd6eb8154ef2.png",
+    "flag": "NZ",
+    "countryCode": "NZ",
+    "type": "Solo",
+    "since": 2019
+  },
+  {
+    "id": "kai-sundara",
+    "name": "Kai Sundara",
+    "photo": "c4944ac0eb6e3448667d2151bb45addb90cb4f2a.png",
+    "flag": "JP",
+    "countryCode": "JP",
+    "type": "Solo",
+    "since": 2017
+  },
+  {
+    "id": "lena-voss",
+    "name": "Lena Voss",
+    "photo": "993d172c52b9d3dcf3f0a506889ca9ee1b98169a.png",
+    "flag": "SE",
+    "countryCode": "SE",
+    "type": "Solo",
+    "since": 2012
+  },
+  {
+    "id": "mara-soleil",
+    "name": "Mara Soleil",
+    "photo": "2fcb7d2b73fa1bac64a1a12f435c7d53564e0433.png",
+    "flag": "FR",
+    "countryCode": "FR",
+    "type": "Solo",
+    "since": 2014
+  },
+  {
+    "id": "nadia-fontaine",
+    "name": "Nadia Fontaine",
+    "photo": "0bbc6cf4c33b820e6a8259e508d898ce6af7597c.png",
+    "flag": "BE",
+    "countryCode": "BE",
+    "type": "Solo",
+    "since": 2016
+  },
+  {
+    "id": "neon-veins",
+    "name": "Neon Veins",
+    "photo": "cac58f2f9842578a4d678b01143de169f5e4bbe7.png",
+    "flag": "US",
+    "countryCode": "US",
+    "type": "Group",
+    "since": 2008,
+    "groupSize": 4
+  },
+  {
+    "id": "orbit-black",
+    "name": "Orbit Black",
+    "photo": "e8686cd93013af7d89c3cd75264c06fd216f5dfb.png",
+    "flag": "US",
+    "countryCode": "US",
+    "type": "Group",
+    "since": 2015,
+    "groupSize": 5
+  },
+  {
+    "id": "priya-menon",
+    "name": "Priya Menon",
+    "photo": "aaadbd21068b4ba721ad5e49cda6227ae233c005.png",
+    "flag": "IN",
+    "countryCode": "IN",
+    "type": "Solo",
+    "since": 2019
+  },
+  {
+    "id": "pulsar-twins",
+    "name": "Pulsar Twins",
+    "photo": "25ab3fea7da6bc0c54477203bf94da14f6ae7545.png",
+    "flag": "US",
+    "countryCode": "US",
+    "type": "Group",
+    "since": 2016,
+    "groupSize": 2
+  },
+  {
+    "id": "rafael-dumont",
+    "name": "Rafael Dumont",
+    "photo": "6e3c37d1683036b8bc5d43e96b57e4bb686c7574.png",
+    "flag": "BR",
+    "countryCode": "BR",
+    "type": "Solo",
+    "since": 2011
+  },
+  {
+    "id": "soren-holt",
+    "name": "Soren Holt",
+    "photo": "922ad3553e61c4ce50459b8f56e58c0ccff2eed4.png",
+    "flag": "DK",
+    "countryCode": "DK",
+    "type": "Solo",
+    "since": 2019
+  },
+  {
+    "id": "static-empire",
+    "name": "Static Empire",
+    "photo": "6458070e3dffac539b4ff55eef6b17c40efee6e5.png",
+    "flag": "CA",
+    "countryCode": "CA",
+    "type": "Group",
+    "since": 2003,
+    "groupSize": 6
+  },
+  {
+    "id": "the-amber-circuit",
+    "name": "The Amber Circuit",
+    "photo": "59e7a155c17e2b84ddb3cf338f6db93aa9acdb05.png",
+    "flag": "NL",
+    "countryCode": "NL",
+    "type": "Group",
+    "since": 2009,
+    "groupSize": 3
+  },
+  {
+    "id": "the-drift-collective",
+    "name": "The Drift Collective",
+    "photo": "094e2ce1501f135cfd75e7191a869bdc7be20cba.png",
+    "flag": "UK",
+    "countryCode": "UK",
+    "type": "Group",
+    "since": 2005,
+    "groupSize": 5
+  },
+  {
+    "id": "the-glass-menagerie",
+    "name": "The Glass Menagerie",
+    "photo": "867faa1004bba9988647907cceacbfd8b4fb16ba.png",
+    "flag": "UK",
+    "countryCode": "UK",
+    "type": "Group",
+    "since": 2004,
+    "groupSize": 4
+  },
+  {
+    "id": "the-iron-shore",
+    "name": "The Iron Shore",
+    "photo": "e82d9688a856fe72c9b03c31786359da69317a35.png",
+    "flag": "IE",
+    "countryCode": "IE",
+    "type": "Group",
+    "since": 2009,
+    "groupSize": 3
+  },
+  {
+    "id": "the-lunar-wolves",
+    "name": "The Lunar Wolves",
+    "photo": "6192ec3cb5df7f5cd90e54ab9d6ca430fddc3a7b.png",
+    "flag": "AU",
+    "countryCode": "AU",
+    "type": "Group",
+    "since": 2007,
+    "groupSize": 4
+  },
+  {
+    "id": "the-salt-flats",
+    "name": "The Salt Flats",
+    "photo": "6d14be70514586051a7d60189ae4f68f5e51ca48.png",
+    "flag": "CA",
+    "countryCode": "CA",
+    "type": "Group",
+    "since": 2011,
+    "groupSize": 5
+  },
+  {
+    "id": "tomas-reyes",
+    "name": "Tomas Reyes",
+    "photo": "c6de21dc8d5456ac2ebb4baa69acae9abfd6bd71.png",
+    "flag": "MX",
+    "countryCode": "MX",
+    "type": "Solo",
+    "since": 2009
+  },
+  {
+    "id": "void-signal",
+    "name": "Void Signal",
+    "photo": "8934c094ec0252fdf8bc4f8dc921d9ccfa26e952.png",
+    "flag": "KR",
+    "countryCode": "KR",
+    "type": "Group",
+    "since": 2016,
+    "groupSize": 7
+  },
+  {
+    "id": "yara-osei",
+    "name": "Yara Osei",
+    "photo": "d055eff3014753f8cf2064305b7581c6999e88be.png",
+    "flag": "GH",
+    "countryCode": "GH",
+    "type": "Solo",
+    "since": 2020
+  },
+  {
+    "id": "zuri-nakamura",
+    "name": "Zuri Nakamura",
+    "photo": "7904cb0025b39f222fadb1ef662026d6f6865817.png",
+    "flag": "US",
+    "countryCode": "US",
+    "type": "Solo",
+    "since": 2012
+  }
 ];

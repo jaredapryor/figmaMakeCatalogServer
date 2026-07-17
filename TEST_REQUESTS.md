@@ -5,46 +5,36 @@ Base URL: `http://localhost:3001`
 ## Artists
 
 ```bash
-# List all artists
 curl http://localhost:3001/artists
 
-# Get one artist
-curl http://localhost:3001/artists/a1
+curl http://localhost:3001/artists/cleo-sterling
 
-# Create artist
 curl -X POST http://localhost:3001/artists ^
   -H "Content-Type: application/json" ^
-  -d "{\"name\":\"Test Band\",\"country\":\"United States\",\"countryFlag\":\"🇺🇸\",\"countryCode\":\"us\",\"photoUrl\":\"\",\"type\":\"group\",\"memberCount\":3,\"activeSince\":2020}"
+  -d "{\"name\":\"Test Band\",\"photo\":\"\",\"flag\":\"US\",\"countryCode\":\"US\",\"type\":\"Group\",\"groupSize\":3,\"since\":2020}"
 
-# Update artist (replace :id)
-curl -X PUT http://localhost:3001/artists/:id ^
+curl -X PUT http://localhost:3001/artists/cleo-sterling ^
   -H "Content-Type: application/json" ^
-  -d "{\"name\":\"Test Band Updated\",\"country\":\"United States\",\"countryFlag\":\"🇺🇸\",\"countryCode\":\"us\",\"photoUrl\":\"\",\"type\":\"group\",\"memberCount\":4,\"activeSince\":2020}"
+  -d "{\"name\":\"Cleo Sterling\",\"photo\":\"7904cb0025b39f222fadb1ef662026d6f6865817.png\",\"flag\":\"AU\",\"countryCode\":\"AU\",\"type\":\"Solo\",\"since\":2021}"
 
-# Delete artist (cascades albums)
 curl -X DELETE http://localhost:3001/artists/:id
 ```
 
 ## Albums
 
 ```bash
-# List all albums
 curl http://localhost:3001/albums
 
-# Get one album
-curl http://localhost:3001/albums/al1
+curl http://localhost:3001/albums/debut
 
-# Create album
 curl -X POST http://localhost:3001/albums ^
   -H "Content-Type: application/json" ^
-  -d "{\"artistId\":\"a1\",\"title\":\"New Release\",\"coverUrl\":\"\",\"label\":\"Test Label\",\"releaseYear\":2024,\"trackCount\":10,\"singleCount\":2,\"albumsSold\":1000,\"certification\":\"none\",\"streaming\":[\"spotify\"]}"
+  -d "{\"title\":\"New Release\",\"artistId\":\"cleo-sterling\",\"label\":\"Test Label\",\"year\":2024,\"sold\":\"10K\",\"tracks\":10,\"singles\":2,\"cert\":null,\"streaming\":[\"SP\"],\"cover\":\"\"}"
 
-# Update album / reparent (replace :id)
-curl -X PUT http://localhost:3001/albums/:id ^
+curl -X PUT http://localhost:3001/albums/debut ^
   -H "Content-Type: application/json" ^
-  -d "{\"artistId\":\"a2\",\"title\":\"New Release\",\"coverUrl\":\"\",\"label\":\"Test Label\",\"releaseYear\":2024,\"trackCount\":10,\"singleCount\":2,\"albumsSold\":1000,\"certification\":\"gold\",\"streaming\":[\"spotify\",\"apple\"]}"
+  -d "{\"title\":\"Debut\",\"artistId\":\"cleo-sterling\",\"label\":\"Wavefront Music\",\"year\":2021,\"sold\":\"85K\",\"tracks\":6,\"singles\":1,\"cert\":\"Gold\",\"streaming\":[\"SP\",\"AM\"],\"cover\":\"e2e5a8d68a60105902e16ce4688b4ccf69d6be69.png\"}"
 
-# Delete album
 curl -X DELETE http://localhost:3001/albums/:id
 ```
 

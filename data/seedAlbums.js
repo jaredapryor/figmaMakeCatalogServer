@@ -1,179 +1,1899 @@
 module.exports = [
-  // Neon Veins (a1)
-  { id: "al1", artistId: "a1", title: "Voltage Dreams", coverUrl: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300&h=300&fit=crop&auto=format", label: "Polar Crest Records", releaseYear: 2009, trackCount: 12, singleCount: 3, albumsSold: 1200000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al2", artistId: "a1", title: "Ultraviolet", coverUrl: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300&h=300&fit=crop&auto=format", label: "Polar Crest Records", releaseYear: 2012, trackCount: 10, singleCount: 2, albumsSold: 2800000, certification: "multi-platinum", streaming: ["spotify", "apple"] },
-  { id: "al3", artistId: "a1", title: "Ghost Frequencies", coverUrl: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&auto=format", label: "Polar Crest Records", releaseYear: 2016, trackCount: 11, singleCount: 4, albumsSold: 980000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al4", artistId: "a1", title: "Signal Decay", coverUrl: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=300&h=300&fit=crop&auto=format", label: "Polar Crest Records", releaseYear: 2020, trackCount: 13, singleCount: 5, albumsSold: 540000, certification: "gold", streaming: ["spotify", "amazon"] },
-
-  // Mara Soleil (a2)
-  { id: "al5", artistId: "a2", title: "Première Lumière", coverUrl: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=300&fit=crop&auto=format", label: "Lumière Sonore", releaseYear: 2015, trackCount: 9, singleCount: 2, albumsSold: 320000, certification: "gold", streaming: ["spotify", "apple"] },
-  { id: "al6", artistId: "a2", title: "Minuit Électrique", coverUrl: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=300&h=300&fit=crop&auto=format", label: "Lumière Sonore", releaseYear: 2017, trackCount: 11, singleCount: 3, albumsSold: 760000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al7", artistId: "a2", title: "Horizon Doré", coverUrl: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=300&h=300&fit=crop&auto=format", label: "Lumière Sonore", releaseYear: 2021, trackCount: 10, singleCount: 4, albumsSold: 490000, certification: "gold", streaming: ["spotify"] },
-  { id: "al8", artistId: "a2", title: "Éclats", coverUrl: "https://images.unsplash.com/photo-1526478806334-5fd488fcaabc?w=300&h=300&fit=crop&auto=format", label: "Eclipse Sound", releaseYear: 2023, trackCount: 8, singleCount: 2, albumsSold: 210000, certification: "none", streaming: ["spotify", "apple", "amazon"] },
-
-  // The Drift Collective (a3)
-  { id: "al9", artistId: "a3", title: "Open Water", coverUrl: "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=300&h=300&fit=crop&auto=format", label: "Tidal Sound", releaseYear: 2006, trackCount: 14, singleCount: 3, albumsSold: 3100000, certification: "multi-platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al10", artistId: "a3", title: "Shoreline Hymns", coverUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=300&h=300&fit=crop&auto=format", label: "Tidal Sound", releaseYear: 2009, trackCount: 12, singleCount: 2, albumsSold: 2400000, certification: "multi-platinum", streaming: ["spotify", "apple"] },
-  { id: "al11", artistId: "a3", title: "The Long Pull", coverUrl: "https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=300&h=300&fit=crop&auto=format", label: "Tidal Sound", releaseYear: 2013, trackCount: 10, singleCount: 3, albumsSold: 1700000, certification: "platinum", streaming: ["spotify", "amazon"] },
-  { id: "al12", artistId: "a3", title: "Ebb", coverUrl: "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=300&h=300&fit=crop&auto=format", label: "Tidal Sound", releaseYear: 2018, trackCount: 11, singleCount: 4, albumsSold: 890000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al13", artistId: "a3", title: "Undertow", coverUrl: "https://images.unsplash.com/photo-1446057032654-9d8885db76c6?w=300&h=300&fit=crop&auto=format", label: "Tidal Sound", releaseYear: 2022, trackCount: 9, singleCount: 2, albumsSold: 430000, certification: "gold", streaming: ["spotify"] },
-
-  // Kai Sundara (a4)
-  { id: "al14", artistId: "a4", title: "Cherry Blossom Static", coverUrl: "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=300&h=300&fit=crop&auto=format", label: "Sakura Wave", releaseYear: 2018, trackCount: 10, singleCount: 2, albumsSold: 560000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al15", artistId: "a4", title: "Neon Garden", coverUrl: "https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=300&h=300&fit=crop&auto=format", label: "Sakura Wave", releaseYear: 2020, trackCount: 12, singleCount: 3, albumsSold: 1100000, certification: "platinum", streaming: ["spotify", "apple"] },
-  { id: "al16", artistId: "a4", title: "Midnight Fuji", coverUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop&auto=format", label: "Sakura Wave", releaseYear: 2022, trackCount: 11, singleCount: 4, albumsSold: 780000, certification: "platinum", streaming: ["spotify", "amazon"] },
-
-  // Echo Assembly (a5)
-  { id: "al17", artistId: "a5", title: "Konstrukt", coverUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=300&fit=crop&auto=format", label: "Berlin Phase", releaseYear: 2011, trackCount: 8, singleCount: 1, albumsSold: 430000, certification: "gold", streaming: ["spotify", "apple"] },
-  { id: "al18", artistId: "a5", title: "Resonanzfeld", coverUrl: "https://images.unsplash.com/photo-1518911710364-17ec553bde5d?w=300&h=300&fit=crop&auto=format", label: "Berlin Phase", releaseYear: 2014, trackCount: 10, singleCount: 2, albumsSold: 670000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al19", artistId: "a5", title: "Phase Null", coverUrl: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=300&h=300&fit=crop&auto=format", label: "Berlin Phase", releaseYear: 2018, trackCount: 9, singleCount: 2, albumsSold: 310000, certification: "gold", streaming: ["spotify"] },
-  { id: "al20", artistId: "a5", title: "Systemklang", coverUrl: "https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=300&h=300&fit=crop&auto=format", label: "Modular Tone", releaseYear: 2022, trackCount: 7, singleCount: 1, albumsSold: 190000, certification: "none", streaming: ["spotify", "amazon"] },
-
-  // Lena Voss (a6)
-  { id: "al21", artistId: "a6", title: "Fjordlight", coverUrl: "https://images.unsplash.com/photo-1467632499275-7a693a761056?w=300&h=300&fit=crop&auto=format", label: "Nordic Arc", releaseYear: 2013, trackCount: 10, singleCount: 2, albumsSold: 490000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al22", artistId: "a6", title: "White Noise Winter", coverUrl: "https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=300&h=300&fit=crop&auto=format", label: "Nordic Arc", releaseYear: 2016, trackCount: 11, singleCount: 3, albumsSold: 920000, certification: "platinum", streaming: ["spotify", "apple"] },
-  { id: "al23", artistId: "a6", title: "Solstice", coverUrl: "https://images.unsplash.com/photo-1520962922320-2038eebab146?w=300&h=300&fit=crop&auto=format", label: "Nordic Arc", releaseYear: 2019, trackCount: 9, singleCount: 2, albumsSold: 640000, certification: "gold", streaming: ["spotify", "amazon"] },
-  { id: "al24", artistId: "a6", title: "Aurora Borealis EP", coverUrl: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=300&h=300&fit=crop&auto=format", label: "Nordic Arc", releaseYear: 2021, trackCount: 6, singleCount: 2, albumsSold: 280000, certification: "none", streaming: ["spotify", "apple", "amazon"] },
-
-  // Static Empire (a7)
-  { id: "al25", artistId: "a7", title: "Empire State of Bass", coverUrl: "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=300&h=300&fit=crop&auto=format", label: "Northern Noise", releaseYear: 2004, trackCount: 16, singleCount: 4, albumsSold: 4200000, certification: "multi-platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al26", artistId: "a7", title: "Feedback Loop", coverUrl: "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?w=300&h=300&fit=crop&auto=format", label: "Northern Noise", releaseYear: 2007, trackCount: 14, singleCount: 3, albumsSold: 3600000, certification: "multi-platinum", streaming: ["spotify", "apple"] },
-  { id: "al27", artistId: "a7", title: "Dark Matter", coverUrl: "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=300&h=300&fit=crop&auto=format", label: "Northern Noise", releaseYear: 2011, trackCount: 12, singleCount: 3, albumsSold: 2100000, certification: "multi-platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al28", artistId: "a7", title: "Residual Heat", coverUrl: "https://images.unsplash.com/photo-1490862901986-35b5e5c0d524?w=300&h=300&fit=crop&auto=format", label: "Northern Noise", releaseYear: 2015, trackCount: 11, singleCount: 2, albumsSold: 1400000, certification: "platinum", streaming: ["spotify"] },
-  { id: "al29", artistId: "a7", title: "Collapse Theory", coverUrl: "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=300&h=300&fit=crop&auto=format", label: "Northern Noise", releaseYear: 2019, trackCount: 10, singleCount: 3, albumsSold: 870000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al30", artistId: "a7", title: "Signal Jamming", coverUrl: "https://images.unsplash.com/photo-1560830083-c6f73c0c3d45?w=300&h=300&fit=crop&auto=format", label: "Northern Noise", releaseYear: 2023, trackCount: 9, singleCount: 2, albumsSold: 310000, certification: "gold", streaming: ["spotify", "amazon"] },
-
-  // Priya Menon (a8)
-  { id: "al31", artistId: "a8", title: "Monsoon Static", coverUrl: "https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?w=300&h=300&fit=crop&auto=format", label: "Raga Digital", releaseYear: 2020, trackCount: 10, singleCount: 3, albumsSold: 380000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al32", artistId: "a8", title: "Seven Rivers", coverUrl: "https://images.unsplash.com/photo-1504198266287-1659872e6590?w=300&h=300&fit=crop&auto=format", label: "Raga Digital", releaseYear: 2022, trackCount: 12, singleCount: 4, albumsSold: 610000, certification: "platinum", streaming: ["spotify", "apple"] },
-  { id: "al33", artistId: "a8", title: "Indigo Frequencies", coverUrl: "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?w=300&h=300&fit=crop&auto=format", label: "Raga Digital", releaseYear: 2023, trackCount: 9, singleCount: 2, albumsSold: 290000, certification: "gold", streaming: ["spotify"] },
-
-  // The Lunar Wolves (a9)
-  { id: "al34", artistId: "a9", title: "Howl at Apogee", coverUrl: "https://images.unsplash.com/photo-1436891678271-9c672565d8f6?w=300&h=300&fit=crop&auto=format", label: "Southern Cross Music", releaseYear: 2008, trackCount: 13, singleCount: 3, albumsSold: 1800000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al35", artistId: "a9", title: "Crescent Tide", coverUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&auto=format", label: "Southern Cross Music", releaseYear: 2011, trackCount: 11, singleCount: 2, albumsSold: 2300000, certification: "multi-platinum", streaming: ["spotify", "apple"] },
-  { id: "al36", artistId: "a9", title: "New Moon Rising", coverUrl: "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?w=300&h=300&fit=crop&auto=format", label: "Southern Cross Music", releaseYear: 2015, trackCount: 10, singleCount: 3, albumsSold: 1200000, certification: "platinum", streaming: ["spotify", "amazon"] },
-  { id: "al37", artistId: "a9", title: "Full Phase", coverUrl: "https://images.unsplash.com/photo-1532978379173-523e16f371f9?w=300&h=300&fit=crop&auto=format", label: "Southern Cross Music", releaseYear: 2020, trackCount: 12, singleCount: 4, albumsSold: 760000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-
-  // Rafael Dumont (a10)
-  { id: "al38", artistId: "a10", title: "Carnaval Noir", coverUrl: "https://images.unsplash.com/photo-1504704911898-68304a7d2807?w=300&h=300&fit=crop&auto=format", label: "Trópico Records", releaseYear: 2012, trackCount: 11, singleCount: 3, albumsSold: 870000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al39", artistId: "a10", title: "Selva Elétrica", coverUrl: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=300&h=300&fit=crop&auto=format", label: "Trópico Records", releaseYear: 2015, trackCount: 13, singleCount: 4, albumsSold: 1400000, certification: "platinum", streaming: ["spotify", "apple"] },
-  { id: "al40", artistId: "a10", title: "Cidade dos Sons", coverUrl: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=300&h=300&fit=crop&auto=format", label: "Trópico Records", releaseYear: 2018, trackCount: 10, singleCount: 2, albumsSold: 950000, certification: "platinum", streaming: ["spotify", "amazon"] },
-  { id: "al41", artistId: "a10", title: "Beira-Mar", coverUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=300&h=300&fit=crop&auto=format", label: "Trópico Records", releaseYear: 2021, trackCount: 9, singleCount: 3, albumsSold: 560000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-
-  // Void Signal (a11)
-  { id: "al42", artistId: "a11", title: "Zero Gravity Pop", coverUrl: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&auto=format", label: "Hangang Label", releaseYear: 2017, trackCount: 12, singleCount: 5, albumsSold: 2800000, certification: "multi-platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al43", artistId: "a11", title: "Chromatic Pulse", coverUrl: "https://images.unsplash.com/photo-1501612780327-45045538702b?w=300&h=300&fit=crop&auto=format", label: "Hangang Label", releaseYear: 2019, trackCount: 14, singleCount: 6, albumsSold: 3900000, certification: "multi-platinum", streaming: ["spotify", "apple"] },
-  { id: "al44", artistId: "a11", title: "Transmission X", coverUrl: "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=300&h=300&fit=crop&auto=format", label: "Hangang Label", releaseYear: 2021, trackCount: 13, singleCount: 5, albumsSold: 3200000, certification: "multi-platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al45", artistId: "a11", title: "Echo Chamber", coverUrl: "https://images.unsplash.com/photo-1504898770365-14faca6a7320?w=300&h=300&fit=crop&auto=format", label: "Hangang Label", releaseYear: 2023, trackCount: 11, singleCount: 4, albumsSold: 1800000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-
-  // Isla Crane (a12)
-  { id: "al46", artistId: "a12", title: "Featherweight", coverUrl: "https://images.unsplash.com/photo-1452570053594-1b985d6ea890?w=300&h=300&fit=crop&auto=format", label: "Pacific Rim Sounds", releaseYear: 2016, trackCount: 10, singleCount: 3, albumsSold: 480000, certification: "gold", streaming: ["spotify", "apple"] },
-  { id: "al47", artistId: "a12", title: "Silver Migration", coverUrl: "https://images.unsplash.com/photo-1445368783691-d5b1746d2d60?w=300&h=300&fit=crop&auto=format", label: "Pacific Rim Sounds", releaseYear: 2018, trackCount: 12, singleCount: 4, albumsSold: 790000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al48", artistId: "a12", title: "Wingspan", coverUrl: "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=300&h=300&fit=crop&auto=format", label: "Pacific Rim Sounds", releaseYear: 2021, trackCount: 9, singleCount: 2, albumsSold: 340000, certification: "gold", streaming: ["spotify"] },
-
-  // The Amber Circuit (a13)
-  { id: "al49", artistId: "a13", title: "Warm Conductor", coverUrl: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=300&fit=crop&auto=format", label: "Voltage Europa", releaseYear: 2010, trackCount: 11, singleCount: 2, albumsSold: 640000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al50", artistId: "a13", title: "Current Affairs", coverUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=300&h=300&fit=crop&auto=format", label: "Voltage Europa", releaseYear: 2013, trackCount: 10, singleCount: 3, albumsSold: 1100000, certification: "platinum", streaming: ["spotify", "apple"] },
-  { id: "al51", artistId: "a13", title: "Resistance Wiring", coverUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=300&fit=crop&auto=format", label: "Voltage Europa", releaseYear: 2017, trackCount: 9, singleCount: 2, albumsSold: 520000, certification: "gold", streaming: ["spotify", "amazon"] },
-  { id: "al52", artistId: "a13", title: "Ohm Sweet Ohm", coverUrl: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=300&h=300&fit=crop&auto=format", label: "Voltage Europa", releaseYear: 2021, trackCount: 8, singleCount: 1, albumsSold: 230000, certification: "none", streaming: ["spotify", "apple", "amazon"] },
-
-  // Soren Holt (a14)
-  { id: "al53", artistId: "a14", title: "Archipelago", coverUrl: "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=300&h=300&fit=crop&auto=format", label: "Nordic Mist", releaseYear: 2014, trackCount: 10, singleCount: 2, albumsSold: 390000, certification: "gold", streaming: ["spotify", "apple"] },
-  { id: "al54", artistId: "a14", title: "Amber Hours", coverUrl: "https://images.unsplash.com/photo-1465153690352-10c1b29577f8?w=300&h=300&fit=crop&auto=format", label: "Nordic Mist", releaseYear: 2017, trackCount: 11, singleCount: 3, albumsSold: 720000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al55", artistId: "a14", title: "Sea Glass", coverUrl: "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=300&h=300&fit=crop&auto=format", label: "Nordic Mist", releaseYear: 2020, trackCount: 9, singleCount: 2, albumsSold: 440000, certification: "gold", streaming: ["spotify"] },
-
-  // Pulsar Twins (a15)
-  { id: "al56", artistId: "a15", title: "Binary Star", coverUrl: "https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=300&h=300&fit=crop&auto=format", label: "Twin Axis", releaseYear: 2019, trackCount: 10, singleCount: 3, albumsSold: 870000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al57", artistId: "a15", title: "Event Horizon", coverUrl: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=300&h=300&fit=crop&auto=format", label: "Twin Axis", releaseYear: 2021, trackCount: 12, singleCount: 4, albumsSold: 1300000, certification: "platinum", streaming: ["spotify", "apple"] },
-  { id: "al58", artistId: "a15", title: "Parallax", coverUrl: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=300&h=300&fit=crop&auto=format", label: "Twin Axis", releaseYear: 2023, trackCount: 11, singleCount: 3, albumsSold: 620000, certification: "gold", streaming: ["spotify", "amazon"] },
-
-  // Yara Osei (a16)
-  { id: "al59", artistId: "a16", title: "Gold Coast Echoes", coverUrl: "https://images.unsplash.com/photo-1504704911898-68304a7d2807?w=300&h=300&fit=crop&auto=format", label: "Accra Sound Works", releaseYear: 2021, trackCount: 10, singleCount: 4, albumsSold: 490000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al60", artistId: "a16", title: "Harmattan Season", coverUrl: "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=300&h=300&fit=crop&auto=format", label: "Accra Sound Works", releaseYear: 2022, trackCount: 11, singleCount: 3, albumsSold: 680000, certification: "platinum", streaming: ["spotify", "apple"] },
-  { id: "al61", artistId: "a16", title: "Kente Waves", coverUrl: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&auto=format", label: "Accra Sound Works", releaseYear: 2024, trackCount: 12, singleCount: 5, albumsSold: 340000, certification: "gold", streaming: ["spotify"] },
-
-  // The Iron Shore (a17)
-  { id: "al62", artistId: "a17", title: "Atlantic Ramparts", coverUrl: "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=300&h=300&fit=crop&auto=format", label: "Cliffs Records", releaseYear: 2007, trackCount: 13, singleCount: 3, albumsSold: 1600000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al63", artistId: "a17", title: "Stone & Salt", coverUrl: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=300&h=300&fit=crop&auto=format", label: "Cliffs Records", releaseYear: 2010, trackCount: 12, singleCount: 2, albumsSold: 2200000, certification: "multi-platinum", streaming: ["spotify", "apple"] },
-  { id: "al64", artistId: "a17", title: "The Gale Sessions", coverUrl: "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=300&h=300&fit=crop&auto=format", label: "Cliffs Records", releaseYear: 2014, trackCount: 10, singleCount: 3, albumsSold: 1100000, certification: "platinum", streaming: ["spotify", "amazon"] },
-  { id: "al65", artistId: "a17", title: "Headland", coverUrl: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=300&h=300&fit=crop&auto=format", label: "Cliffs Records", releaseYear: 2018, trackCount: 11, singleCount: 2, albumsSold: 680000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al66", artistId: "a17", title: "Basalt", coverUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop&auto=format", label: "Cliffs Records", releaseYear: 2022, trackCount: 9, singleCount: 2, albumsSold: 390000, certification: "gold", streaming: ["spotify"] },
-
-  // Dmitri Volkov (a18)
-  { id: "al67", artistId: "a18", title: "Siberian Minimalism", coverUrl: "https://images.unsplash.com/photo-1520962922320-2038eebab146?w=300&h=300&fit=crop&auto=format", label: "Tundra Sound", releaseYear: 2011, trackCount: 8, singleCount: 1, albumsSold: 280000, certification: "none", streaming: ["spotify", "apple"] },
-  { id: "al68", artistId: "a18", title: "Permafrost", coverUrl: "https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=300&h=300&fit=crop&auto=format", label: "Tundra Sound", releaseYear: 2014, trackCount: 10, singleCount: 2, albumsSold: 510000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al69", artistId: "a18", title: "Taiga", coverUrl: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=300&h=300&fit=crop&auto=format", label: "Tundra Sound", releaseYear: 2017, trackCount: 11, singleCount: 3, albumsSold: 790000, certification: "platinum", streaming: ["spotify", "amazon"] },
-  { id: "al70", artistId: "a18", title: "Steppe Nocturne", coverUrl: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=300&h=300&fit=crop&auto=format", label: "Tundra Sound", releaseYear: 2021, trackCount: 9, singleCount: 2, albumsSold: 430000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-
-  // Crimson Atlas (a19)
-  { id: "al71", artistId: "a19", title: "Patagonia Drone", coverUrl: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=300&h=300&fit=crop&auto=format", label: "Sur Profundo", releaseYear: 2015, trackCount: 10, singleCount: 2, albumsSold: 560000, certification: "gold", streaming: ["spotify", "apple"] },
-  { id: "al72", artistId: "a19", title: "Andes Transmission", coverUrl: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=300&h=300&fit=crop&auto=format", label: "Sur Profundo", releaseYear: 2017, trackCount: 12, singleCount: 3, albumsSold: 890000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al73", artistId: "a19", title: "Cerro Largo", coverUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop&auto=format", label: "Sur Profundo", releaseYear: 2020, trackCount: 11, singleCount: 4, albumsSold: 1100000, certification: "platinum", streaming: ["spotify"] },
-  { id: "al74", artistId: "a19", title: "Horizonte Rojo", coverUrl: "https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?w=300&h=300&fit=crop&auto=format", label: "Sur Profundo", releaseYear: 2023, trackCount: 9, singleCount: 2, albumsSold: 430000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-
-  // Nadia Fontaine (a20)
-  { id: "al75", artistId: "a20", title: "Bruges Nocturne", coverUrl: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=300&h=300&fit=crop&auto=format", label: "Flanders Tone", releaseYear: 2017, trackCount: 10, singleCount: 3, albumsSold: 430000, certification: "gold", streaming: ["spotify", "apple"] },
-  { id: "al76", artistId: "a20", title: "Chocolate Box", coverUrl: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=300&h=300&fit=crop&auto=format", label: "Flanders Tone", releaseYear: 2019, trackCount: 11, singleCount: 2, albumsSold: 670000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al77", artistId: "a20", title: "Lace & Thunder", coverUrl: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=300&h=300&fit=crop&auto=format", label: "Flanders Tone", releaseYear: 2022, trackCount: 9, singleCount: 3, albumsSold: 390000, certification: "gold", streaming: ["spotify"] },
-
-  // The Glass Menagerie (a21)
-  { id: "al78", artistId: "a21", title: "Fragile Architecture", coverUrl: "https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=300&h=300&fit=crop&auto=format", label: "Spectrum UK", releaseYear: 2005, trackCount: 14, singleCount: 4, albumsSold: 2100000, certification: "multi-platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al79", artistId: "a21", title: "Crystal Lattice", coverUrl: "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=300&h=300&fit=crop&auto=format", label: "Spectrum UK", releaseYear: 2008, trackCount: 12, singleCount: 3, albumsSold: 1800000, certification: "platinum", streaming: ["spotify", "apple"] },
-  { id: "al80", artistId: "a21", title: "Refraction", coverUrl: "https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=300&h=300&fit=crop&auto=format", label: "Spectrum UK", releaseYear: 2012, trackCount: 11, singleCount: 3, albumsSold: 1400000, certification: "platinum", streaming: ["spotify", "amazon"] },
-  { id: "al81", artistId: "a21", title: "Prism Light", coverUrl: "https://images.unsplash.com/photo-1526478806334-5fd488fcaabc?w=300&h=300&fit=crop&auto=format", label: "Spectrum UK", releaseYear: 2016, trackCount: 10, singleCount: 2, albumsSold: 830000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al82", artistId: "a21", title: "Shard", coverUrl: "https://images.unsplash.com/photo-1518911710364-17ec553bde5d?w=300&h=300&fit=crop&auto=format", label: "Spectrum UK", releaseYear: 2020, trackCount: 9, singleCount: 2, albumsSold: 470000, certification: "gold", streaming: ["spotify"] },
-
-  // Tomás Reyes (a22)
-  { id: "al83", artistId: "a22", title: "Ciudad Fantasma", coverUrl: "https://images.unsplash.com/photo-1462400362591-9ca55235346a?w=300&h=300&fit=crop&auto=format", label: "Maguey Records", releaseYear: 2010, trackCount: 12, singleCount: 3, albumsSold: 780000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al84", artistId: "a22", title: "Frontera", coverUrl: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=300&h=300&fit=crop&auto=format", label: "Maguey Records", releaseYear: 2013, trackCount: 11, singleCount: 2, albumsSold: 1200000, certification: "platinum", streaming: ["spotify", "apple"] },
-  { id: "al85", artistId: "a22", title: "Mercado de Sombras", coverUrl: "https://images.unsplash.com/photo-1504898770365-14faca6a7320?w=300&h=300&fit=crop&auto=format", label: "Maguey Records", releaseYear: 2017, trackCount: 10, singleCount: 4, albumsSold: 940000, certification: "platinum", streaming: ["spotify", "amazon"] },
-  { id: "al86", artistId: "a22", title: "Lluvia Seca", coverUrl: "https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?w=300&h=300&fit=crop&auto=format", label: "Maguey Records", releaseYear: 2021, trackCount: 9, singleCount: 2, albumsSold: 480000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-
-  // Orbit Black (a23)
-  { id: "al87", artistId: "a23", title: "Dark Side Frequencies", coverUrl: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=300&h=300&fit=crop&auto=format", label: "Deep Space Recordings", releaseYear: 2016, trackCount: 11, singleCount: 3, albumsSold: 720000, certification: "platinum", streaming: ["spotify", "apple"] },
-  { id: "al88", artistId: "a23", title: "Exoplanet", coverUrl: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=300&h=300&fit=crop&auto=format", label: "Deep Space Recordings", releaseYear: 2019, trackCount: 12, singleCount: 4, albumsSold: 1100000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al89", artistId: "a23", title: "Event Horizon II", coverUrl: "https://images.unsplash.com/photo-1446057032654-9d8885db76c6?w=300&h=300&fit=crop&auto=format", label: "Deep Space Recordings", releaseYear: 2022, trackCount: 10, singleCount: 3, albumsSold: 650000, certification: "gold", streaming: ["spotify"] },
-
-  // Hana Mizuki (a24)
-  { id: "al90", artistId: "a24", title: "Paper Lanterns", coverUrl: "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=300&h=300&fit=crop&auto=format", label: "Kyoto Sessions", releaseYear: 2019, trackCount: 10, singleCount: 3, albumsSold: 640000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al91", artistId: "a24", title: "Ink & Circuit", coverUrl: "https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=300&h=300&fit=crop&auto=format", label: "Kyoto Sessions", releaseYear: 2021, trackCount: 11, singleCount: 4, albumsSold: 980000, certification: "platinum", streaming: ["spotify", "apple"] },
-  { id: "al92", artistId: "a24", title: "Wabi-Sabi Waves", coverUrl: "https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?w=300&h=300&fit=crop&auto=format", label: "Kyoto Sessions", releaseYear: 2023, trackCount: 9, singleCount: 2, albumsSold: 510000, certification: "gold", streaming: ["spotify", "amazon"] },
-
-  // The Salt Flats (a25)
-  { id: "al93", artistId: "a25", title: "Alkali Dreams", coverUrl: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=300&h=300&fit=crop&auto=format", label: "Prairie Sound", releaseYear: 2012, trackCount: 12, singleCount: 3, albumsSold: 980000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al94", artistId: "a25", title: "White Expanse", coverUrl: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=300&h=300&fit=crop&auto=format", label: "Prairie Sound", releaseYear: 2015, trackCount: 10, singleCount: 2, albumsSold: 1400000, certification: "platinum", streaming: ["spotify", "apple"] },
-  { id: "al95", artistId: "a25", title: "Badlands Hymnal", coverUrl: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=300&h=300&fit=crop&auto=format", label: "Prairie Sound", releaseYear: 2018, trackCount: 11, singleCount: 4, albumsSold: 870000, certification: "platinum", streaming: ["spotify", "amazon"] },
-  { id: "al96", artistId: "a25", title: "Mineral Songs", coverUrl: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=300&h=300&fit=crop&auto=format", label: "Prairie Sound", releaseYear: 2021, trackCount: 9, singleCount: 2, albumsSold: 530000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al97", artistId: "a25", title: "Dust River", coverUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop&auto=format", label: "Prairie Sound", releaseYear: 2023, trackCount: 10, singleCount: 3, albumsSold: 290000, certification: "gold", streaming: ["spotify"] },
-
-  // Elara Vind (a26)
-  { id: "al98", artistId: "a26", title: "Fjell", coverUrl: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=300&h=300&fit=crop&auto=format", label: "Northern Light Music", releaseYear: 2014, trackCount: 9, singleCount: 2, albumsSold: 340000, certification: "gold", streaming: ["spotify", "apple"] },
-  { id: "al99", artistId: "a26", title: "Isfjord", coverUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=300&fit=crop&auto=format", label: "Northern Light Music", releaseYear: 2017, trackCount: 11, singleCount: 3, albumsSold: 620000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al100", artistId: "a26", title: "Midnight Sun EP", coverUrl: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=300&h=300&fit=crop&auto=format", label: "Northern Light Music", releaseYear: 2020, trackCount: 7, singleCount: 2, albumsSold: 280000, certification: "none", streaming: ["spotify"] },
-  { id: "al101", artistId: "a26", title: "Storm Season", coverUrl: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=300&h=300&fit=crop&auto=format", label: "Northern Light Music", releaseYear: 2022, trackCount: 10, singleCount: 3, albumsSold: 450000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-
-  // Deep Current (a27)
-  { id: "al102", artistId: "a27", title: "Cape Town Frequencies", coverUrl: "https://images.unsplash.com/photo-1504704911898-68304a7d2807?w=300&h=300&fit=crop&auto=format", label: "Ubuntu Recordings", releaseYear: 2009, trackCount: 14, singleCount: 4, albumsSold: 1100000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al103", artistId: "a27", title: "Highveld Heat", coverUrl: "https://images.unsplash.com/photo-1504898770365-14faca6a7320?w=300&h=300&fit=crop&auto=format", label: "Ubuntu Recordings", releaseYear: 2012, trackCount: 12, singleCount: 3, albumsSold: 1700000, certification: "platinum", streaming: ["spotify", "apple"] },
-  { id: "al104", artistId: "a27", title: "Kruger Sessions", coverUrl: "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?w=300&h=300&fit=crop&auto=format", label: "Ubuntu Recordings", releaseYear: 2016, trackCount: 11, singleCount: 2, albumsSold: 980000, certification: "platinum", streaming: ["spotify", "amazon"] },
-  { id: "al105", artistId: "a27", title: "Indlela", coverUrl: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=300&h=300&fit=crop&auto=format", label: "Ubuntu Recordings", releaseYear: 2020, trackCount: 10, singleCount: 3, albumsSold: 640000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al106", artistId: "a27", title: "Dust & Rhythm", coverUrl: "https://images.unsplash.com/photo-1532978379173-523e16f371f9?w=300&h=300&fit=crop&auto=format", label: "Ubuntu Recordings", releaseYear: 2023, trackCount: 9, singleCount: 2, albumsSold: 350000, certification: "gold", streaming: ["spotify"] },
-
-  // Cleo Sterling (a28)
-  { id: "al107", artistId: "a28", title: "Debut", coverUrl: "https://images.unsplash.com/photo-1485579149621-3123dd979885?w=300&h=300&fit=crop&auto=format", label: "Melbourne Sound Co.", releaseYear: 2022, trackCount: 10, singleCount: 4, albumsSold: 320000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al108", artistId: "a28", title: "Red Sand", coverUrl: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=300&h=300&fit=crop&auto=format", label: "Melbourne Sound Co.", releaseYear: 2023, trackCount: 11, singleCount: 3, albumsSold: 480000, certification: "gold", streaming: ["spotify", "apple"] },
-  { id: "al109", artistId: "a28", title: "Outback Frequency", coverUrl: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=300&h=300&fit=crop&auto=format", label: "Melbourne Sound Co.", releaseYear: 2024, trackCount: 12, singleCount: 5, albumsSold: 230000, certification: "none", streaming: ["spotify"] },
-
-  // Fractal Dawn (a29)
-  { id: "al110", artistId: "a29", title: "Iteration Zero", coverUrl: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=300&fit=crop&auto=format", label: "Hamburg Electronics", releaseYear: 2018, trackCount: 9, singleCount: 2, albumsSold: 410000, certification: "gold", streaming: ["spotify", "apple"] },
-  { id: "al111", artistId: "a29", title: "Mandelbrot Suite", coverUrl: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=300&h=300&fit=crop&auto=format", label: "Hamburg Electronics", releaseYear: 2020, trackCount: 11, singleCount: 3, albumsSold: 680000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al112", artistId: "a29", title: "Strange Attractor", coverUrl: "https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=300&h=300&fit=crop&auto=format", label: "Hamburg Electronics", releaseYear: 2022, trackCount: 10, singleCount: 2, albumsSold: 480000, certification: "gold", streaming: ["spotify", "amazon"] },
-  { id: "al113", artistId: "a29", title: "Bifurcation Point", coverUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=300&fit=crop&auto=format", label: "Hamburg Electronics", releaseYear: 2024, trackCount: 8, singleCount: 1, albumsSold: 170000, certification: "none", streaming: ["spotify", "apple", "amazon"] },
-
-  // Zuri Nakamura (a30)
-  { id: "al114", artistId: "a30", title: "Third Culture", coverUrl: "https://images.unsplash.com/photo-1501612780327-45045538702b?w=300&h=300&fit=crop&auto=format", label: "Crossroads Music", releaseYear: 2013, trackCount: 12, singleCount: 3, albumsSold: 890000, certification: "platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al115", artistId: "a30", title: "Diaspora Sound", coverUrl: "https://images.unsplash.com/photo-1485579149621-3123dd979885?w=300&h=300&fit=crop&auto=format", label: "Crossroads Music", releaseYear: 2016, trackCount: 11, singleCount: 4, albumsSold: 1300000, certification: "platinum", streaming: ["spotify", "apple"] },
-  { id: "al116", artistId: "a30", title: "Polyphony", coverUrl: "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?w=300&h=300&fit=crop&auto=format", label: "Crossroads Music", releaseYear: 2019, trackCount: 10, singleCount: 2, albumsSold: 970000, certification: "platinum", streaming: ["spotify", "amazon"] },
-  { id: "al117", artistId: "a30", title: "Tokyo Harlem", coverUrl: "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=300&h=300&fit=crop&auto=format", label: "Crossroads Music", releaseYear: 2021, trackCount: 13, singleCount: 5, albumsSold: 1600000, certification: "multi-platinum", streaming: ["spotify", "apple", "amazon"] },
-  { id: "al118", artistId: "a30", title: "Meridian", coverUrl: "https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?w=300&h=300&fit=crop&auto=format", label: "Crossroads Music", releaseYear: 2023, trackCount: 11, singleCount: 3, albumsSold: 620000, certification: "gold", streaming: ["spotify", "apple", "amazon"] },
+  {
+    "id": "debut",
+    "title": "Debut",
+    "artistId": "cleo-sterling",
+    "label": "Wavefront Music",
+    "year": 2021,
+    "sold": "85K",
+    "tracks": 6,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "e2e5a8d68a60105902e16ce4688b4ccf69d6be69.png"
+  },
+  {
+    "id": "amber-hours",
+    "title": "Amber Hours",
+    "artistId": "cleo-sterling",
+    "label": "Wavefront Music",
+    "year": 2023,
+    "sold": "62K",
+    "tracks": 8,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP"
+    ],
+    "cover": "69ac7ca749dd4fe4bf115630418c61d94d7933e5.png"
+  },
+  {
+    "id": "dark-matter",
+    "title": "Dark Matter",
+    "artistId": "crimson-atlas",
+    "label": "Fracture Records",
+    "year": 2014,
+    "sold": "340K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP"
+    ],
+    "cover": "7ba17e46dd47cac762012569d859dcd8c6ae25c8.png"
+  },
+  {
+    "id": "bifurcation-point",
+    "title": "Bifurcation Point",
+    "artistId": "crimson-atlas",
+    "label": "Fracture Records",
+    "year": 2016,
+    "sold": "680K",
+    "tracks": 13,
+    "singles": 4,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "19a66cbcd0db35b05002dd2284559eab938bd706.png"
+  },
+  {
+    "id": "collapse-theory",
+    "title": "Collapse Theory",
+    "artistId": "crimson-atlas",
+    "label": "Fracture Records",
+    "year": 2018,
+    "sold": "720K",
+    "tracks": 12,
+    "singles": 3,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "7a650197de18dce87b0200d68f22363cc2aa1823.png"
+  },
+  {
+    "id": "crystal-lattice",
+    "title": "Crystal Lattice",
+    "artistId": "crimson-atlas",
+    "label": "Fracture Records",
+    "year": 2021,
+    "sold": "480K",
+    "tracks": 11,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "6278a3348d5559ca5d61d5467e10ddb587954237.png"
+  },
+  {
+    "id": "kruger-sessions",
+    "title": "Kruger Sessions",
+    "artistId": "deep-current",
+    "label": "Indaba Studios",
+    "year": 2010,
+    "sold": "380K",
+    "tracks": 11,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "14837cc01ed1ed57b551ffefab64acb651e3f6f7.png"
+  },
+  {
+    "id": "cape-town-frequencies",
+    "title": "Cape Town Frequencies",
+    "artistId": "deep-current",
+    "label": "Indaba Studios",
+    "year": 2013,
+    "sold": "540K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "6936fe59fc98708d7a9cb3ca0a7ab4d5e76dfd3f.png"
+  },
+  {
+    "id": "indlela",
+    "title": "Indlela",
+    "artistId": "deep-current",
+    "label": "Indaba Studios",
+    "year": 2016,
+    "sold": "290K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "fd661c3941076d37f023e7da10fd009db319a431.png"
+  },
+  {
+    "id": "signal-decay",
+    "title": "Signal Decay",
+    "artistId": "deep-current",
+    "label": "Indaba Studios",
+    "year": 2018,
+    "sold": "360K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "4c6ab56e9e00ad9842d96b11dc92fa64078dcd6e.png"
+  },
+  {
+    "id": "shoreline-hymns",
+    "title": "Shoreline Hymns",
+    "artistId": "deep-current",
+    "label": "Indaba Studios",
+    "year": 2020,
+    "sold": "410K",
+    "tracks": 11,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "145779d90773e80d677bdca2ad33e2752e91e0f1.png"
+  },
+  {
+    "id": "resonanzfeld",
+    "title": "Resonanzfeld",
+    "artistId": "dmitri-volkov",
+    "label": "Siberian Sound",
+    "year": 2013,
+    "sold": "570K",
+    "tracks": 12,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "b4dacebd8b2ee2a2bde5ea066b39fd60d36b39a5.png"
+  },
+  {
+    "id": "ghost-frequencies",
+    "title": "Ghost Frequencies",
+    "artistId": "dmitri-volkov",
+    "label": "Siberian Sound",
+    "year": 2016,
+    "sold": "480K",
+    "tracks": 12,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "c2afb2729957c0d496aa50c5617ed6c12bb56915.png"
+  },
+  {
+    "id": "dark-side-frequencies",
+    "title": "Dark Side Frequencies",
+    "artistId": "dmitri-volkov",
+    "label": "Siberian Sound",
+    "year": 2019,
+    "sold": "380K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "12f3183c33ba83331573a6fabc7c307bb245a13f.png"
+  },
+  {
+    "id": "feedback-loop",
+    "title": "Feedback Loop",
+    "artistId": "dmitri-volkov",
+    "label": "Siberian Sound",
+    "year": 2022,
+    "sold": "215K",
+    "tracks": 8,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP"
+    ],
+    "cover": "12abe8bf053762f69ff6012610605d9599ed0112.png"
+  },
+  {
+    "id": "iteration-zero",
+    "title": "Iteration Zero",
+    "artistId": "echo-assembly",
+    "label": "Neon Factory",
+    "year": 2010,
+    "sold": "450K",
+    "tracks": 12,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "91aece18a33934f5a86a1a2536745ebe71592272.png"
+  },
+  {
+    "id": "mandelbrot-suite",
+    "title": "Mandelbrot Suite",
+    "artistId": "echo-assembly",
+    "label": "Neon Factory",
+    "year": 2015,
+    "sold": "560K",
+    "tracks": 13,
+    "singles": 4,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "82d9a6149d02514e003a4a302ab0dca67f86b296.png"
+  },
+  {
+    "id": "binary-star",
+    "title": "Binary Star",
+    "artistId": "echo-assembly",
+    "label": "Neon Factory",
+    "year": 2019,
+    "sold": "290K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "514adbb1136883b83d0ed64be92501fd392098f8.png"
+  },
+  {
+    "id": "exoplanet",
+    "title": "Exoplanet",
+    "artistId": "echo-assembly",
+    "label": "Neon Factory",
+    "year": 2023,
+    "sold": "145K",
+    "tracks": 9,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "7893b79a5ee91c8c3e1e393187d37a7c693bd61e.png"
+  },
+  {
+    "id": "horizon-dore",
+    "title": "Horizon Doré",
+    "artistId": "elara-vind",
+    "label": "Fjord Music",
+    "year": 2013,
+    "sold": "520K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "dc5c6cfd57b09db911526fcd5e9c2c4742788535.png"
+  },
+  {
+    "id": "eclats",
+    "title": "Éclats",
+    "artistId": "elara-vind",
+    "label": "Fjord Music",
+    "year": 2016,
+    "sold": "430K",
+    "tracks": 10,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "e59f8dc0c59f3d42179b1d10af1e501d014f5eea.png"
+  },
+  {
+    "id": "featherweight",
+    "title": "Featherweight",
+    "artistId": "elara-vind",
+    "label": "Fjord Music",
+    "year": 2020,
+    "sold": "290K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "0b299af63ae34e7065d4826e80ce5f0486afb47a.png"
+  },
+  {
+    "id": "bruges-nocturne",
+    "title": "Bruges Nocturne",
+    "artistId": "elara-vind",
+    "label": "Fjord Music",
+    "year": 2022,
+    "sold": "160K",
+    "tracks": 8,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "c371f9c8d8123a032115a812f110b558ad234ddf.png"
+  },
+  {
+    "id": "wingspan",
+    "title": "Wingspan",
+    "artistId": "fractal-dawn",
+    "label": "Neon Factory",
+    "year": 2017,
+    "sold": "220K",
+    "tracks": 10,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP"
+    ],
+    "cover": "41c584360cabd1aff7c01d5e8c543df2d0168425.png"
+  },
+  {
+    "id": "chromatic-pulse",
+    "title": "Chromatic Pulse",
+    "artistId": "fractal-dawn",
+    "label": "Neon Factory",
+    "year": 2018,
+    "sold": "410K",
+    "tracks": 12,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "dd4e73619bb6d1a9765e5e93532f886ed346f6d2.png"
+  },
+  {
+    "id": "voltage-dreams",
+    "title": "Voltage Dreams",
+    "artistId": "fractal-dawn",
+    "label": "Neon Factory",
+    "year": 2020,
+    "sold": "290K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "AM"
+    ],
+    "cover": "8da1620ddfaaf88e1843bff9a2e3a1aeaeb44227.png"
+  },
+  {
+    "id": "indigo-frequencies",
+    "title": "Indigo Frequencies",
+    "artistId": "fractal-dawn",
+    "label": "Neon Factory",
+    "year": 2021,
+    "sold": "310K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "8976b4e6121f0e36c6c63959f553c2f60667c640.png"
+  },
+  {
+    "id": "storm-season",
+    "title": "Storm Season",
+    "artistId": "fractal-dawn",
+    "label": "Neon Factory",
+    "year": 2022,
+    "sold": "250K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "2fdd111813695b4d0d549c5149b7e02acb7bc302.png"
+  },
+  {
+    "id": "current-affairs",
+    "title": "Current Affairs",
+    "artistId": "fractal-dawn",
+    "label": "Neon Factory",
+    "year": 2023,
+    "sold": "190K",
+    "tracks": 9,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "04136d33a342f1c090f5e542d8a4c7f14419139b.png"
+  },
+  {
+    "id": "cherry-blossom-static",
+    "title": "Cherry Blossom Static",
+    "artistId": "hana-mizuki",
+    "label": "Sakura Collective",
+    "year": 2018,
+    "sold": "350K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "ff883c1bd7a4f5c6e8a5a772b2bea6f987e7aa02.png"
+  },
+  {
+    "id": "paper-lanterns",
+    "title": "Paper Lanterns",
+    "artistId": "hana-mizuki",
+    "label": "Sakura Collective",
+    "year": 2020,
+    "sold": "280K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "c6083575041e0a791b0e3c88cfdff3fff6126441.png"
+  },
+  {
+    "id": "mineral-songs",
+    "title": "Mineral Songs",
+    "artistId": "hana-mizuki",
+    "label": "Sakura Collective",
+    "year": 2023,
+    "sold": "120K",
+    "tracks": 8,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "90d90f5f089d20bd41c56c2b2b4191c9009005cb.png"
+  },
+  {
+    "id": "sea-glass",
+    "title": "Sea Glass",
+    "artistId": "isla-crane",
+    "label": "Southern Cross",
+    "year": 2019,
+    "sold": "155K",
+    "tracks": 8,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP"
+    ],
+    "cover": "bc1c23b1875c7564ba8777860826068b42966ecf.png"
+  },
+  {
+    "id": "crescent-tide",
+    "title": "Crescent Tide",
+    "artistId": "isla-crane",
+    "label": "Southern Cross",
+    "year": 2021,
+    "sold": "210K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "65a7e6db83a74ac5cd01d028013d6855ff773bfc.png"
+  },
+  {
+    "id": "fragile-architecture",
+    "title": "Fragile Architecture",
+    "artistId": "isla-crane",
+    "label": "Southern Cross",
+    "year": 2023,
+    "sold": "95K",
+    "tracks": 7,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "7ae5da6a97c507bf5b9daa87c5ab64ad184e0230.png"
+  },
+  {
+    "id": "archipelago",
+    "title": "Archipelago",
+    "artistId": "kai-sundara",
+    "label": "Desert Wave Records",
+    "year": 2017,
+    "sold": "320K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "a1c11f9f33e66cb14d94b438324c4b2db5ca1a7e.png"
+  },
+  {
+    "id": "alkali-dreams",
+    "title": "Alkali Dreams",
+    "artistId": "kai-sundara",
+    "label": "Desert Wave Records",
+    "year": 2019,
+    "sold": "260K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "e17558f5bed6bb7e264d81bd9728141cd33d17b9.png"
+  },
+  {
+    "id": "echo-chamber",
+    "title": "Echo Chamber",
+    "artistId": "kai-sundara",
+    "label": "Desert Wave Records",
+    "year": 2022,
+    "sold": "180K",
+    "tracks": 9,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "d7058457e2811bedfee244f9748dc2612795687a.png"
+  },
+  {
+    "id": "fjordlight",
+    "title": "Fjordlight",
+    "artistId": "lena-voss",
+    "label": "Nordic Arc",
+    "year": 2013,
+    "sold": "490K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "5f60fa2a43de1a2cb43728a6509bd0a51b03406e.png"
+  },
+  {
+    "id": "white-noise-winter",
+    "title": "White Noise Winter",
+    "artistId": "lena-voss",
+    "label": "Nordic Arc",
+    "year": 2016,
+    "sold": "920K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "4780f9ce65fd6d87849b8cde125a43c4b1f991d9.png"
+  },
+  {
+    "id": "solstice",
+    "title": "Solstice",
+    "artistId": "lena-voss",
+    "label": "Nordic Arc",
+    "year": 2019,
+    "sold": "640K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "b9f6ec0070d4c61867623da0e927e1fdb07d6c0f.png"
+  },
+  {
+    "id": "aurora-borealis-ep",
+    "title": "Aurora Borealis EP",
+    "artistId": "lena-voss",
+    "label": "Nordic Arc",
+    "year": 2021,
+    "sold": "280K",
+    "tracks": 6,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "7c022241965b1db796f7a3e9a66cd0dbfbcba196.png"
+  },
+  {
+    "id": "premiere-lumiere",
+    "title": "Première Lumière",
+    "artistId": "mara-soleil",
+    "label": "Atlantic Sound",
+    "year": 2014,
+    "sold": "610K",
+    "tracks": 12,
+    "singles": 4,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "ea454b5a82a71eff7740f5c8fa58932edbf2224c.png"
+  },
+  {
+    "id": "beira-mar",
+    "title": "Beira Mar",
+    "artistId": "mara-soleil",
+    "label": "Atlantic Sound",
+    "year": 2017,
+    "sold": "520K",
+    "tracks": 10,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "fabca24b9882225060d3c321bbbe9ae666d99b94.png"
+  },
+  {
+    "id": "seven-rivers",
+    "title": "Seven Rivers",
+    "artistId": "mara-soleil",
+    "label": "Atlantic Sound",
+    "year": 2019,
+    "sold": "320K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "d3b421f8ab9d73594c9b779403e72be1ef36bf64.png"
+  },
+  {
+    "id": "chocolate-box",
+    "title": "Chocolate Box",
+    "artistId": "mara-soleil",
+    "label": "Atlantic Sound",
+    "year": 2022,
+    "sold": "240K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "9603f91b9d17bc20293d630b3b8ff2c68040eed8.png"
+  },
+  {
+    "id": "meridian",
+    "title": "Meridian",
+    "artistId": "nadia-fontaine",
+    "label": "Crescent Records",
+    "year": 2016,
+    "sold": "340K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "972597ecedfdfeb06c3759d4b2473121c8532967.png"
+  },
+  {
+    "id": "ultraviolet",
+    "title": "Ultraviolet",
+    "artistId": "nadia-fontaine",
+    "label": "Crescent Records",
+    "year": 2019,
+    "sold": "410K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "9870358f3d1370e0a2821486fa40c51e1380af9d.png"
+  },
+  {
+    "id": "refraction",
+    "title": "Refraction",
+    "artistId": "nadia-fontaine",
+    "label": "Crescent Records",
+    "year": 2022,
+    "sold": "180K",
+    "tracks": 8,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "b08610045f7a3fb9b5d85ef09b799f4af5d4d834.png"
+  },
+  {
+    "id": "empire-state-of-bass",
+    "title": "Empire State of Bass",
+    "artistId": "neon-veins",
+    "label": "Electric South",
+    "year": 2012,
+    "sold": "760K",
+    "tracks": 14,
+    "singles": 5,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "c270bd3d5886af9f3861f57b2a57ae5a0aa51666.png"
+  },
+  {
+    "id": "howl-at-apogee",
+    "title": "Howl at Apogee",
+    "artistId": "neon-veins",
+    "label": "Electric South",
+    "year": 2015,
+    "sold": "580K",
+    "tracks": 12,
+    "singles": 4,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "0821294e9c807c5cadee930b19d287df038f3dab.png"
+  },
+  {
+    "id": "event-horizon-ii",
+    "title": "Event Horizon II",
+    "artistId": "neon-veins",
+    "label": "Electric South",
+    "year": 2018,
+    "sold": "430K",
+    "tracks": 12,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "d17c4425fbf6bfa7c73f8a5b3dd517b9edbe9b96.png"
+  },
+  {
+    "id": "badlands-hymnal",
+    "title": "Badlands Hymnal",
+    "artistId": "orbit-black",
+    "label": "Crossroads Music",
+    "year": 2015,
+    "sold": "290K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "e72d3768593af02d8bd7e2af9a2a9001cf25c27f.png"
+  },
+  {
+    "id": "ciudad-fantasma",
+    "title": "Ciudad Fantasma",
+    "artistId": "orbit-black",
+    "label": "Crossroads Music",
+    "year": 2018,
+    "sold": "380K",
+    "tracks": 11,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "a798418419d2296c810d4e8175639b4d3595b2db.png"
+  },
+  {
+    "id": "frontera",
+    "title": "Frontera",
+    "artistId": "orbit-black",
+    "label": "Crossroads Music",
+    "year": 2021,
+    "sold": "420K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "2d7f38540521dc505faf58c374476eb46bdcef57.png"
+  },
+  {
+    "id": "basalt",
+    "title": "Basalt",
+    "artistId": "priya-menon",
+    "label": "Monsoon Label",
+    "year": 2019,
+    "sold": "140K",
+    "tracks": 7,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP"
+    ],
+    "cover": "16e2161a0f34eb206d6a09eb27f6975459914301.png"
+  },
+  {
+    "id": "andes-transmission",
+    "title": "Andes Transmission",
+    "artistId": "priya-menon",
+    "label": "Monsoon Label",
+    "year": 2021,
+    "sold": "210K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "1b39505b66d18eff6813e33c5fd421e6db86a6e4.png"
+  },
+  {
+    "id": "dark-matter-pt",
+    "title": "Dark Matter",
+    "artistId": "pulsar-twins",
+    "label": "Twin Axis",
+    "year": 2016,
+    "sold": "340K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "7ba17e46dd47cac762012569d859dcd8c6ae25c8.png"
+  },
+  {
+    "id": "bifurcation-pt",
+    "title": "Bifurcation",
+    "artistId": "pulsar-twins",
+    "label": "Twin Axis",
+    "year": 2019,
+    "sold": "280K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "19a66cbcd0db35b05002dd2284559eab938bd706.png"
+  },
+  {
+    "id": "event-horizon-pt",
+    "title": "Event Horizon",
+    "artistId": "pulsar-twins",
+    "label": "Twin Axis",
+    "year": 2022,
+    "sold": "190K",
+    "tracks": 8,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "d17c4425fbf6bfa7c73f8a5b3dd517b9edbe9b96.png"
+  },
+  {
+    "id": "horizonte-rojo-tr",
+    "title": "Horizonte Rojo",
+    "artistId": "tomas-reyes",
+    "label": "Maguey Sonido",
+    "year": 2009,
+    "sold": "390K",
+    "tracks": 10,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "1bc386bb5d83996f738529947cb39eecb0d2cf45.png"
+  },
+  {
+    "id": "eclats-tr",
+    "title": "Éclats",
+    "artistId": "tomas-reyes",
+    "label": "Maguey Sonido",
+    "year": 2013,
+    "sold": "290K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "e59f8dc0c59f3d42179b1d10af1e501d014f5eea.png"
+  },
+  {
+    "id": "bruges-tr",
+    "title": "Nocturno",
+    "artistId": "tomas-reyes",
+    "label": "Maguey Sonido",
+    "year": 2017,
+    "sold": "350K",
+    "tracks": 11,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "c371f9c8d8123a032115a812f110b558ad234ddf.png"
+  },
+  {
+    "id": "premiere-tr",
+    "title": "Primera Luz",
+    "artistId": "tomas-reyes",
+    "label": "Maguey Sonido",
+    "year": 2022,
+    "sold": "240K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "ea454b5a82a71eff7740f5c8fa58932edbf2224c.png"
+  },
+  {
+    "id": "horizonte-rojo-rd",
+    "title": "Horizonte Rojo",
+    "artistId": "rafael-dumont",
+    "label": "Maguey Sonido",
+    "year": 2014,
+    "sold": "390K",
+    "tracks": 10,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "1bc386bb5d83996f738529947cb39eecb0d2cf45.png"
+  },
+  {
+    "id": "beira-mar-rd",
+    "title": "Beira Mar",
+    "artistId": "rafael-dumont",
+    "label": "Maguey Sonido",
+    "year": 2017,
+    "sold": "310K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "fabca24b9882225060d3c321bbbe9ae666d99b94.png"
+  },
+  {
+    "id": "dissolucao",
+    "title": "Dissolução",
+    "artistId": "rafael-dumont",
+    "label": "Maguey Sonido",
+    "year": 2020,
+    "sold": "240K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "7a650197de18dce87b0200d68f22363cc2aa1823.png"
+  },
+  {
+    "id": "sete-rios",
+    "title": "Sete Rios",
+    "artistId": "rafael-dumont",
+    "label": "Maguey Sonido",
+    "year": 2023,
+    "sold": "145K",
+    "tracks": 8,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP"
+    ],
+    "cover": "d3b421f8ab9d73594c9b779403e72be1ef36bf64.png"
+  },
+  {
+    "id": "storm-season-sh",
+    "title": "Storm Season",
+    "artistId": "soren-holt",
+    "label": "Nordic Sound",
+    "year": 2019,
+    "sold": "180K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "2fdd111813695b4d0d549c5149b7e02acb7bc302.png"
+  },
+  {
+    "id": "wingspan-sh",
+    "title": "Wingspan",
+    "artistId": "soren-holt",
+    "label": "Nordic Sound",
+    "year": 2021,
+    "sold": "240K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "41c584360cabd1aff7c01d5e8c543df2d0168425.png"
+  },
+  {
+    "id": "featherweight-sh",
+    "title": "Featherweight",
+    "artistId": "soren-holt",
+    "label": "Nordic Sound",
+    "year": 2023,
+    "sold": "120K",
+    "tracks": 8,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "0b299af63ae34e7065d4826e80ce5f0486afb47a.png"
+  },
+  {
+    "id": "current-affairs-se",
+    "title": "Current Affairs",
+    "artistId": "static-empire",
+    "label": "Amplify CA",
+    "year": 2003,
+    "sold": "240K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "04136d33a342f1c090f5e542d8a4c7f14419139b.png"
+  },
+  {
+    "id": "signal-decay-se",
+    "title": "Signal Decay",
+    "artistId": "static-empire",
+    "label": "Amplify CA",
+    "year": 2007,
+    "sold": "380K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "4c6ab56e9e00ad9842d96b11dc92fa64078dcd6e.png"
+  },
+  {
+    "id": "feedback-loop-se",
+    "title": "Feedback Loop",
+    "artistId": "static-empire",
+    "label": "Amplify CA",
+    "year": 2011,
+    "sold": "520K",
+    "tracks": 12,
+    "singles": 4,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "12abe8bf053762f69ff6012610605d9599ed0112.png"
+  },
+  {
+    "id": "chromatic-pulse-se",
+    "title": "Chromatic Pulse",
+    "artistId": "static-empire",
+    "label": "Amplify CA",
+    "year": 2015,
+    "sold": "680K",
+    "tracks": 13,
+    "singles": 5,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "dd4e73619bb6d1a9765e5e93532f886ed346f6d2.png"
+  },
+  {
+    "id": "dark-side-se",
+    "title": "Dark Side",
+    "artistId": "static-empire",
+    "label": "Amplify CA",
+    "year": 2019,
+    "sold": "440K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "12f3183c33ba83331573a6fabc7c307bb245a13f.png"
+  },
+  {
+    "id": "voltage-dreams-se",
+    "title": "Voltage Dreams",
+    "artistId": "static-empire",
+    "label": "Amplify CA",
+    "year": 2023,
+    "sold": "210K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "8da1620ddfaaf88e1843bff9a2e3a1aeaeb44227.png"
+  },
+  {
+    "id": "refraction-tac",
+    "title": "Refraction",
+    "artistId": "the-amber-circuit",
+    "label": "Circuit Press",
+    "year": 2009,
+    "sold": "290K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "b08610045f7a3fb9b5d85ef09b799f4af5d4d834.png"
+  },
+  {
+    "id": "resonanzfeld-tac",
+    "title": "Resonanzfeld",
+    "artistId": "the-amber-circuit",
+    "label": "Circuit Press",
+    "year": 2013,
+    "sold": "410K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "b4dacebd8b2ee2a2bde5ea066b39fd60d36b39a5.png"
+  },
+  {
+    "id": "indigo-frequencies-tac",
+    "title": "Indigo Frequencies",
+    "artistId": "the-amber-circuit",
+    "label": "Circuit Press",
+    "year": 2017,
+    "sold": "350K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "8976b4e6121f0e36c6c63959f553c2f60667c640.png"
+  },
+  {
+    "id": "ultraviolet-tac",
+    "title": "Ultraviolet",
+    "artistId": "the-amber-circuit",
+    "label": "Circuit Press",
+    "year": 2022,
+    "sold": "180K",
+    "tracks": 8,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "9870358f3d1370e0a2821486fa40c51e1380af9d.png"
+  },
+  {
+    "id": "dark-side-tdc",
+    "title": "Dark Side Frequencies",
+    "artistId": "the-drift-collective",
+    "label": "Northern Drift",
+    "year": 2005,
+    "sold": "190K",
+    "tracks": 10,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "12f3183c33ba83331573a6fabc7c307bb245a13f.png"
+  },
+  {
+    "id": "collapse-theory-tdc",
+    "title": "Collapse Theory",
+    "artistId": "the-drift-collective",
+    "label": "Northern Drift",
+    "year": 2009,
+    "sold": "340K",
+    "tracks": 11,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "7a650197de18dce87b0200d68f22363cc2aa1823.png"
+  },
+  {
+    "id": "echo-chamber-tdc",
+    "title": "Echo Chamber",
+    "artistId": "the-drift-collective",
+    "label": "Northern Drift",
+    "year": 2013,
+    "sold": "480K",
+    "tracks": 12,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "d7058457e2811bedfee244f9748dc2612795687a.png"
+  },
+  {
+    "id": "signal-decay-tdc",
+    "title": "Signal Decay",
+    "artistId": "the-drift-collective",
+    "label": "Northern Drift",
+    "year": 2017,
+    "sold": "560K",
+    "tracks": 13,
+    "singles": 4,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "4c6ab56e9e00ad9842d96b11dc92fa64078dcd6e.png"
+  },
+  {
+    "id": "voltage-dreams-tdc",
+    "title": "Voltage Dreams",
+    "artistId": "the-drift-collective",
+    "label": "Northern Drift",
+    "year": 2021,
+    "sold": "320K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "8da1620ddfaaf88e1843bff9a2e3a1aeaeb44227.png"
+  },
+  {
+    "id": "mandelbrot-tgm",
+    "title": "Mandelbrot Suite",
+    "artistId": "the-glass-menagerie",
+    "label": "Glass Press",
+    "year": 2004,
+    "sold": "240K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "82d9a6149d02514e003a4a302ab0dca67f86b296.png"
+  },
+  {
+    "id": "fragile-architecture-tgm",
+    "title": "Fragile Architecture",
+    "artistId": "the-glass-menagerie",
+    "label": "Glass Press",
+    "year": 2008,
+    "sold": "380K",
+    "tracks": 11,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "7ae5da6a97c507bf5b9daa87c5ab64ad184e0230.png"
+  },
+  {
+    "id": "crystal-lattice-tgm",
+    "title": "Crystal Lattice",
+    "artistId": "the-glass-menagerie",
+    "label": "Glass Press",
+    "year": 2012,
+    "sold": "520K",
+    "tracks": 12,
+    "singles": 4,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "6278a3348d5559ca5d61d5467e10ddb587954237.png"
+  },
+  {
+    "id": "archipelago-tgm",
+    "title": "Archipelago",
+    "artistId": "the-glass-menagerie",
+    "label": "Glass Press",
+    "year": 2016,
+    "sold": "440K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "a1c11f9f33e66cb14d94b438324c4b2db5ca1a7e.png"
+  },
+  {
+    "id": "binary-star-tgm",
+    "title": "Binary Star",
+    "artistId": "the-glass-menagerie",
+    "label": "Glass Press",
+    "year": 2021,
+    "sold": "290K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "514adbb1136883b83d0ed64be92501fd392098f8.png"
+  },
+  {
+    "id": "howl-tis",
+    "title": "Howl at Apogee",
+    "artistId": "the-iron-shore",
+    "label": "Atlantic Shore",
+    "year": 2009,
+    "sold": "280K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "0821294e9c807c5cadee930b19d287df038f3dab.png"
+  },
+  {
+    "id": "shoreline-tis",
+    "title": "Shoreline Hymns",
+    "artistId": "the-iron-shore",
+    "label": "Atlantic Shore",
+    "year": 2012,
+    "sold": "390K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "145779d90773e80d677bdca2ad33e2752e91e0f1.png"
+  },
+  {
+    "id": "event-horizon-tis",
+    "title": "Event Horizon",
+    "artistId": "the-iron-shore",
+    "label": "Atlantic Shore",
+    "year": 2015,
+    "sold": "510K",
+    "tracks": 12,
+    "singles": 4,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "d17c4425fbf6bfa7c73f8a5b3dd517b9edbe9b96.png"
+  },
+  {
+    "id": "sea-glass-tis",
+    "title": "Sea Glass",
+    "artistId": "the-iron-shore",
+    "label": "Atlantic Shore",
+    "year": 2018,
+    "sold": "350K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "bc1c23b1875c7564ba8777860826068b42966ecf.png"
+  },
+  {
+    "id": "crescent-tis",
+    "title": "Crescent Tide",
+    "artistId": "the-iron-shore",
+    "label": "Atlantic Shore",
+    "year": 2022,
+    "sold": "210K",
+    "tracks": 9,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "65a7e6db83a74ac5cd01d028013d6855ff773bfc.png"
+  },
+  {
+    "id": "howl-tlw",
+    "title": "Howl",
+    "artistId": "the-lunar-wolves",
+    "label": "Full Moon Records",
+    "year": 2007,
+    "sold": "310K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "0821294e9c807c5cadee930b19d287df038f3dab.png"
+  },
+  {
+    "id": "dark-matter-tlw",
+    "title": "Dark Matter",
+    "artistId": "the-lunar-wolves",
+    "label": "Full Moon Records",
+    "year": 2011,
+    "sold": "450K",
+    "tracks": 12,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "7ba17e46dd47cac762012569d859dcd8c6ae25c8.png"
+  },
+  {
+    "id": "storm-season-tlw",
+    "title": "Storm Season",
+    "artistId": "the-lunar-wolves",
+    "label": "Full Moon Records",
+    "year": 2015,
+    "sold": "580K",
+    "tracks": 13,
+    "singles": 4,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "2fdd111813695b4d0d549c5149b7e02acb7bc302.png"
+  },
+  {
+    "id": "mineral-songs-tlw",
+    "title": "Mineral Songs",
+    "artistId": "the-lunar-wolves",
+    "label": "Full Moon Records",
+    "year": 2020,
+    "sold": "370K",
+    "tracks": 11,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "90d90f5f089d20bd41c56c2b2b4191c9009005cb.png"
+  },
+  {
+    "id": "basalt-tsf",
+    "title": "Basalt",
+    "artistId": "the-salt-flats",
+    "label": "Desert Press",
+    "year": 2011,
+    "sold": "220K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "16e2161a0f34eb206d6a09eb27f6975459914301.png"
+  },
+  {
+    "id": "alkali-dreams-tsf",
+    "title": "Alkali Dreams",
+    "artistId": "the-salt-flats",
+    "label": "Desert Press",
+    "year": 2014,
+    "sold": "340K",
+    "tracks": 11,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "e17558f5bed6bb7e264d81bd9728141cd33d17b9.png"
+  },
+  {
+    "id": "ciudad-tsf",
+    "title": "Ciudad Fantasma",
+    "artistId": "the-salt-flats",
+    "label": "Desert Press",
+    "year": 2017,
+    "sold": "420K",
+    "tracks": 12,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "a798418419d2296c810d4e8175639b4d3595b2db.png"
+  },
+  {
+    "id": "frontera-tsf",
+    "title": "Frontera",
+    "artistId": "the-salt-flats",
+    "label": "Desert Press",
+    "year": 2020,
+    "sold": "310K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "2d7f38540521dc505faf58c374476eb46bdcef57.png"
+  },
+  {
+    "id": "horizonte-tsf",
+    "title": "Horizonte Rojo",
+    "artistId": "the-salt-flats",
+    "label": "Desert Press",
+    "year": 2023,
+    "sold": "180K",
+    "tracks": 9,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "1bc386bb5d83996f738529947cb39eecb0d2cf45.png"
+  },
+  {
+    "id": "iteration-zero-vs",
+    "title": "Iteration Zero",
+    "artistId": "void-signal",
+    "label": "Seoul Wave",
+    "year": 2016,
+    "sold": "280K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "91aece18a33934f5a86a1a2536745ebe71592272.png"
+  },
+  {
+    "id": "binary-star-vs",
+    "title": "Binary Star",
+    "artistId": "void-signal",
+    "label": "Seoul Wave",
+    "year": 2018,
+    "sold": "390K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "514adbb1136883b83d0ed64be92501fd392098f8.png"
+  },
+  {
+    "id": "collapse-theory-vs",
+    "title": "Collapse Theory",
+    "artistId": "void-signal",
+    "label": "Seoul Wave",
+    "year": 2021,
+    "sold": "510K",
+    "tracks": 12,
+    "singles": 4,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "7a650197de18dce87b0200d68f22363cc2aa1823.png"
+  },
+  {
+    "id": "exoplanet-vs",
+    "title": "Exoplanet",
+    "artistId": "void-signal",
+    "label": "Seoul Wave",
+    "year": 2023,
+    "sold": "220K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "7893b79a5ee91c8c3e1e393187d37a7c693bd61e.png"
+  },
+  {
+    "id": "indlela-yo",
+    "title": "Indlela",
+    "artistId": "yara-osei",
+    "label": "Accra Rising",
+    "year": 2020,
+    "sold": "145K",
+    "tracks": 8,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "fd661c3941076d37f023e7da10fd009db319a431.png"
+  },
+  {
+    "id": "cape-town-yo",
+    "title": "Cape Town Frequencies",
+    "artistId": "yara-osei",
+    "label": "Accra Rising",
+    "year": 2022,
+    "sold": "190K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "6936fe59fc98708d7a9cb3ca0a7ab4d5e76dfd3f.png"
+  },
+  {
+    "id": "empire-state-zn",
+    "title": "Empire State of Bass",
+    "artistId": "zuri-nakamura",
+    "label": "Nakamura Music",
+    "year": 2012,
+    "sold": "480K",
+    "tracks": 12,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "c270bd3d5886af9f3861f57b2a57ae5a0aa51666.png"
+  },
+  {
+    "id": "echo-chamber-zn",
+    "title": "Echo Chamber",
+    "artistId": "zuri-nakamura",
+    "label": "Nakamura Music",
+    "year": 2015,
+    "sold": "590K",
+    "tracks": 13,
+    "singles": 4,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "d7058457e2811bedfee244f9748dc2612795687a.png"
+  },
+  {
+    "id": "ultraviolet-zn",
+    "title": "Ultraviolet",
+    "artistId": "zuri-nakamura",
+    "label": "Nakamura Music",
+    "year": 2018,
+    "sold": "430K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "9870358f3d1370e0a2821486fa40c51e1380af9d.png"
+  },
+  {
+    "id": "dark-matter-zn",
+    "title": "Dark Matter",
+    "artistId": "zuri-nakamura",
+    "label": "Nakamura Music",
+    "year": 2021,
+    "sold": "310K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "7ba17e46dd47cac762012569d859dcd8c6ae25c8.png"
+  },
+  {
+    "id": "voltage-dreams-zn",
+    "title": "Voltage Dreams",
+    "artistId": "zuri-nakamura",
+    "label": "Nakamura Music",
+    "year": 2023,
+    "sold": "195K",
+    "tracks": 9,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "8da1620ddfaaf88e1843bff9a2e3a1aeaeb44227.png"
+  }
 ];

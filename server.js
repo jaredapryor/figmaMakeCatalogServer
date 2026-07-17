@@ -1,4 +1,4 @@
-// Modern Music Catalog REST API — seeded from figmaMakeCatalogApp
+// Modern Music Catalog REST API — Figma-aligned schema
 
 require("dotenv").config();
 const express = require("express");
@@ -18,15 +18,22 @@ app.use(
 );
 app.use(express.json());
 
-// In-memory store (deep-cloned from seed; resets on restart)
 let artists = structuredClone(seedArtists);
 let albums = structuredClone(seedAlbums);
 
-const ARTIST_TYPES = new Set(["solo", "group"]);
-const CERTIFICATIONS = new Set(["none", "gold", "platinum", "multi-platinum"]);
-const STREAMING_PLATFORMS = new Set(["spotify", "apple", "amazon"]);
+const ARTIST_TYPES = new Set(["Solo", "Group"]);
+const CERTS = new Set(["Gold", "Platinum", "Diamond"]);
+const STREAMING = new Set(["SP", "AM", "AZ"]);
 
-function genId() {
+function genId(name) {
+  if (typeof name === "string" && name.trim()) {
+    const slug = name
+      .trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+    if (slug) return `${slug}-${Math.random().toString(36).slice(2, 6)}`;
+  }
   return Math.random().toString(36).slice(2, 10);
 }
 
@@ -38,135 +45,114 @@ function findAlbumIndex(id) {
   return albums.findIndex((a) => a.id === id);
 }
 
-function validateArtistBody(body, { requireAll = true } = {}) {
+function findArtist(id) {
+  return artists.find((a) => a.id === id) || null;
+}
+
+function enrichAlbum(album) {
+  const artist = findArtist(album.artistId);
+  return {
+    ...album,
+    artistName: artist ? artist.name : "",
+    artistPhoto: artist ? artist.photo : "",
+  };
+}
+
+function validateArtistBody(body, { requireAll = false } = {}) {
   if (!body || typeof body !== "object") {
     return "Request body must be a JSON object";
   }
 
-  const { name, country, countryFlag, countryCode, photoUrl, type, memberCount, activeSince } =
-    body;
-
-  if (requireAll || name !== undefined) {
-    if (typeof name !== "string" || !name.trim()) {
+  if (requireAll || body.name !== undefined) {
+    if (typeof body.name !== "string" || !body.name.trim()) {
       return "name is required and must be a non-empty string";
     }
   }
-  if (requireAll || country !== undefined) {
-    if (typeof country !== "string") return "country must be a string";
-  }
-  if (requireAll || countryFlag !== undefined) {
-    if (typeof countryFlag !== "string") return "countryFlag must be a string";
-  }
-  if (requireAll || countryCode !== undefined) {
-    if (typeof countryCode !== "string") return "countryCode must be a string";
-  }
-  if (requireAll || photoUrl !== undefined) {
-    if (typeof photoUrl !== "string") return "photoUrl must be a string";
-  }
-  if (requireAll || type !== undefined) {
-    if (!ARTIST_TYPES.has(type)) return 'type must be "solo" or "group"';
-  }
-  if (requireAll || activeSince !== undefined) {
-    if (typeof activeSince !== "number" || !Number.isFinite(activeSince)) {
-      return "activeSince must be a number (year)";
+  if (requireAll || body.since !== undefined) {
+    if (typeof body.since !== "number" || !Number.isFinite(body.since)) {
+      return "since is required and must be a number (year)";
     }
   }
-  if (memberCount !== undefined && memberCount !== null) {
-    if (typeof memberCount !== "number" || !Number.isFinite(memberCount)) {
-      return "memberCount must be a number";
+  if (body.type !== undefined && !ARTIST_TYPES.has(body.type)) {
+    return 'type must be "Solo" or "Group"';
+  }
+  if (body.countryCode !== undefined && typeof body.countryCode !== "string") {
+    return "countryCode must be a string";
+  }
+  if (body.photo !== undefined && typeof body.photo !== "string") {
+    return "photo must be a string";
+  }
+  if (body.flag !== undefined && typeof body.flag !== "string") {
+    return "flag must be a string";
+  }
+  if (body.groupSize !== undefined && body.groupSize !== null) {
+    if (typeof body.groupSize !== "number" || !Number.isFinite(body.groupSize)) {
+      return "groupSize must be a number";
     }
   }
-  if ((type === "group" || (!requireAll && body.type === undefined)) && type === "group") {
-    // ok — memberCount optional even for groups
-  }
-
   return null;
 }
 
-function validateAlbumBody(body, { requireAll = true } = {}) {
+function validateAlbumBody(body, { requireAll = false } = {}) {
   if (!body || typeof body !== "object") {
     return "Request body must be a JSON object";
   }
 
-  const {
-    artistId,
-    title,
-    coverUrl,
-    label,
-    releaseYear,
-    trackCount,
-    singleCount,
-    albumsSold,
-    certification,
-    streaming,
-  } = body;
-
-  if (requireAll || title !== undefined) {
-    if (typeof title !== "string" || !title.trim()) {
+  if (requireAll || body.title !== undefined) {
+    if (typeof body.title !== "string" || !body.title.trim()) {
       return "title is required and must be a non-empty string";
     }
   }
-  if (requireAll || artistId !== undefined) {
-    if (typeof artistId !== "string" || !artistId.trim()) {
+  if (requireAll || body.artistId !== undefined) {
+    if (typeof body.artistId !== "string" || !body.artistId.trim()) {
       return "artistId is required and must be a non-empty string";
     }
   }
-  if (requireAll || coverUrl !== undefined) {
-    if (typeof coverUrl !== "string") return "coverUrl must be a string";
-  }
-  if (requireAll || label !== undefined) {
-    if (typeof label !== "string") return "label must be a string";
-  }
-  if (requireAll || releaseYear !== undefined) {
-    if (typeof releaseYear !== "number" || !Number.isFinite(releaseYear)) {
-      return "releaseYear must be a number";
+  if (requireAll || body.year !== undefined) {
+    if (typeof body.year !== "number" || !Number.isFinite(body.year)) {
+      return "year is required and must be a number";
     }
   }
-  if (requireAll || trackCount !== undefined) {
-    if (typeof trackCount !== "number" || !Number.isFinite(trackCount)) {
-      return "trackCount must be a number";
+  if (body.label !== undefined && typeof body.label !== "string") {
+    return "label must be a string";
+  }
+  if (body.sold !== undefined && typeof body.sold !== "string") {
+    return "sold must be a string";
+  }
+  if (body.tracks !== undefined && (typeof body.tracks !== "number" || !Number.isFinite(body.tracks))) {
+    return "tracks must be a number";
+  }
+  if (body.singles !== undefined && (typeof body.singles !== "number" || !Number.isFinite(body.singles))) {
+    return "singles must be a number";
+  }
+  if (body.cert !== undefined && body.cert !== null && !CERTS.has(body.cert)) {
+    return 'cert must be "Gold", "Platinum", "Diamond", or null';
+  }
+  if (body.streaming !== undefined) {
+    if (!Array.isArray(body.streaming)) return "streaming must be an array";
+    for (const p of body.streaming) {
+      if (!STREAMING.has(p)) return 'streaming values must be "SP", "AM", or "AZ"';
     }
   }
-  if (requireAll || singleCount !== undefined) {
-    if (typeof singleCount !== "number" || !Number.isFinite(singleCount)) {
-      return "singleCount must be a number";
-    }
+  if (body.cover !== undefined && typeof body.cover !== "string") {
+    return "cover must be a string";
   }
-  if (requireAll || albumsSold !== undefined) {
-    if (typeof albumsSold !== "number" || !Number.isFinite(albumsSold)) {
-      return "albumsSold must be a number";
-    }
-  }
-  if (requireAll || certification !== undefined) {
-    if (!CERTIFICATIONS.has(certification)) {
-      return 'certification must be "none", "gold", "platinum", or "multi-platinum"';
-    }
-  }
-  if (requireAll || streaming !== undefined) {
-    if (!Array.isArray(streaming)) return "streaming must be an array";
-    for (const p of streaming) {
-      if (!STREAMING_PLATFORMS.has(p)) {
-        return 'streaming values must be "spotify", "apple", or "amazon"';
-      }
-    }
-  }
-
   return null;
 }
 
 function buildArtist(body, id) {
+  const type = body.type === "Group" ? "Group" : "Solo";
   const artist = {
     id,
     name: String(body.name).trim(),
-    country: body.country ?? "",
-    countryFlag: body.countryFlag ?? "",
-    countryCode: body.countryCode ?? "",
-    photoUrl: body.photoUrl ?? "",
-    type: body.type,
-    activeSince: body.activeSince,
+    photo: typeof body.photo === "string" ? body.photo : "",
+    flag: typeof body.flag === "string" ? body.flag : body.countryCode || "",
+    countryCode: typeof body.countryCode === "string" ? body.countryCode : "US",
+    type,
+    since: body.since,
   };
-  if (body.type === "group" && body.memberCount != null) {
-    artist.memberCount = body.memberCount;
+  if (type === "Group" && body.groupSize != null) {
+    artist.groupSize = body.groupSize;
   }
   return artist;
 }
@@ -174,16 +160,16 @@ function buildArtist(body, id) {
 function buildAlbum(body, id) {
   return {
     id,
-    artistId: body.artistId,
     title: String(body.title).trim(),
-    coverUrl: body.coverUrl ?? "",
-    label: body.label ?? "",
-    releaseYear: body.releaseYear,
-    trackCount: body.trackCount ?? 0,
-    singleCount: body.singleCount ?? 0,
-    albumsSold: body.albumsSold ?? 0,
-    certification: body.certification ?? "none",
+    artistId: body.artistId,
+    label: typeof body.label === "string" ? body.label : "",
+    year: body.year,
+    sold: typeof body.sold === "string" ? body.sold : "0",
+    tracks: typeof body.tracks === "number" ? body.tracks : 10,
+    singles: typeof body.singles === "number" ? body.singles : 0,
+    cert: body.cert === undefined ? null : body.cert,
     streaming: Array.isArray(body.streaming) ? [...body.streaming] : [],
+    cover: typeof body.cover === "string" ? body.cover : "",
   };
 }
 
@@ -194,7 +180,7 @@ app.get("/artists", (_req, res) => {
 });
 
 app.get("/artists/:id", (req, res) => {
-  const artist = artists.find((a) => a.id === req.params.id);
+  const artist = findArtist(req.params.id);
   if (!artist) {
     return res.status(404).json({ message: `Artist not found: ${req.params.id}` });
   }
@@ -205,12 +191,7 @@ app.post("/artists", (req, res) => {
   const error = validateArtistBody(req.body, { requireAll: true });
   if (error) return res.status(400).json({ message: error });
 
-  const name = String(req.body.name).trim();
-  if (artists.some((a) => a.name.toLowerCase() === name.toLowerCase())) {
-    return res.status(409).json({ message: `Artist already exists: ${name}` });
-  }
-
-  const artist = buildArtist(req.body, genId());
+  const artist = buildArtist(req.body, genId(req.body.name));
   artists.push(artist);
   res.status(201).json({
     message: "Artist created",
@@ -229,15 +210,6 @@ app.put("/artists/:id", (req, res) => {
   const error = validateArtistBody(req.body, { requireAll: true });
   if (error) return res.status(400).json({ message: error });
 
-  const name = String(req.body.name).trim();
-  if (
-    artists.some(
-      (a) => a.id !== req.params.id && a.name.toLowerCase() === name.toLowerCase()
-    )
-  ) {
-    return res.status(409).json({ message: `Artist already exists: ${name}` });
-  }
-
   const artist = buildArtist(req.body, req.params.id);
   artists[index] = artist;
   res.json({
@@ -255,7 +227,7 @@ app.delete("/artists/:id", (req, res) => {
   }
 
   const [artist] = artists.splice(index, 1);
-  const removedAlbums = albums.filter((al) => al.artistId === artist.id);
+  const removed = albums.filter((al) => al.artistId === artist.id);
   albums = albums.filter((al) => al.artistId !== artist.id);
 
   res.json({
@@ -263,14 +235,14 @@ app.delete("/artists/:id", (req, res) => {
     deletionType: "artist",
     deleted: true,
     artist,
-    deletedAlbumCount: removedAlbums.length,
+    deletedAlbumCount: removed.length,
   });
 });
 
 // ─── Albums ──────────────────────────────────────────────────────────────────
 
 app.get("/albums", (_req, res) => {
-  res.json(albums);
+  res.json(albums.map(enrichAlbum));
 });
 
 app.get("/albums/:id", (req, res) => {
@@ -278,36 +250,24 @@ app.get("/albums/:id", (req, res) => {
   if (!album) {
     return res.status(404).json({ message: `Album not found: ${req.params.id}` });
   }
-  res.json(album);
+  res.json(enrichAlbum(album));
 });
 
 app.post("/albums", (req, res) => {
   const error = validateAlbumBody(req.body, { requireAll: true });
   if (error) return res.status(400).json({ message: error });
 
-  if (findArtistIndex(req.body.artistId) === -1) {
+  if (!findArtist(req.body.artistId)) {
     return res.status(404).json({ message: `Artist not found: ${req.body.artistId}` });
   }
 
-  const title = String(req.body.title).trim();
-  if (
-    albums.some(
-      (a) =>
-        a.artistId === req.body.artistId && a.title.toLowerCase() === title.toLowerCase()
-    )
-  ) {
-    return res
-      .status(409)
-      .json({ message: `Album already exists for this artist: ${title}` });
-  }
-
-  const album = buildAlbum(req.body, genId());
+  const album = buildAlbum(req.body, genId(req.body.title));
   albums.push(album);
   res.status(201).json({
     message: "Album created",
     creationType: "album",
     created: true,
-    album,
+    album: enrichAlbum(album),
   });
 });
 
@@ -320,22 +280,8 @@ app.put("/albums/:id", (req, res) => {
   const error = validateAlbumBody(req.body, { requireAll: true });
   if (error) return res.status(400).json({ message: error });
 
-  if (findArtistIndex(req.body.artistId) === -1) {
+  if (!findArtist(req.body.artistId)) {
     return res.status(404).json({ message: `Artist not found: ${req.body.artistId}` });
-  }
-
-  const title = String(req.body.title).trim();
-  if (
-    albums.some(
-      (a) =>
-        a.id !== req.params.id &&
-        a.artistId === req.body.artistId &&
-        a.title.toLowerCase() === title.toLowerCase()
-    )
-  ) {
-    return res
-      .status(409)
-      .json({ message: `Album already exists for this artist: ${title}` });
   }
 
   const album = buildAlbum(req.body, req.params.id);
@@ -344,7 +290,7 @@ app.put("/albums/:id", (req, res) => {
     message: "Album updated",
     updateType: "album",
     updated: true,
-    album,
+    album: enrichAlbum(album),
   });
 });
 
@@ -359,7 +305,7 @@ app.delete("/albums/:id", (req, res) => {
     message: "Album deleted",
     deletionType: "album",
     deleted: true,
-    album,
+    album: enrichAlbum(album),
   });
 });
 
