@@ -33,22 +33,24 @@ lines.push("");
 lines.push('TRUNCATE TABLE "albumsAlt", "artistsAlt";');
 lines.push("");
 lines.push(
-  'INSERT INTO "artistsAlt" (id, name, photo, flag, country_code, type, group_size, since) VALUES'
+  'INSERT INTO "artistsAlt" (id, name, photo, photo_source, flag, country_code, type, group_size, since) VALUES'
 );
 
 const artistRows = artists.map((a) => {
   const groupSize = a.groupSize != null ? sqlInt(a.groupSize) : "NULL";
-  return `  (${sqlString(a.id)}, ${sqlString(a.name)}, ${sqlString(a.photo)}, ${sqlString(a.flag)}, ${sqlString(a.countryCode)}, ${sqlString(a.type)}, ${groupSize}, ${sqlInt(a.since)})`;
+  const photoSource = a.photoSource === "remote" ? "remote" : "local";
+  return `  (${sqlString(a.id)}, ${sqlString(a.name)}, ${sqlString(a.photo)}, ${sqlString(photoSource)}, ${sqlString(a.flag)}, ${sqlString(a.countryCode)}, ${sqlString(a.type)}, ${groupSize}, ${sqlInt(a.since)})`;
 });
 lines.push(artistRows.join(",\n") + ";");
 lines.push("");
 lines.push(
-  'INSERT INTO "albumsAlt" (id, title, artist_id, label, year, sold, tracks, singles, cert, streaming, cover) VALUES'
+  'INSERT INTO "albumsAlt" (id, title, artist_id, label, year, sold, tracks, singles, cert, streaming, cover, cover_source) VALUES'
 );
 
 const albumRows = albums.map((a) => {
   const cert = a.cert == null ? "NULL" : sqlString(a.cert);
-  return `  (${sqlString(a.id)}, ${sqlString(a.title)}, ${sqlString(a.artistId)}, ${sqlString(a.label)}, ${sqlInt(a.year)}, ${sqlString(a.sold)}, ${sqlInt(a.tracks)}, ${sqlInt(a.singles)}, ${cert}, ${sqlTextArray(a.streaming)}, ${sqlString(a.cover)})`;
+  const coverSource = a.coverSource === "remote" ? "remote" : "local";
+  return `  (${sqlString(a.id)}, ${sqlString(a.title)}, ${sqlString(a.artistId)}, ${sqlString(a.label)}, ${sqlInt(a.year)}, ${sqlString(a.sold)}, ${sqlInt(a.tracks)}, ${sqlInt(a.singles)}, ${cert}, ${sqlTextArray(a.streaming)}, ${sqlString(a.cover)}, ${sqlString(coverSource)})`;
 });
 lines.push(albumRows.join(",\n") + ";");
 lines.push("");

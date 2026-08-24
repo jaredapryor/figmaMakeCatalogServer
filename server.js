@@ -59,6 +59,8 @@ function validateArtistBody(body, { requireAll = false } = {}) {
   if (body.photo !== undefined && typeof body.photo !== "string") {
     return "photo must be a string";
   }
+  const photoSourceError = validateImageSource(body.photoSource, body.photo, "photoSource", "photo");
+  if (photoSourceError) return photoSourceError;
   if (body.flag !== undefined && typeof body.flag !== "string") {
     return "flag must be a string";
   }
@@ -114,6 +116,21 @@ function validateAlbumBody(body, { requireAll = false } = {}) {
   if (body.cover !== undefined && typeof body.cover !== "string") {
     return "cover must be a string";
   }
+  const coverSourceError = validateImageSource(body.coverSource, body.cover, "coverSource", "cover");
+  if (coverSourceError) return coverSourceError;
+  return null;
+}
+
+function validateImageSource(source, value, sourceField, valueField) {
+  if (source === undefined) return null;
+  if (source !== "local" && source !== "remote") {
+    return `${sourceField} must be "local" or "remote"`;
+  }
+  if (source === "remote" && typeof value === "string" && value.trim()) {
+    if (!/^https?:\/\//i.test(value.trim())) {
+      return `${valueField} must be an http(s) URL when ${sourceField} is "remote"`;
+    }
+  }
   return null;
 }
 
@@ -123,6 +140,7 @@ function buildArtist(body, id) {
     id,
     name: String(body.name).trim(),
     photo: typeof body.photo === "string" ? body.photo : "",
+    photoSource: body.photoSource === "remote" ? "remote" : "local",
     flag: typeof body.flag === "string" ? body.flag : body.countryCode || "",
     countryCode: typeof body.countryCode === "string" ? body.countryCode : "US",
     type,
@@ -147,6 +165,7 @@ function buildAlbum(body, id) {
     cert: body.cert === undefined ? null : body.cert,
     streaming: Array.isArray(body.streaming) ? [...body.streaming] : [],
     cover: typeof body.cover === "string" ? body.cover : "",
+    coverSource: body.coverSource === "remote" ? "remote" : "local",
   };
 }
 

@@ -13,7 +13,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "e2e5a8d68a60105902e16ce4688b4ccf69d6be69.png"
+    "cover": "e2e5a8d68a60105902e16ce4688b4ccf69d6be69.png",
+    "coverSource": "local"
   },
   {
     "id": "amber-hours",
@@ -28,7 +29,8 @@ module.exports = [
     "streaming": [
       "SP"
     ],
-    "cover": "69ac7ca749dd4fe4bf115630418c61d94d7933e5.png"
+    "cover": "69ac7ca749dd4fe4bf115630418c61d94d7933e5.png",
+    "coverSource": "local"
   },
   {
     "id": "dark-matter",
@@ -43,7 +45,8 @@ module.exports = [
     "streaming": [
       "SP"
     ],
-    "cover": "7ba17e46dd47cac762012569d859dcd8c6ae25c8.png"
+    "cover": "7ba17e46dd47cac762012569d859dcd8c6ae25c8.png",
+    "coverSource": "local"
   },
   {
     "id": "bifurcation-point",
@@ -59,7 +62,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "19a66cbcd0db35b05002dd2284559eab938bd706.png"
+    "cover": "19a66cbcd0db35b05002dd2284559eab938bd706.png",
+    "coverSource": "local"
   },
   {
     "id": "collapse-theory",
@@ -76,7 +80,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "7a650197de18dce87b0200d68f22363cc2aa1823.png"
+    "cover": "7a650197de18dce87b0200d68f22363cc2aa1823.png",
+    "coverSource": "local"
   },
   {
     "id": "crystal-lattice",
@@ -93,7 +98,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "6278a3348d5559ca5d61d5467e10ddb587954237.png"
+    "cover": "6278a3348d5559ca5d61d5467e10ddb587954237.png",
+    "coverSource": "local"
   },
   {
     "id": "kruger-sessions",
@@ -109,7 +115,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "14837cc01ed1ed57b551ffefab64acb651e3f6f7.png"
+    "cover": "14837cc01ed1ed57b551ffefab64acb651e3f6f7.png",
+    "coverSource": "local"
   },
   {
     "id": "cape-town-frequencies",
@@ -126,7 +133,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "6936fe59fc98708d7a9cb3ca0a7ab4d5e76dfd3f.png"
+    "cover": "6936fe59fc98708d7a9cb3ca0a7ab4d5e76dfd3f.png",
+    "coverSource": "local"
   },
   {
     "id": "indlela",
@@ -142,7 +150,8 @@ module.exports = [
       "SP",
       "AZ"
     ],
-    "cover": "fd661c3941076d37f023e7da10fd009db319a431.png"
+    "cover": "fd661c3941076d37f023e7da10fd009db319a431.png",
+    "coverSource": "local"
   },
   {
     "id": "signal-decay",
@@ -159,7 +168,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "4c6ab56e9e00ad9842d96b11dc92fa64078dcd6e.png"
+    "cover": "4c6ab56e9e00ad9842d96b11dc92fa64078dcd6e.png",
+    "coverSource": "local"
   },
   {
     "id": "shoreline-hymns",
@@ -175,7 +185,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "145779d90773e80d677bdca2ad33e2752e91e0f1.png"
+    "cover": "145779d90773e80d677bdca2ad33e2752e91e0f1.png",
+    "coverSource": "local"
   },
   {
     "id": "resonanzfeld",
@@ -192,7 +203,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "b4dacebd8b2ee2a2bde5ea066b39fd60d36b39a5.png"
+    "cover": "b4dacebd8b2ee2a2bde5ea066b39fd60d36b39a5.png",
+    "coverSource": "local"
   },
   {
     "id": "ghost-frequencies",
@@ -208,7 +220,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "c2afb2729957c0d496aa50c5617ed6c12bb56915.png"
+    "cover": "c2afb2729957c0d496aa50c5617ed6c12bb56915.png",
+    "coverSource": "local"
   },
   {
     "id": "dark-side-frequencies",
@@ -225,7 +238,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "12f3183c33ba83331573a6fabc7c307bb245a13f.png"
+    "cover": "12f3183c33ba83331573a6fabc7c307bb245a13f.png",
+    "coverSource": "local"
   },
   {
     "id": "feedback-loop",
@@ -240,7 +254,8 @@ module.exports = [
     "streaming": [
       "SP"
     ],
-    "cover": "12abe8bf053762f69ff6012610605d9599ed0112.png"
+    "cover": "12abe8bf053762f69ff6012610605d9599ed0112.png",
+    "coverSource": "local"
   },
   {
     "id": "iteration-zero",
@@ -257,7 +272,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "91aece18a33934f5a86a1a2536745ebe71592272.png"
+    "cover": "91aece18a33934f5a86a1a2536745ebe71592272.png",
+    "coverSource": "local"
   },
   {
     "id": "mandelbrot-suite",
@@ -274,7 +290,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "82d9a6149d02514e003a4a302ab0dca67f86b296.png"
+    "cover": "82d9a6149d02514e003a4a302ab0dca67f86b296.png",
+    "coverSource": "local"
   },
   {
     "id": "binary-star",
@@ -291,7 +308,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "514adbb1136883b83d0ed64be92501fd392098f8.png"
+    "cover": "514adbb1136883b83d0ed64be92501fd392098f8.png",
+    "coverSource": "local"
   },
   {
     "id": "exoplanet",
@@ -307,7 +325,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "7893b79a5ee91c8c3e1e393187d37a7c693bd61e.png"
+    "cover": "7893b79a5ee91c8c3e1e393187d37a7c693bd61e.png",
+    "coverSource": "local"
   },
   {
     "id": "horizon-dore",
@@ -324,7 +343,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "dc5c6cfd57b09db911526fcd5e9c2c4742788535.png"
+    "cover": "dc5c6cfd57b09db911526fcd5e9c2c4742788535.png",
+    "coverSource": "local"
   },
   {
     "id": "eclats",
@@ -341,7 +361,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "e59f8dc0c59f3d42179b1d10af1e501d014f5eea.png"
+    "cover": "e59f8dc0c59f3d42179b1d10af1e501d014f5eea.png",
+    "coverSource": "local"
   },
   {
     "id": "featherweight",
@@ -358,7 +379,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "0b299af63ae34e7065d4826e80ce5f0486afb47a.png"
+    "cover": "0b299af63ae34e7065d4826e80ce5f0486afb47a.png",
+    "coverSource": "local"
   },
   {
     "id": "bruges-nocturne",
@@ -374,7 +396,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "c371f9c8d8123a032115a812f110b558ad234ddf.png"
+    "cover": "c371f9c8d8123a032115a812f110b558ad234ddf.png",
+    "coverSource": "local"
   },
   {
     "id": "wingspan",
@@ -389,7 +412,8 @@ module.exports = [
     "streaming": [
       "SP"
     ],
-    "cover": "41c584360cabd1aff7c01d5e8c543df2d0168425.png"
+    "cover": "41c584360cabd1aff7c01d5e8c543df2d0168425.png",
+    "coverSource": "local"
   },
   {
     "id": "chromatic-pulse",
@@ -405,7 +429,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "dd4e73619bb6d1a9765e5e93532f886ed346f6d2.png"
+    "cover": "dd4e73619bb6d1a9765e5e93532f886ed346f6d2.png",
+    "coverSource": "local"
   },
   {
     "id": "voltage-dreams",
@@ -420,7 +445,8 @@ module.exports = [
     "streaming": [
       "AM"
     ],
-    "cover": "8da1620ddfaaf88e1843bff9a2e3a1aeaeb44227.png"
+    "cover": "8da1620ddfaaf88e1843bff9a2e3a1aeaeb44227.png",
+    "coverSource": "local"
   },
   {
     "id": "indigo-frequencies",
@@ -436,7 +462,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "8976b4e6121f0e36c6c63959f553c2f60667c640.png"
+    "cover": "8976b4e6121f0e36c6c63959f553c2f60667c640.png",
+    "coverSource": "local"
   },
   {
     "id": "storm-season",
@@ -452,7 +479,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "2fdd111813695b4d0d549c5149b7e02acb7bc302.png"
+    "cover": "2fdd111813695b4d0d549c5149b7e02acb7bc302.png",
+    "coverSource": "local"
   },
   {
     "id": "current-affairs",
@@ -468,7 +496,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "04136d33a342f1c090f5e542d8a4c7f14419139b.png"
+    "cover": "04136d33a342f1c090f5e542d8a4c7f14419139b.png",
+    "coverSource": "local"
   },
   {
     "id": "cherry-blossom-static",
@@ -484,7 +513,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "ff883c1bd7a4f5c6e8a5a772b2bea6f987e7aa02.png"
+    "cover": "ff883c1bd7a4f5c6e8a5a772b2bea6f987e7aa02.png",
+    "coverSource": "local"
   },
   {
     "id": "paper-lanterns",
@@ -500,7 +530,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "c6083575041e0a791b0e3c88cfdff3fff6126441.png"
+    "cover": "c6083575041e0a791b0e3c88cfdff3fff6126441.png",
+    "coverSource": "local"
   },
   {
     "id": "mineral-songs",
@@ -517,7 +548,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "90d90f5f089d20bd41c56c2b2b4191c9009005cb.png"
+    "cover": "90d90f5f089d20bd41c56c2b2b4191c9009005cb.png",
+    "coverSource": "local"
   },
   {
     "id": "sea-glass",
@@ -532,7 +564,8 @@ module.exports = [
     "streaming": [
       "SP"
     ],
-    "cover": "bc1c23b1875c7564ba8777860826068b42966ecf.png"
+    "cover": "bc1c23b1875c7564ba8777860826068b42966ecf.png",
+    "coverSource": "local"
   },
   {
     "id": "crescent-tide",
@@ -549,7 +582,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "65a7e6db83a74ac5cd01d028013d6855ff773bfc.png"
+    "cover": "65a7e6db83a74ac5cd01d028013d6855ff773bfc.png",
+    "coverSource": "local"
   },
   {
     "id": "fragile-architecture",
@@ -565,7 +599,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "7ae5da6a97c507bf5b9daa87c5ab64ad184e0230.png"
+    "cover": "7ae5da6a97c507bf5b9daa87c5ab64ad184e0230.png",
+    "coverSource": "local"
   },
   {
     "id": "archipelago",
@@ -581,7 +616,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "a1c11f9f33e66cb14d94b438324c4b2db5ca1a7e.png"
+    "cover": "a1c11f9f33e66cb14d94b438324c4b2db5ca1a7e.png",
+    "coverSource": "local"
   },
   {
     "id": "alkali-dreams",
@@ -597,7 +633,8 @@ module.exports = [
       "SP",
       "AZ"
     ],
-    "cover": "e17558f5bed6bb7e264d81bd9728141cd33d17b9.png"
+    "cover": "e17558f5bed6bb7e264d81bd9728141cd33d17b9.png",
+    "coverSource": "local"
   },
   {
     "id": "echo-chamber",
@@ -613,7 +650,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "d7058457e2811bedfee244f9748dc2612795687a.png"
+    "cover": "d7058457e2811bedfee244f9748dc2612795687a.png",
+    "coverSource": "local"
   },
   {
     "id": "fjordlight",
@@ -630,7 +668,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "5f60fa2a43de1a2cb43728a6509bd0a51b03406e.png"
+    "cover": "5f60fa2a43de1a2cb43728a6509bd0a51b03406e.png",
+    "coverSource": "local"
   },
   {
     "id": "white-noise-winter",
@@ -646,7 +685,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "4780f9ce65fd6d87849b8cde125a43c4b1f991d9.png"
+    "cover": "4780f9ce65fd6d87849b8cde125a43c4b1f991d9.png",
+    "coverSource": "local"
   },
   {
     "id": "solstice",
@@ -662,7 +702,8 @@ module.exports = [
       "SP",
       "AZ"
     ],
-    "cover": "b9f6ec0070d4c61867623da0e927e1fdb07d6c0f.png"
+    "cover": "b9f6ec0070d4c61867623da0e927e1fdb07d6c0f.png",
+    "coverSource": "local"
   },
   {
     "id": "aurora-borealis-ep",
@@ -679,7 +720,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "7c022241965b1db796f7a3e9a66cd0dbfbcba196.png"
+    "cover": "7c022241965b1db796f7a3e9a66cd0dbfbcba196.png",
+    "coverSource": "local"
   },
   {
     "id": "premiere-lumiere",
@@ -696,7 +738,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "ea454b5a82a71eff7740f5c8fa58932edbf2224c.png"
+    "cover": "ea454b5a82a71eff7740f5c8fa58932edbf2224c.png",
+    "coverSource": "local"
   },
   {
     "id": "beira-mar",
@@ -713,7 +756,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "fabca24b9882225060d3c321bbbe9ae666d99b94.png"
+    "cover": "fabca24b9882225060d3c321bbbe9ae666d99b94.png",
+    "coverSource": "local"
   },
   {
     "id": "seven-rivers",
@@ -730,7 +774,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "d3b421f8ab9d73594c9b779403e72be1ef36bf64.png"
+    "cover": "d3b421f8ab9d73594c9b779403e72be1ef36bf64.png",
+    "coverSource": "local"
   },
   {
     "id": "chocolate-box",
@@ -747,7 +792,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "9603f91b9d17bc20293d630b3b8ff2c68040eed8.png"
+    "cover": "9603f91b9d17bc20293d630b3b8ff2c68040eed8.png",
+    "coverSource": "local"
   },
   {
     "id": "meridian",
@@ -763,7 +809,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "972597ecedfdfeb06c3759d4b2473121c8532967.png"
+    "cover": "972597ecedfdfeb06c3759d4b2473121c8532967.png",
+    "coverSource": "local"
   },
   {
     "id": "ultraviolet",
@@ -780,7 +827,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "9870358f3d1370e0a2821486fa40c51e1380af9d.png"
+    "cover": "9870358f3d1370e0a2821486fa40c51e1380af9d.png",
+    "coverSource": "local"
   },
   {
     "id": "refraction",
@@ -796,7 +844,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "b08610045f7a3fb9b5d85ef09b799f4af5d4d834.png"
+    "cover": "b08610045f7a3fb9b5d85ef09b799f4af5d4d834.png",
+    "coverSource": "local"
   },
   {
     "id": "empire-state-of-bass",
@@ -813,7 +862,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "c270bd3d5886af9f3861f57b2a57ae5a0aa51666.png"
+    "cover": "c270bd3d5886af9f3861f57b2a57ae5a0aa51666.png",
+    "coverSource": "local"
   },
   {
     "id": "howl-at-apogee",
@@ -829,7 +879,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "0821294e9c807c5cadee930b19d287df038f3dab.png"
+    "cover": "0821294e9c807c5cadee930b19d287df038f3dab.png",
+    "coverSource": "local"
   },
   {
     "id": "event-horizon-ii",
@@ -845,7 +896,8 @@ module.exports = [
       "SP",
       "AZ"
     ],
-    "cover": "d17c4425fbf6bfa7c73f8a5b3dd517b9edbe9b96.png"
+    "cover": "d17c4425fbf6bfa7c73f8a5b3dd517b9edbe9b96.png",
+    "coverSource": "local"
   },
   {
     "id": "badlands-hymnal",
@@ -861,7 +913,8 @@ module.exports = [
       "SP",
       "AZ"
     ],
-    "cover": "e72d3768593af02d8bd7e2af9a2a9001cf25c27f.png"
+    "cover": "e72d3768593af02d8bd7e2af9a2a9001cf25c27f.png",
+    "coverSource": "local"
   },
   {
     "id": "ciudad-fantasma",
@@ -877,7 +930,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "a798418419d2296c810d4e8175639b4d3595b2db.png"
+    "cover": "a798418419d2296c810d4e8175639b4d3595b2db.png",
+    "coverSource": "local"
   },
   {
     "id": "frontera",
@@ -894,7 +948,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "2d7f38540521dc505faf58c374476eb46bdcef57.png"
+    "cover": "2d7f38540521dc505faf58c374476eb46bdcef57.png",
+    "coverSource": "local"
   },
   {
     "id": "basalt",
@@ -909,7 +964,8 @@ module.exports = [
     "streaming": [
       "SP"
     ],
-    "cover": "16e2161a0f34eb206d6a09eb27f6975459914301.png"
+    "cover": "16e2161a0f34eb206d6a09eb27f6975459914301.png",
+    "coverSource": "local"
   },
   {
     "id": "andes-transmission",
@@ -926,7 +982,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "1b39505b66d18eff6813e33c5fd421e6db86a6e4.png"
+    "cover": "1b39505b66d18eff6813e33c5fd421e6db86a6e4.png",
+    "coverSource": "local"
   },
   {
     "id": "dark-matter-pt",
@@ -942,7 +999,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "7ba17e46dd47cac762012569d859dcd8c6ae25c8.png"
+    "cover": "7ba17e46dd47cac762012569d859dcd8c6ae25c8.png",
+    "coverSource": "local"
   },
   {
     "id": "bifurcation-pt",
@@ -959,7 +1017,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "19a66cbcd0db35b05002dd2284559eab938bd706.png"
+    "cover": "19a66cbcd0db35b05002dd2284559eab938bd706.png",
+    "coverSource": "local"
   },
   {
     "id": "event-horizon-pt",
@@ -975,7 +1034,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "d17c4425fbf6bfa7c73f8a5b3dd517b9edbe9b96.png"
+    "cover": "d17c4425fbf6bfa7c73f8a5b3dd517b9edbe9b96.png",
+    "coverSource": "local"
   },
   {
     "id": "horizonte-rojo-tr",
@@ -991,7 +1051,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "1bc386bb5d83996f738529947cb39eecb0d2cf45.png"
+    "cover": "1bc386bb5d83996f738529947cb39eecb0d2cf45.png",
+    "coverSource": "local"
   },
   {
     "id": "eclats-tr",
@@ -1008,7 +1069,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "e59f8dc0c59f3d42179b1d10af1e501d014f5eea.png"
+    "cover": "e59f8dc0c59f3d42179b1d10af1e501d014f5eea.png",
+    "coverSource": "local"
   },
   {
     "id": "bruges-tr",
@@ -1024,7 +1086,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "c371f9c8d8123a032115a812f110b558ad234ddf.png"
+    "cover": "c371f9c8d8123a032115a812f110b558ad234ddf.png",
+    "coverSource": "local"
   },
   {
     "id": "premiere-tr",
@@ -1041,7 +1104,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "ea454b5a82a71eff7740f5c8fa58932edbf2224c.png"
+    "cover": "ea454b5a82a71eff7740f5c8fa58932edbf2224c.png",
+    "coverSource": "local"
   },
   {
     "id": "horizonte-rojo-rd",
@@ -1057,7 +1121,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "1bc386bb5d83996f738529947cb39eecb0d2cf45.png"
+    "cover": "1bc386bb5d83996f738529947cb39eecb0d2cf45.png",
+    "coverSource": "local"
   },
   {
     "id": "beira-mar-rd",
@@ -1074,7 +1139,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "fabca24b9882225060d3c321bbbe9ae666d99b94.png"
+    "cover": "fabca24b9882225060d3c321bbbe9ae666d99b94.png",
+    "coverSource": "local"
   },
   {
     "id": "dissolucao",
@@ -1090,7 +1156,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "7a650197de18dce87b0200d68f22363cc2aa1823.png"
+    "cover": "7a650197de18dce87b0200d68f22363cc2aa1823.png",
+    "coverSource": "local"
   },
   {
     "id": "sete-rios",
@@ -1105,7 +1172,8 @@ module.exports = [
     "streaming": [
       "SP"
     ],
-    "cover": "d3b421f8ab9d73594c9b779403e72be1ef36bf64.png"
+    "cover": "d3b421f8ab9d73594c9b779403e72be1ef36bf64.png",
+    "coverSource": "local"
   },
   {
     "id": "storm-season-sh",
@@ -1121,7 +1189,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "2fdd111813695b4d0d549c5149b7e02acb7bc302.png"
+    "cover": "2fdd111813695b4d0d549c5149b7e02acb7bc302.png",
+    "coverSource": "local"
   },
   {
     "id": "wingspan-sh",
@@ -1138,7 +1207,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "41c584360cabd1aff7c01d5e8c543df2d0168425.png"
+    "cover": "41c584360cabd1aff7c01d5e8c543df2d0168425.png",
+    "coverSource": "local"
   },
   {
     "id": "featherweight-sh",
@@ -1154,7 +1224,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "0b299af63ae34e7065d4826e80ce5f0486afb47a.png"
+    "cover": "0b299af63ae34e7065d4826e80ce5f0486afb47a.png",
+    "coverSource": "local"
   },
   {
     "id": "current-affairs-se",
@@ -1170,7 +1241,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "04136d33a342f1c090f5e542d8a4c7f14419139b.png"
+    "cover": "04136d33a342f1c090f5e542d8a4c7f14419139b.png",
+    "coverSource": "local"
   },
   {
     "id": "signal-decay-se",
@@ -1187,7 +1259,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "4c6ab56e9e00ad9842d96b11dc92fa64078dcd6e.png"
+    "cover": "4c6ab56e9e00ad9842d96b11dc92fa64078dcd6e.png",
+    "coverSource": "local"
   },
   {
     "id": "feedback-loop-se",
@@ -1204,7 +1277,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "12abe8bf053762f69ff6012610605d9599ed0112.png"
+    "cover": "12abe8bf053762f69ff6012610605d9599ed0112.png",
+    "coverSource": "local"
   },
   {
     "id": "chromatic-pulse-se",
@@ -1220,7 +1294,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "dd4e73619bb6d1a9765e5e93532f886ed346f6d2.png"
+    "cover": "dd4e73619bb6d1a9765e5e93532f886ed346f6d2.png",
+    "coverSource": "local"
   },
   {
     "id": "dark-side-se",
@@ -1237,7 +1312,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "12f3183c33ba83331573a6fabc7c307bb245a13f.png"
+    "cover": "12f3183c33ba83331573a6fabc7c307bb245a13f.png",
+    "coverSource": "local"
   },
   {
     "id": "voltage-dreams-se",
@@ -1253,7 +1329,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "8da1620ddfaaf88e1843bff9a2e3a1aeaeb44227.png"
+    "cover": "8da1620ddfaaf88e1843bff9a2e3a1aeaeb44227.png",
+    "coverSource": "local"
   },
   {
     "id": "refraction-tac",
@@ -1269,7 +1346,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "b08610045f7a3fb9b5d85ef09b799f4af5d4d834.png"
+    "cover": "b08610045f7a3fb9b5d85ef09b799f4af5d4d834.png",
+    "coverSource": "local"
   },
   {
     "id": "resonanzfeld-tac",
@@ -1286,7 +1364,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "b4dacebd8b2ee2a2bde5ea066b39fd60d36b39a5.png"
+    "cover": "b4dacebd8b2ee2a2bde5ea066b39fd60d36b39a5.png",
+    "coverSource": "local"
   },
   {
     "id": "indigo-frequencies-tac",
@@ -1302,7 +1381,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "8976b4e6121f0e36c6c63959f553c2f60667c640.png"
+    "cover": "8976b4e6121f0e36c6c63959f553c2f60667c640.png",
+    "coverSource": "local"
   },
   {
     "id": "ultraviolet-tac",
@@ -1318,7 +1398,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "9870358f3d1370e0a2821486fa40c51e1380af9d.png"
+    "cover": "9870358f3d1370e0a2821486fa40c51e1380af9d.png",
+    "coverSource": "local"
   },
   {
     "id": "dark-side-tdc",
@@ -1334,7 +1415,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "12f3183c33ba83331573a6fabc7c307bb245a13f.png"
+    "cover": "12f3183c33ba83331573a6fabc7c307bb245a13f.png",
+    "coverSource": "local"
   },
   {
     "id": "collapse-theory-tdc",
@@ -1351,7 +1433,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "7a650197de18dce87b0200d68f22363cc2aa1823.png"
+    "cover": "7a650197de18dce87b0200d68f22363cc2aa1823.png",
+    "coverSource": "local"
   },
   {
     "id": "echo-chamber-tdc",
@@ -1367,7 +1450,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "d7058457e2811bedfee244f9748dc2612795687a.png"
+    "cover": "d7058457e2811bedfee244f9748dc2612795687a.png",
+    "coverSource": "local"
   },
   {
     "id": "signal-decay-tdc",
@@ -1384,7 +1468,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "4c6ab56e9e00ad9842d96b11dc92fa64078dcd6e.png"
+    "cover": "4c6ab56e9e00ad9842d96b11dc92fa64078dcd6e.png",
+    "coverSource": "local"
   },
   {
     "id": "voltage-dreams-tdc",
@@ -1400,7 +1485,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "8da1620ddfaaf88e1843bff9a2e3a1aeaeb44227.png"
+    "cover": "8da1620ddfaaf88e1843bff9a2e3a1aeaeb44227.png",
+    "coverSource": "local"
   },
   {
     "id": "mandelbrot-tgm",
@@ -1416,7 +1502,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "82d9a6149d02514e003a4a302ab0dca67f86b296.png"
+    "cover": "82d9a6149d02514e003a4a302ab0dca67f86b296.png",
+    "coverSource": "local"
   },
   {
     "id": "fragile-architecture-tgm",
@@ -1433,7 +1520,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "7ae5da6a97c507bf5b9daa87c5ab64ad184e0230.png"
+    "cover": "7ae5da6a97c507bf5b9daa87c5ab64ad184e0230.png",
+    "coverSource": "local"
   },
   {
     "id": "crystal-lattice-tgm",
@@ -1450,7 +1538,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "6278a3348d5559ca5d61d5467e10ddb587954237.png"
+    "cover": "6278a3348d5559ca5d61d5467e10ddb587954237.png",
+    "coverSource": "local"
   },
   {
     "id": "archipelago-tgm",
@@ -1466,7 +1555,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "a1c11f9f33e66cb14d94b438324c4b2db5ca1a7e.png"
+    "cover": "a1c11f9f33e66cb14d94b438324c4b2db5ca1a7e.png",
+    "coverSource": "local"
   },
   {
     "id": "binary-star-tgm",
@@ -1483,7 +1573,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "514adbb1136883b83d0ed64be92501fd392098f8.png"
+    "cover": "514adbb1136883b83d0ed64be92501fd392098f8.png",
+    "coverSource": "local"
   },
   {
     "id": "howl-tis",
@@ -1499,7 +1590,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "0821294e9c807c5cadee930b19d287df038f3dab.png"
+    "cover": "0821294e9c807c5cadee930b19d287df038f3dab.png",
+    "coverSource": "local"
   },
   {
     "id": "shoreline-tis",
@@ -1516,7 +1608,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "145779d90773e80d677bdca2ad33e2752e91e0f1.png"
+    "cover": "145779d90773e80d677bdca2ad33e2752e91e0f1.png",
+    "coverSource": "local"
   },
   {
     "id": "event-horizon-tis",
@@ -1532,7 +1625,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "d17c4425fbf6bfa7c73f8a5b3dd517b9edbe9b96.png"
+    "cover": "d17c4425fbf6bfa7c73f8a5b3dd517b9edbe9b96.png",
+    "coverSource": "local"
   },
   {
     "id": "sea-glass-tis",
@@ -1548,7 +1642,8 @@ module.exports = [
       "SP",
       "AZ"
     ],
-    "cover": "bc1c23b1875c7564ba8777860826068b42966ecf.png"
+    "cover": "bc1c23b1875c7564ba8777860826068b42966ecf.png",
+    "coverSource": "local"
   },
   {
     "id": "crescent-tis",
@@ -1564,7 +1659,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "65a7e6db83a74ac5cd01d028013d6855ff773bfc.png"
+    "cover": "65a7e6db83a74ac5cd01d028013d6855ff773bfc.png",
+    "coverSource": "local"
   },
   {
     "id": "howl-tlw",
@@ -1580,7 +1676,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "0821294e9c807c5cadee930b19d287df038f3dab.png"
+    "cover": "0821294e9c807c5cadee930b19d287df038f3dab.png",
+    "coverSource": "local"
   },
   {
     "id": "dark-matter-tlw",
@@ -1597,7 +1694,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "7ba17e46dd47cac762012569d859dcd8c6ae25c8.png"
+    "cover": "7ba17e46dd47cac762012569d859dcd8c6ae25c8.png",
+    "coverSource": "local"
   },
   {
     "id": "storm-season-tlw",
@@ -1614,7 +1712,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "2fdd111813695b4d0d549c5149b7e02acb7bc302.png"
+    "cover": "2fdd111813695b4d0d549c5149b7e02acb7bc302.png",
+    "coverSource": "local"
   },
   {
     "id": "mineral-songs-tlw",
@@ -1630,7 +1729,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "90d90f5f089d20bd41c56c2b2b4191c9009005cb.png"
+    "cover": "90d90f5f089d20bd41c56c2b2b4191c9009005cb.png",
+    "coverSource": "local"
   },
   {
     "id": "basalt-tsf",
@@ -1646,7 +1746,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "16e2161a0f34eb206d6a09eb27f6975459914301.png"
+    "cover": "16e2161a0f34eb206d6a09eb27f6975459914301.png",
+    "coverSource": "local"
   },
   {
     "id": "alkali-dreams-tsf",
@@ -1663,7 +1764,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "e17558f5bed6bb7e264d81bd9728141cd33d17b9.png"
+    "cover": "e17558f5bed6bb7e264d81bd9728141cd33d17b9.png",
+    "coverSource": "local"
   },
   {
     "id": "ciudad-tsf",
@@ -1679,7 +1781,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "a798418419d2296c810d4e8175639b4d3595b2db.png"
+    "cover": "a798418419d2296c810d4e8175639b4d3595b2db.png",
+    "coverSource": "local"
   },
   {
     "id": "frontera-tsf",
@@ -1696,7 +1799,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "2d7f38540521dc505faf58c374476eb46bdcef57.png"
+    "cover": "2d7f38540521dc505faf58c374476eb46bdcef57.png",
+    "coverSource": "local"
   },
   {
     "id": "horizonte-tsf",
@@ -1712,7 +1816,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "1bc386bb5d83996f738529947cb39eecb0d2cf45.png"
+    "cover": "1bc386bb5d83996f738529947cb39eecb0d2cf45.png",
+    "coverSource": "local"
   },
   {
     "id": "iteration-zero-vs",
@@ -1728,7 +1833,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "91aece18a33934f5a86a1a2536745ebe71592272.png"
+    "cover": "91aece18a33934f5a86a1a2536745ebe71592272.png",
+    "coverSource": "local"
   },
   {
     "id": "binary-star-vs",
@@ -1745,7 +1851,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "514adbb1136883b83d0ed64be92501fd392098f8.png"
+    "cover": "514adbb1136883b83d0ed64be92501fd392098f8.png",
+    "coverSource": "local"
   },
   {
     "id": "collapse-theory-vs",
@@ -1761,7 +1868,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "7a650197de18dce87b0200d68f22363cc2aa1823.png"
+    "cover": "7a650197de18dce87b0200d68f22363cc2aa1823.png",
+    "coverSource": "local"
   },
   {
     "id": "exoplanet-vs",
@@ -1778,7 +1886,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "7893b79a5ee91c8c3e1e393187d37a7c693bd61e.png"
+    "cover": "7893b79a5ee91c8c3e1e393187d37a7c693bd61e.png",
+    "coverSource": "local"
   },
   {
     "id": "indlela-yo",
@@ -1794,7 +1903,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "fd661c3941076d37f023e7da10fd009db319a431.png"
+    "cover": "fd661c3941076d37f023e7da10fd009db319a431.png",
+    "coverSource": "local"
   },
   {
     "id": "cape-town-yo",
@@ -1811,7 +1921,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "6936fe59fc98708d7a9cb3ca0a7ab4d5e76dfd3f.png"
+    "cover": "6936fe59fc98708d7a9cb3ca0a7ab4d5e76dfd3f.png",
+    "coverSource": "local"
   },
   {
     "id": "empire-state-zn",
@@ -1828,7 +1939,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "c270bd3d5886af9f3861f57b2a57ae5a0aa51666.png"
+    "cover": "c270bd3d5886af9f3861f57b2a57ae5a0aa51666.png",
+    "coverSource": "local"
   },
   {
     "id": "echo-chamber-zn",
@@ -1844,7 +1956,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "d7058457e2811bedfee244f9748dc2612795687a.png"
+    "cover": "d7058457e2811bedfee244f9748dc2612795687a.png",
+    "coverSource": "local"
   },
   {
     "id": "ultraviolet-zn",
@@ -1861,7 +1974,8 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "9870358f3d1370e0a2821486fa40c51e1380af9d.png"
+    "cover": "9870358f3d1370e0a2821486fa40c51e1380af9d.png",
+    "coverSource": "local"
   },
   {
     "id": "dark-matter-zn",
@@ -1877,7 +1991,8 @@ module.exports = [
       "SP",
       "AM"
     ],
-    "cover": "7ba17e46dd47cac762012569d859dcd8c6ae25c8.png"
+    "cover": "7ba17e46dd47cac762012569d859dcd8c6ae25c8.png",
+    "coverSource": "local"
   },
   {
     "id": "voltage-dreams-zn",
@@ -1894,6 +2009,7 @@ module.exports = [
       "AM",
       "AZ"
     ],
-    "cover": "8da1620ddfaaf88e1843bff9a2e3a1aeaeb44227.png"
+    "cover": "8da1620ddfaaf88e1843bff9a2e3a1aeaeb44227.png",
+    "coverSource": "local"
   }
 ];

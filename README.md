@@ -62,7 +62,8 @@ Then re-run `02_seed.sql` in Supabase.
 {
   "id": "cleo-sterling",
   "name": "Cleo Sterling",
-  "photo": "<asset-key-or-url>",
+  "photo": "<filename-or-url>",
+  "photoSource": "local",
   "flag": "AU",
   "countryCode": "AU",
   "type": "Solo",
@@ -81,6 +82,7 @@ Then re-run `02_seed.sql` in Supabase.
   "artistId": "cleo-sterling",
   "artistName": "Cleo Sterling",
   "artistPhoto": "<from-artist>",
+  "artistPhotoSource": "local",
   "label": "Wavefront Music",
   "year": 2021,
   "sold": "85K",
@@ -88,13 +90,16 @@ Then re-run `02_seed.sql` in Supabase.
   "singles": 1,
   "cert": null,
   "streaming": ["SP", "AM"],
-  "cover": "<asset-key-or-url>"
+  "cover": "<filename-or-url>",
+  "coverSource": "local"
 }
 ```
 
 `cert`: `"Gold"` | `"Platinum"` | `"Diamond"` | `null`.  
 `streaming`: `"SP"` | `"AM"` | `"AZ"`.  
-`artistName` / `artistPhoto` are enriched on GET (not required on POST/PUT).
+`photoSource` / `coverSource`: `"local"` | `"remote"` (default `"local"`).  
+Local `photo`/`cover` is a bundled filename (or `""` for none). Remote is an http(s) URL.  
+`artistName` / `artistPhoto` / `artistPhotoSource` are enriched on GET (not required on POST/PUT).
 
 ## Endpoints
 
