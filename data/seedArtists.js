@@ -313,5 +313,215 @@ module.exports = [
     "countryCode": "US",
     "type": "Solo",
     "since": 2012
+  },
+  {
+    "id": "amara-quill",
+    "name": "Amara Quill",
+    "photo": "https://images.unsplash.com/photo-1670743601827-a96d129e8e09?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "IE",
+    "countryCode": "IE",
+    "type": "Solo",
+    "since": 2004
+  },
+  {
+    "id": "cassian-vale",
+    "name": "Cassian Vale",
+    "photo": "https://images.unsplash.com/photo-1742521895913-d6c23f7d02fd?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "BR",
+    "countryCode": "BR",
+    "type": "Solo",
+    "since": 2009
+  },
+  {
+    "id": "juniper-hale",
+    "name": "Juniper Hale",
+    "photo": "https://images.unsplash.com/photo-1709284015303-aea71874498e?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "NZ",
+    "countryCode": "NZ",
+    "type": "Solo",
+    "since": 2012
+  },
+  {
+    "id": "niko-harada",
+    "name": "Niko Harada",
+    "photo": "https://images.unsplash.com/photo-1663512670691-6865be9bae0c?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "AU",
+    "countryCode": "AU",
+    "type": "Solo",
+    "since": 2016
+  },
+  {
+    "id": "selene-okonkwo",
+    "name": "Selene Okonkwo",
+    "photo": "https://images.unsplash.com/photo-1707919270724-887838ddb53c?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "UK",
+    "countryCode": "UK",
+    "type": "Solo",
+    "since": 2019
+  },
+  {
+    "id": "theo-marais",
+    "name": "Theo Marais",
+    "photo": "https://images.unsplash.com/photo-1653017837179-d69f6e4daffc?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "NL",
+    "countryCode": "NL",
+    "type": "Solo",
+    "since": 2016
+  },
+  {
+    "id": "anika-berg",
+    "name": "Anika Berg",
+    "photo": "https://images.unsplash.com/photo-1717278920189-f69e4697dcc1?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "DE",
+    "countryCode": "DE",
+    "type": "Solo",
+    "since": 2015
+  },
+  {
+    "id": "luca-ferraro",
+    "name": "Luca Ferraro",
+    "photo": "https://images.unsplash.com/photo-1615748562188-07be820cff5b?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "KR",
+    "countryCode": "KR",
+    "type": "Solo",
+    "since": 2005
+  },
+  {
+    "id": "mei-calderon",
+    "name": "Mei Calderon",
+    "photo": "https://images.unsplash.com/photo-1683023939473-4ef10250b966?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "GH",
+    "countryCode": "GH",
+    "type": "Solo",
+    "since": 2017
+  },
+  {
+    "id": "rowan-iversen",
+    "name": "Rowan Iversen",
+    "photo": "https://images.unsplash.com/photo-1724333191536-4988f7ce0674?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "US",
+    "countryCode": "US",
+    "type": "Solo",
+    "since": 2012
+  },
+  {
+    "id": "ivory-frequency",
+    "name": "Ivory Frequency",
+    "photo": "https://images.unsplash.com/photo-1518911710364-17ec553bde5d?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "JP",
+    "countryCode": "JP",
+    "type": "Group",
+    "since": 2005,
+    "groupSize": 3
+  },
+  {
+    "id": "the-copper-orchard",
+    "name": "The Copper Orchard",
+    "photo": "https://images.unsplash.com/photo-1548047230-d64ee7e557f3?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "DK",
+    "countryCode": "DK",
+    "type": "Group",
+    "since": 2015,
+    "groupSize": 2
+  },
+  {
+    "id": "night-market-choir",
+    "name": "Night Market Choir",
+    "photo": "https://images.unsplash.com/photo-1566808907623-51b8fc382454?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "BE",
+    "countryCode": "BE",
+    "type": "Group",
+    "since": 2019,
+    "groupSize": 4
+  },
+  {
+    "id": "polar-meridian",
+    "name": "Polar Meridian",
+    "photo": "https://images.unsplash.com/photo-1578906007133-ed3603c8c5c2?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "SE",
+    "countryCode": "SE",
+    "type": "Group",
+    "since": 2006,
+    "groupSize": 3
+  },
+  {
+    "id": "redpaper-saints",
+    "name": "Redpaper Saints",
+    "photo": "https://images.unsplash.com/photo-1730636106620-7588af34efac?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "AR",
+    "countryCode": "AR",
+    "type": "Group",
+    "since": 2019,
+    "groupSize": 7
+  },
+  {
+    "id": "hollow-antenna",
+    "name": "Hollow Antenna",
+    "photo": "https://images.unsplash.com/photo-1540908625033-6e2d915074fb?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "IN",
+    "countryCode": "IN",
+    "type": "Group",
+    "since": 2017,
+    "groupSize": 5
+  },
+  {
+    "id": "marble-current",
+    "name": "Marble Current",
+    "photo": "https://images.unsplash.com/photo-1767000171517-5f0556f13735?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "FR",
+    "countryCode": "FR",
+    "type": "Group",
+    "since": 2018,
+    "groupSize": 7
+  },
+  {
+    "id": "silver-voltage",
+    "name": "Silver Voltage",
+    "photo": "https://images.unsplash.com/photo-1542813813-e6546b5d4914?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "ZA",
+    "countryCode": "ZA",
+    "type": "Group",
+    "since": 2015,
+    "groupSize": 2
+  },
+  {
+    "id": "kite-and-ember",
+    "name": "Kite & Ember",
+    "photo": "https://images.unsplash.com/photo-1762788109780-e19119ab8230?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "NO",
+    "countryCode": "NO",
+    "type": "Group",
+    "since": 2013,
+    "groupSize": 6
+  },
+  {
+    "id": "the-low-archives",
+    "name": "The Low Archives",
+    "photo": "https://images.unsplash.com/photo-1761957372070-b1dadaac8072?auto=format&fit=crop&w=500&h=500&q=85",
+    "photoSource": "remote",
+    "flag": "MX",
+    "countryCode": "MX",
+    "type": "Group",
+    "since": 2005,
+    "groupSize": 6
   }
 ];

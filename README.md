@@ -1,6 +1,6 @@
 # Modern Music Catalog API
 
-Express REST API aligned with the Figma Make *Modern Music Catalog* schema. Seeded with 30 artists and 116 albums.
+Express REST API aligned with the Figma Make *Modern Music Catalog* schema. Seeded with 50 artists and 266 albums.
 
 Supports two data backends via `DATA_SOURCE`:
 

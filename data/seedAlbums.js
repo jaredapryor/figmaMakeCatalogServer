@@ -2011,5 +2011,2551 @@ module.exports = [
     ],
     "cover": "8da1620ddfaaf88e1843bff9a2e3a1aeaeb44227.png",
     "coverSource": "local"
+  },
+  {
+    "id": "ashen-journal",
+    "title": "Ashen Journal",
+    "artistId": "niko-harada",
+    "label": "Harada Sound",
+    "year": 2016,
+    "sold": "665K",
+    "tracks": 13,
+    "singles": 2,
+    "cert": "Platinum",
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "amber-antenna",
+    "title": "Amber Antenna",
+    "artistId": "niko-harada",
+    "label": "Harada Sound",
+    "year": 2022,
+    "sold": "238K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "brass-threshold",
+    "title": "Brass Threshold",
+    "artistId": "night-market-choir",
+    "label": "Night Market Records",
+    "year": 2021,
+    "sold": "230K",
+    "tracks": 10,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1782425550731-fae1bad547ab?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "ashen-harbor",
+    "title": "Ashen Harbor",
+    "artistId": "theo-marais",
+    "label": "Marais Editions",
+    "year": 2019,
+    "sold": "115K",
+    "tracks": 8,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1494783367193-149034c05e8f?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "linen-station",
+    "title": "Linen Station",
+    "artistId": "mei-calderon",
+    "label": "Calderon Records",
+    "year": 2024,
+    "sold": "204K",
+    "tracks": 6,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP"
+    ],
+    "cover": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "hollow-overture",
+    "title": "Hollow Overture",
+    "artistId": "the-low-archives",
+    "label": "Low Archives",
+    "year": 2006,
+    "sold": "183K",
+    "tracks": 11,
+    "singles": 4,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1753006990555-1821b168f156?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "opal-transmission",
+    "title": "Opal Transmission",
+    "artistId": "mei-calderon",
+    "label": "Calderon Records",
+    "year": 2019,
+    "sold": "156K",
+    "tracks": 7,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1759994984294-8639f7fdfcbf?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "distant-notebook",
+    "title": "Distant Notebook",
+    "artistId": "selene-okonkwo",
+    "label": "Okonkwo Audio",
+    "year": 2025,
+    "sold": "104K",
+    "tracks": 9,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "SP"
+    ],
+    "cover": "https://images.unsplash.com/photo-1565880266808-99b1125a95a9?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "tin-orchard",
+    "title": "Tin Orchard",
+    "artistId": "redpaper-saints",
+    "label": "Redpaper Records",
+    "year": 2023,
+    "sold": "401K",
+    "tracks": 8,
+    "singles": 4,
+    "cert": "Gold",
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1541539916422-eb5ba8886af1?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "copper-compass",
+    "title": "Copper Compass",
+    "artistId": "night-market-choir",
+    "label": "Night Market Records",
+    "year": 2021,
+    "sold": "2.3M",
+    "tracks": 9,
+    "singles": 0,
+    "cert": "Diamond",
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "northern-window",
+    "title": "Northern Window",
+    "artistId": "amara-quill",
+    "label": "Quill Station",
+    "year": 2017,
+    "sold": "50K",
+    "tracks": 9,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1779785269526-0471db64895a?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "wooden-postcard",
+    "title": "Wooden Postcard",
+    "artistId": "niko-harada",
+    "label": "Harada Sound",
+    "year": 2022,
+    "sold": "1.9M",
+    "tracks": 11,
+    "singles": 1,
+    "cert": "Diamond",
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1778775926984-6fea40c82e3d?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "faded-hymn",
+    "title": "Faded Hymn",
+    "artistId": "rowan-iversen",
+    "label": "Iversen Audio",
+    "year": 2012,
+    "sold": "451K",
+    "tracks": 6,
+    "singles": 1,
+    "cert": "Gold",
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1778160400265-7fe924e7a221?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "willow-chamber",
+    "title": "Willow Chamber",
+    "artistId": "juniper-hale",
+    "label": "Hale Press",
+    "year": 2026,
+    "sold": "345K",
+    "tracks": 8,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1769344356920-90221e9aae72?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "pearl-hymn",
+    "title": "Pearl Hymn",
+    "artistId": "anika-berg",
+    "label": "Berg Line",
+    "year": 2025,
+    "sold": "119K",
+    "tracks": 12,
+    "singles": 4,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1434281406913-47acccb03654?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "wooden-station",
+    "title": "Wooden Station",
+    "artistId": "silver-voltage",
+    "label": "Silver Voltage",
+    "year": 2025,
+    "sold": "123K",
+    "tracks": 13,
+    "singles": 4,
+    "cert": null,
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "midnight-window",
+    "title": "Midnight Window",
+    "artistId": "hollow-antenna",
+    "label": "Antenna Works",
+    "year": 2019,
+    "sold": "189K",
+    "tracks": 13,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1769344357000-975d3c2cd802?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "granite-room",
+    "title": "Granite Room",
+    "artistId": "theo-marais",
+    "label": "Marais Editions",
+    "year": 2025,
+    "sold": "102K",
+    "tracks": 8,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "willow-hymn",
+    "title": "Willow Hymn",
+    "artistId": "theo-marais",
+    "label": "Marais Editions",
+    "year": 2023,
+    "sold": "592K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1780383604340-d93782b823ad?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "coastal-hymn",
+    "title": "Coastal Hymn",
+    "artistId": "redpaper-saints",
+    "label": "Redpaper Records",
+    "year": 2026,
+    "sold": "699K",
+    "tracks": 12,
+    "singles": 0,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1536006246959-e046549ad599?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "golden-waltz",
+    "title": "Golden Waltz",
+    "artistId": "selene-okonkwo",
+    "label": "Okonkwo Audio",
+    "year": 2026,
+    "sold": "46K",
+    "tracks": 10,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1500530857720-b19daeb49b4e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "juniper-fable",
+    "title": "Juniper Fable",
+    "artistId": "polar-meridian",
+    "label": "Polar Meridian Music",
+    "year": 2008,
+    "sold": "275K",
+    "tracks": 9,
+    "singles": 4,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1761920274681-18ba06a25d7c?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "pearl-etude",
+    "title": "Pearl Etude",
+    "artistId": "amara-quill",
+    "label": "Quill Station",
+    "year": 2021,
+    "sold": "595K",
+    "tracks": 7,
+    "singles": 4,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1666608561767-2bcaaf1e2ec4?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "ember-station",
+    "title": "Ember Station",
+    "artistId": "mei-calderon",
+    "label": "Calderon Records",
+    "year": 2025,
+    "sold": "759K",
+    "tracks": 6,
+    "singles": 4,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "faded-harbor",
+    "title": "Faded Harbor",
+    "artistId": "luca-ferraro",
+    "label": "Ferraro Music",
+    "year": 2011,
+    "sold": "90K",
+    "tracks": 12,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1591014979386-4e8cb74b9375?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "pearl-mirror",
+    "title": "Pearl Mirror",
+    "artistId": "ivory-frequency",
+    "label": "Ivory Press",
+    "year": 2024,
+    "sold": "245K",
+    "tracks": 6,
+    "singles": 4,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1781232954498-74d03658f37c?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "linen-harbor",
+    "title": "Linen Harbor",
+    "artistId": "luca-ferraro",
+    "label": "Ferraro Music",
+    "year": 2009,
+    "sold": "85K",
+    "tracks": 8,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1656624407940-a67e5e872cfd?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "cedar-threshold",
+    "title": "Cedar Threshold",
+    "artistId": "niko-harada",
+    "label": "Harada Sound",
+    "year": 2017,
+    "sold": "227K",
+    "tracks": 10,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1585555169117-8992223ba2c2?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "granite-vesper",
+    "title": "Granite Vesper",
+    "artistId": "the-low-archives",
+    "label": "Low Archives",
+    "year": 2014,
+    "sold": "121K",
+    "tracks": 12,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "solar-orchard",
+    "title": "Solar Orchard",
+    "artistId": "amara-quill",
+    "label": "Quill Station",
+    "year": 2008,
+    "sold": "183K",
+    "tracks": 9,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1777249224091-6a0d90d56daa?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "copper-room",
+    "title": "Copper Room",
+    "artistId": "amara-quill",
+    "label": "Quill Station",
+    "year": 2012,
+    "sold": "170K",
+    "tracks": 9,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1782899256099-fb9590ac60bc?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "solar-notebook",
+    "title": "Solar Notebook",
+    "artistId": "niko-harada",
+    "label": "Harada Sound",
+    "year": 2019,
+    "sold": "254K",
+    "tracks": 9,
+    "singles": 1,
+    "cert": "Gold",
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1558902944-405b1261c58a?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "sage-etude",
+    "title": "Sage Etude",
+    "artistId": "mei-calderon",
+    "label": "Calderon Records",
+    "year": 2024,
+    "sold": "202K",
+    "tracks": 9,
+    "singles": 4,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1520962922320-2038eebab146?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "ivory-antenna",
+    "title": "Ivory Antenna",
+    "artistId": "ivory-frequency",
+    "label": "Ivory Press",
+    "year": 2020,
+    "sold": "223K",
+    "tracks": 13,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "SP"
+    ],
+    "cover": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "copper-fable",
+    "title": "Copper Fable",
+    "artistId": "juniper-hale",
+    "label": "Hale Press",
+    "year": 2021,
+    "sold": "206K",
+    "tracks": 12,
+    "singles": 4,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "arctic-meridian",
+    "title": "Arctic Meridian",
+    "artistId": "amara-quill",
+    "label": "Quill Station",
+    "year": 2013,
+    "sold": "558K",
+    "tracks": 12,
+    "singles": 0,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1781901397248-b696093151c1?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "fern-diary",
+    "title": "Fern Diary",
+    "artistId": "silver-voltage",
+    "label": "Silver Voltage",
+    "year": 2026,
+    "sold": "155K",
+    "tracks": 12,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1770297345804-e6af74ee764d?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "linen-hymn",
+    "title": "Linen Hymn",
+    "artistId": "rowan-iversen",
+    "label": "Iversen Audio",
+    "year": 2022,
+    "sold": "247K",
+    "tracks": 13,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1734964713951-6f9b87053b80?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "fern-sketch",
+    "title": "Fern Sketch",
+    "artistId": "kite-and-ember",
+    "label": "Kite Ember",
+    "year": 2021,
+    "sold": "627K",
+    "tracks": 8,
+    "singles": 4,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1771517354017-56b3791015e3?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "silent-etude",
+    "title": "Silent Etude",
+    "artistId": "mei-calderon",
+    "label": "Calderon Records",
+    "year": 2024,
+    "sold": "817K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": "Platinum",
+    "streaming": [
+      "SP"
+    ],
+    "cover": "https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "pale-compass",
+    "title": "Pale Compass",
+    "artistId": "marble-current",
+    "label": "Marble Current",
+    "year": 2021,
+    "sold": "192K",
+    "tracks": 8,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1783256142515-83fe67e58822?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "midnight-lattice",
+    "title": "Midnight Lattice",
+    "artistId": "polar-meridian",
+    "label": "Polar Meridian Music",
+    "year": 2007,
+    "sold": "190K",
+    "tracks": 7,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1780266076127-16e6cc6ab1b0?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "linen-bloom",
+    "title": "Linen Bloom",
+    "artistId": "rowan-iversen",
+    "label": "Iversen Audio",
+    "year": 2017,
+    "sold": "535K",
+    "tracks": 8,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1638729329465-b8a373e1998f?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "pale-vesper",
+    "title": "Pale Vesper",
+    "artistId": "amara-quill",
+    "label": "Quill Station",
+    "year": 2006,
+    "sold": "97K",
+    "tracks": 7,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "violet-reverie",
+    "title": "Violet Reverie",
+    "artistId": "the-copper-orchard",
+    "label": "Orchard Label",
+    "year": 2017,
+    "sold": "474K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1774994255371-e891b4a6b640?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "brass-overture",
+    "title": "Brass Overture",
+    "artistId": "polar-meridian",
+    "label": "Polar Meridian Music",
+    "year": 2026,
+    "sold": "148K",
+    "tracks": 13,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "willow-postcard",
+    "title": "Willow Postcard",
+    "artistId": "amara-quill",
+    "label": "Quill Station",
+    "year": 2006,
+    "sold": "151K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1681708416478-c0809b6364dd?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "pale-diary",
+    "title": "Pale Diary",
+    "artistId": "the-low-archives",
+    "label": "Low Archives",
+    "year": 2024,
+    "sold": "73K",
+    "tracks": 10,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "distant-suite",
+    "title": "Distant Suite",
+    "artistId": "redpaper-saints",
+    "label": "Redpaper Records",
+    "year": 2019,
+    "sold": "205K",
+    "tracks": 9,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "willow-station",
+    "title": "Willow Station",
+    "artistId": "silver-voltage",
+    "label": "Silver Voltage",
+    "year": 2019,
+    "sold": "2.1M",
+    "tracks": 13,
+    "singles": 3,
+    "cert": "Diamond",
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1690139217228-df437e22cf21?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "river-window",
+    "title": "River Window",
+    "artistId": "ivory-frequency",
+    "label": "Ivory Press",
+    "year": 2023,
+    "sold": "148K",
+    "tracks": 12,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1609175486691-7e4e297c4fae?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "faded-antenna",
+    "title": "Faded Antenna",
+    "artistId": "polar-meridian",
+    "label": "Polar Meridian Music",
+    "year": 2024,
+    "sold": "563K",
+    "tracks": 6,
+    "singles": 0,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1777401369961-818c8d0cc27e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "arctic-vesper",
+    "title": "Arctic Vesper",
+    "artistId": "night-market-choir",
+    "label": "Night Market Records",
+    "year": 2024,
+    "sold": "264K",
+    "tracks": 11,
+    "singles": 0,
+    "cert": "Gold",
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1777916273085-b10c5ae92894?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "harbor-hymn",
+    "title": "Harbor Hymn",
+    "artistId": "rowan-iversen",
+    "label": "Iversen Audio",
+    "year": 2023,
+    "sold": "181K",
+    "tracks": 7,
+    "singles": 4,
+    "cert": null,
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1781961542738-8f0984bf364e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "ivory-overture",
+    "title": "Ivory Overture",
+    "artistId": "luca-ferraro",
+    "label": "Ferraro Music",
+    "year": 2022,
+    "sold": "274K",
+    "tracks": 10,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1775585873053-be09b693d853?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "sage-suite",
+    "title": "Sage Suite",
+    "artistId": "night-market-choir",
+    "label": "Night Market Records",
+    "year": 2022,
+    "sold": "3.1M",
+    "tracks": 9,
+    "singles": 1,
+    "cert": "Diamond",
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "hollow-room",
+    "title": "Hollow Room",
+    "artistId": "the-low-archives",
+    "label": "Low Archives",
+    "year": 2007,
+    "sold": "207K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1499336315816-66d24c02b9b8?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "cinder-archive",
+    "title": "Cinder Archive",
+    "artistId": "anika-berg",
+    "label": "Berg Line",
+    "year": 2019,
+    "sold": "113K",
+    "tracks": 6,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1677406642664-394be58ba87b?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "rust-station",
+    "title": "Rust Station",
+    "artistId": "kite-and-ember",
+    "label": "Kite Ember",
+    "year": 2013,
+    "sold": "841K",
+    "tracks": 7,
+    "singles": 3,
+    "cert": "Platinum",
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "soft-bloom",
+    "title": "Soft Bloom",
+    "artistId": "selene-okonkwo",
+    "label": "Okonkwo Audio",
+    "year": 2024,
+    "sold": "259K",
+    "tracks": 12,
+    "singles": 1,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1782037307950-de91fbbf0d6d?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "moss-reverie",
+    "title": "Moss Reverie",
+    "artistId": "juniper-hale",
+    "label": "Hale Press",
+    "year": 2020,
+    "sold": "103K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "stone-garden",
+    "title": "Stone Garden",
+    "artistId": "juniper-hale",
+    "label": "Hale Press",
+    "year": 2020,
+    "sold": "87K",
+    "tracks": 11,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1783958042075-cb3abf9ebd0d?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "brass-gallery",
+    "title": "Brass Gallery",
+    "artistId": "rowan-iversen",
+    "label": "Iversen Audio",
+    "year": 2023,
+    "sold": "192K",
+    "tracks": 12,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1783444917242-bcb1d25cef7e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "velvet-fable",
+    "title": "Velvet Fable",
+    "artistId": "ivory-frequency",
+    "label": "Ivory Press",
+    "year": 2017,
+    "sold": "447K",
+    "tracks": 8,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP"
+    ],
+    "cover": "https://images.unsplash.com/photo-1785885399756-b21ec3bfd9ad?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "moss-transmission",
+    "title": "Moss Transmission",
+    "artistId": "selene-okonkwo",
+    "label": "Okonkwo Audio",
+    "year": 2022,
+    "sold": "555K",
+    "tracks": 7,
+    "singles": 4,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1761344980955-c187a571a18c?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "soft-archive",
+    "title": "Soft Archive",
+    "artistId": "the-low-archives",
+    "label": "Low Archives",
+    "year": 2015,
+    "sold": "234K",
+    "tracks": 12,
+    "singles": 4,
+    "cert": null,
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1779796785446-1d91a045aa95?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "willow-orchard",
+    "title": "Willow Orchard",
+    "artistId": "hollow-antenna",
+    "label": "Antenna Works",
+    "year": 2026,
+    "sold": "94K",
+    "tracks": 6,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1725223292572-5ea20a63e4f5?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "ashen-window",
+    "title": "Ashen Window",
+    "artistId": "cassian-vale",
+    "label": "Vale Editions",
+    "year": 2019,
+    "sold": "2.2M",
+    "tracks": 13,
+    "singles": 0,
+    "cert": "Diamond",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "midnight-mirror",
+    "title": "Midnight Mirror",
+    "artistId": "selene-okonkwo",
+    "label": "Okonkwo Audio",
+    "year": 2019,
+    "sold": "160K",
+    "tracks": 8,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1545063452-e3a5479fe00e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "coral-diary",
+    "title": "Coral Diary",
+    "artistId": "juniper-hale",
+    "label": "Hale Press",
+    "year": 2019,
+    "sold": "109K",
+    "tracks": 9,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1780407553141-7728f433a531?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "fern-compass",
+    "title": "Fern Compass",
+    "artistId": "theo-marais",
+    "label": "Marais Editions",
+    "year": 2023,
+    "sold": "224K",
+    "tracks": 6,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "silver-waltz",
+    "title": "Silver Waltz",
+    "artistId": "cassian-vale",
+    "label": "Vale Editions",
+    "year": 2017,
+    "sold": "2.9M",
+    "tracks": 10,
+    "singles": 1,
+    "cert": "Diamond",
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1545321905-1d5d7f67faa8?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "midnight-fable",
+    "title": "Midnight Fable",
+    "artistId": "ivory-frequency",
+    "label": "Ivory Press",
+    "year": 2019,
+    "sold": "781K",
+    "tracks": 12,
+    "singles": 2,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1707332287886-84315bbb04bb?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "sage-reverie",
+    "title": "Sage Reverie",
+    "artistId": "silver-voltage",
+    "label": "Silver Voltage",
+    "year": 2024,
+    "sold": "250K",
+    "tracks": 7,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1774790911124-da125e22dc38?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "tin-room",
+    "title": "Tin Room",
+    "artistId": "cassian-vale",
+    "label": "Vale Editions",
+    "year": 2011,
+    "sold": "666K",
+    "tracks": 7,
+    "singles": 0,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "ivory-window",
+    "title": "Ivory Window",
+    "artistId": "marble-current",
+    "label": "Marble Current",
+    "year": 2019,
+    "sold": "202K",
+    "tracks": 7,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "moss-sonata",
+    "title": "Moss Sonata",
+    "artistId": "the-copper-orchard",
+    "label": "Orchard Label",
+    "year": 2016,
+    "sold": "2.3M",
+    "tracks": 11,
+    "singles": 1,
+    "cert": "Diamond",
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1566840582759-bac467710e2f?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "cedar-compass",
+    "title": "Cedar Compass",
+    "artistId": "kite-and-ember",
+    "label": "Kite Ember",
+    "year": 2026,
+    "sold": "123K",
+    "tracks": 13,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1780895877495-5914300e5fa6?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "quartz-reverie",
+    "title": "Quartz Reverie",
+    "artistId": "marble-current",
+    "label": "Marble Current",
+    "year": 2026,
+    "sold": "211K",
+    "tracks": 9,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1434280710011-79ded93624a4?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "cinder-reverie",
+    "title": "Cinder Reverie",
+    "artistId": "juniper-hale",
+    "label": "Hale Press",
+    "year": 2015,
+    "sold": "133K",
+    "tracks": 7,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1750706757892-24a7ecea9860?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "harbor-window",
+    "title": "Harbor Window",
+    "artistId": "night-market-choir",
+    "label": "Night Market Records",
+    "year": 2019,
+    "sold": "141K",
+    "tracks": 12,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1779950369572-7074f7f6b0e3?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "rust-window",
+    "title": "Rust Window",
+    "artistId": "niko-harada",
+    "label": "Harada Sound",
+    "year": 2016,
+    "sold": "574K",
+    "tracks": 7,
+    "singles": 2,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1782111048603-ec1c7b894cfd?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "ivory-garden",
+    "title": "Ivory Garden",
+    "artistId": "mei-calderon",
+    "label": "Calderon Records",
+    "year": 2020,
+    "sold": "281K",
+    "tracks": 9,
+    "singles": 1,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1778962389355-b1e6f3a4e871?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "pearl-antenna",
+    "title": "Pearl Antenna",
+    "artistId": "kite-and-ember",
+    "label": "Kite Ember",
+    "year": 2014,
+    "sold": "58K",
+    "tracks": 13,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1603550489068-68e60062b3f9?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "ivory-orchard",
+    "title": "Ivory Orchard",
+    "artistId": "mei-calderon",
+    "label": "Calderon Records",
+    "year": 2022,
+    "sold": "213K",
+    "tracks": 12,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1666715019060-a79cc1f5eee3?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "linen-atlas",
+    "title": "Linen Atlas",
+    "artistId": "night-market-choir",
+    "label": "Night Market Records",
+    "year": 2023,
+    "sold": "467K",
+    "tracks": 13,
+    "singles": 0,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "moss-vesper",
+    "title": "Moss Vesper",
+    "artistId": "selene-okonkwo",
+    "label": "Okonkwo Audio",
+    "year": 2020,
+    "sold": "683K",
+    "tracks": 8,
+    "singles": 0,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1768941267787-7edc0a11f6df?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "opal-notebook",
+    "title": "Opal Notebook",
+    "artistId": "selene-okonkwo",
+    "label": "Okonkwo Audio",
+    "year": 2022,
+    "sold": "194K",
+    "tracks": 7,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "amber-almanac",
+    "title": "Amber Almanac",
+    "artistId": "anika-berg",
+    "label": "Berg Line",
+    "year": 2019,
+    "sold": "224K",
+    "tracks": 11,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1771014369998-fd62bf1468a1?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "cedar-almanac",
+    "title": "Cedar Almanac",
+    "artistId": "niko-harada",
+    "label": "Harada Sound",
+    "year": 2022,
+    "sold": "518K",
+    "tracks": 10,
+    "singles": 4,
+    "cert": "Gold",
+    "streaming": [
+      "SP"
+    ],
+    "cover": "https://images.unsplash.com/photo-1756127205842-963f2c8686d0?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "opal-archive",
+    "title": "Opal Archive",
+    "artistId": "the-copper-orchard",
+    "label": "Orchard Label",
+    "year": 2018,
+    "sold": "267K",
+    "tracks": 11,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1696642575644-834089020c0d?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "silver-harbor",
+    "title": "Silver Harbor",
+    "artistId": "anika-berg",
+    "label": "Berg Line",
+    "year": 2017,
+    "sold": "111K",
+    "tracks": 8,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1771787872421-435808387ec3?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "coastal-chamber",
+    "title": "Coastal Chamber",
+    "artistId": "silver-voltage",
+    "label": "Silver Voltage",
+    "year": 2020,
+    "sold": "207K",
+    "tracks": 13,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1526481280695-3c687fd643ed?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "midnight-archive",
+    "title": "Midnight Archive",
+    "artistId": "the-copper-orchard",
+    "label": "Orchard Label",
+    "year": 2022,
+    "sold": "232K",
+    "tracks": 13,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1660591900584-a9db1b31c584?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "stone-room",
+    "title": "Stone Room",
+    "artistId": "the-copper-orchard",
+    "label": "Orchard Label",
+    "year": 2024,
+    "sold": "2.9M",
+    "tracks": 10,
+    "singles": 4,
+    "cert": "Diamond",
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1776943970496-d8b891e28dab?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "soft-postcard",
+    "title": "Soft Postcard",
+    "artistId": "juniper-hale",
+    "label": "Hale Press",
+    "year": 2022,
+    "sold": "197K",
+    "tracks": 11,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "moss-hymn",
+    "title": "Moss Hymn",
+    "artistId": "mei-calderon",
+    "label": "Calderon Records",
+    "year": 2025,
+    "sold": "774K",
+    "tracks": 8,
+    "singles": 1,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1696179000939-e64c1dd08c9b?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "fog-fable",
+    "title": "Fog Fable",
+    "artistId": "the-low-archives",
+    "label": "Low Archives",
+    "year": 2023,
+    "sold": "132K",
+    "tracks": 7,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP"
+    ],
+    "cover": "https://images.unsplash.com/photo-1550551328-4db9497e296a?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "opal-antenna",
+    "title": "Opal Antenna",
+    "artistId": "ivory-frequency",
+    "label": "Ivory Press",
+    "year": 2018,
+    "sold": "734K",
+    "tracks": 10,
+    "singles": 2,
+    "cert": "Platinum",
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1778007446960-19412cfce184?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "silver-gallery",
+    "title": "Silver Gallery",
+    "artistId": "cassian-vale",
+    "label": "Vale Editions",
+    "year": 2018,
+    "sold": "373K",
+    "tracks": 9,
+    "singles": 4,
+    "cert": "Gold",
+    "streaming": [
+      "SP"
+    ],
+    "cover": "https://images.unsplash.com/photo-1744172246879-f64ed1b16e4b?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "arctic-reverie",
+    "title": "Arctic Reverie",
+    "artistId": "the-low-archives",
+    "label": "Low Archives",
+    "year": 2015,
+    "sold": "2.5M",
+    "tracks": 9,
+    "singles": 0,
+    "cert": "Diamond",
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "faded-station",
+    "title": "Faded Station",
+    "artistId": "cassian-vale",
+    "label": "Vale Editions",
+    "year": 2025,
+    "sold": "61K",
+    "tracks": 13,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1778089410900-eb8aadc4e6ae?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "cedar-orchard",
+    "title": "Cedar Orchard",
+    "artistId": "theo-marais",
+    "label": "Marais Editions",
+    "year": 2021,
+    "sold": "77K",
+    "tracks": 8,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP"
+    ],
+    "cover": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "ember-parade",
+    "title": "Ember Parade",
+    "artistId": "silver-voltage",
+    "label": "Silver Voltage",
+    "year": 2020,
+    "sold": "242K",
+    "tracks": 7,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1784631926509-cedb9044108e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "tin-sonata",
+    "title": "Tin Sonata",
+    "artistId": "redpaper-saints",
+    "label": "Redpaper Records",
+    "year": 2023,
+    "sold": "258K",
+    "tracks": 8,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1482192505345-5655af888cc4?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "river-sonata",
+    "title": "River Sonata",
+    "artistId": "hollow-antenna",
+    "label": "Antenna Works",
+    "year": 2026,
+    "sold": "240K",
+    "tracks": 6,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "indigo-hymn",
+    "title": "Indigo Hymn",
+    "artistId": "the-low-archives",
+    "label": "Low Archives",
+    "year": 2026,
+    "sold": "731K",
+    "tracks": 8,
+    "singles": 1,
+    "cert": "Platinum",
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1783611382463-ad2603448f37?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "coastal-garden",
+    "title": "Coastal Garden",
+    "artistId": "the-copper-orchard",
+    "label": "Orchard Label",
+    "year": 2015,
+    "sold": "457K",
+    "tracks": 12,
+    "singles": 1,
+    "cert": "Gold",
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1786647670932-9ad88e5fa022?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "chromatic-tide",
+    "title": "Chromatic Tide",
+    "artistId": "redpaper-saints",
+    "label": "Redpaper Records",
+    "year": 2021,
+    "sold": "109K",
+    "tracks": 11,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1716634873234-9339ba0547f7?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "cinder-garden",
+    "title": "Cinder Garden",
+    "artistId": "amara-quill",
+    "label": "Quill Station",
+    "year": 2006,
+    "sold": "254K",
+    "tracks": 9,
+    "singles": 4,
+    "cert": "Gold",
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "wooden-lattice",
+    "title": "Wooden Lattice",
+    "artistId": "anika-berg",
+    "label": "Berg Line",
+    "year": 2022,
+    "sold": "151K",
+    "tracks": 8,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1782099149263-52e8c2451882?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "fern-waltz",
+    "title": "Fern Waltz",
+    "artistId": "night-market-choir",
+    "label": "Night Market Records",
+    "year": 2021,
+    "sold": "246K",
+    "tracks": 10,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1785225701728-f1a332cb825d?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "chromatic-etude",
+    "title": "Chromatic Etude",
+    "artistId": "luca-ferraro",
+    "label": "Ferraro Music",
+    "year": 2010,
+    "sold": "47K",
+    "tracks": 12,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1783702477394-09c5c81cf807?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "northern-transmission",
+    "title": "Northern Transmission",
+    "artistId": "ivory-frequency",
+    "label": "Ivory Press",
+    "year": 2018,
+    "sold": "1.3M",
+    "tracks": 13,
+    "singles": 2,
+    "cert": "Diamond",
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1776426128523-01cd3f7fa409?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "ashen-meridian",
+    "title": "Ashen Meridian",
+    "artistId": "polar-meridian",
+    "label": "Polar Meridian Music",
+    "year": 2014,
+    "sold": "320K",
+    "tracks": 6,
+    "singles": 0,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1735790776200-2a42046f24c7?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "coral-almanac",
+    "title": "Coral Almanac",
+    "artistId": "polar-meridian",
+    "label": "Polar Meridian Music",
+    "year": 2025,
+    "sold": "331K",
+    "tracks": 12,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1775428234408-d95094b8b0b4?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "wooden-lantern",
+    "title": "Wooden Lantern",
+    "artistId": "the-copper-orchard",
+    "label": "Orchard Label",
+    "year": 2017,
+    "sold": "43K",
+    "tracks": 6,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1492762016712-f8621509d8e1?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "stone-bloom",
+    "title": "Stone Bloom",
+    "artistId": "hollow-antenna",
+    "label": "Antenna Works",
+    "year": 2020,
+    "sold": "254K",
+    "tracks": 10,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "amber-parade",
+    "title": "Amber Parade",
+    "artistId": "the-copper-orchard",
+    "label": "Orchard Label",
+    "year": 2015,
+    "sold": "138K",
+    "tracks": 13,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "wooden-tide",
+    "title": "Wooden Tide",
+    "artistId": "mei-calderon",
+    "label": "Calderon Records",
+    "year": 2023,
+    "sold": "181K",
+    "tracks": 11,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1783890028700-ac3fafb9364b?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "cinder-compass",
+    "title": "Cinder Compass",
+    "artistId": "night-market-choir",
+    "label": "Night Market Records",
+    "year": 2023,
+    "sold": "219K",
+    "tracks": 9,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1694949043512-f8a384c9adc1?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "sage-antenna",
+    "title": "Sage Antenna",
+    "artistId": "silver-voltage",
+    "label": "Silver Voltage",
+    "year": 2016,
+    "sold": "65K",
+    "tracks": 7,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1766608561767-2bcaaf1e2ec4?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "juniper-notebook",
+    "title": "Juniper Notebook",
+    "artistId": "silver-voltage",
+    "label": "Silver Voltage",
+    "year": 2021,
+    "sold": "132K",
+    "tracks": 8,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1781984079762-3be81073a3e6?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "chromatic-sketch",
+    "title": "Chromatic Sketch",
+    "artistId": "kite-and-ember",
+    "label": "Kite Ember",
+    "year": 2017,
+    "sold": "104K",
+    "tracks": 13,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "midnight-bloom",
+    "title": "Midnight Bloom",
+    "artistId": "ivory-frequency",
+    "label": "Ivory Press",
+    "year": 2023,
+    "sold": "2.0M",
+    "tracks": 12,
+    "singles": 0,
+    "cert": "Diamond",
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1744170913260-e68bb9fde44f?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "harbor-notebook",
+    "title": "Harbor Notebook",
+    "artistId": "hollow-antenna",
+    "label": "Antenna Works",
+    "year": 2022,
+    "sold": "343K",
+    "tracks": 9,
+    "singles": 0,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1774989423984-149c3eb4265d?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "northern-reverie",
+    "title": "Northern Reverie",
+    "artistId": "the-low-archives",
+    "label": "Low Archives",
+    "year": 2020,
+    "sold": "231K",
+    "tracks": 13,
+    "singles": 1,
+    "cert": null,
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "silver-orchard",
+    "title": "Silver Orchard",
+    "artistId": "luca-ferraro",
+    "label": "Ferraro Music",
+    "year": 2006,
+    "sold": "438K",
+    "tracks": 12,
+    "singles": 4,
+    "cert": "Gold",
+    "streaming": [
+      "SP"
+    ],
+    "cover": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "silver-meridian",
+    "title": "Silver Meridian",
+    "artistId": "silver-voltage",
+    "label": "Silver Voltage",
+    "year": 2021,
+    "sold": "255K",
+    "tracks": 13,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP"
+    ],
+    "cover": "https://images.unsplash.com/photo-1769344357052-54a29a4565de?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "violet-etude",
+    "title": "Violet Etude",
+    "artistId": "the-low-archives",
+    "label": "Low Archives",
+    "year": 2013,
+    "sold": "75K",
+    "tracks": 13,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1781178894486-edca0e88dabc?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "ashen-atlas",
+    "title": "Ashen Atlas",
+    "artistId": "cassian-vale",
+    "label": "Vale Editions",
+    "year": 2021,
+    "sold": "162K",
+    "tracks": 13,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1523480790568-0cc8ff425633?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "umber-fable",
+    "title": "Umber Fable",
+    "artistId": "polar-meridian",
+    "label": "Polar Meridian Music",
+    "year": 2025,
+    "sold": "66K",
+    "tracks": 8,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP"
+    ],
+    "cover": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "quartz-almanac",
+    "title": "Quartz Almanac",
+    "artistId": "juniper-hale",
+    "label": "Hale Press",
+    "year": 2022,
+    "sold": "51K",
+    "tracks": 10,
+    "singles": 4,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1780612500882-8bcff6490482?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "dusk-threshold",
+    "title": "Dusk Threshold",
+    "artistId": "polar-meridian",
+    "label": "Polar Meridian Music",
+    "year": 2022,
+    "sold": "208K",
+    "tracks": 7,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "opal-threshold",
+    "title": "Opal Threshold",
+    "artistId": "marble-current",
+    "label": "Marble Current",
+    "year": 2018,
+    "sold": "72K",
+    "tracks": 12,
+    "singles": 3,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1779828077473-ba0af3ea068a?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "dusk-fable",
+    "title": "Dusk Fable",
+    "artistId": "mei-calderon",
+    "label": "Calderon Records",
+    "year": 2023,
+    "sold": "528K",
+    "tracks": 10,
+    "singles": 1,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1780538606688-6270e2089c1e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "dusk-room",
+    "title": "Dusk Room",
+    "artistId": "ivory-frequency",
+    "label": "Ivory Press",
+    "year": 2022,
+    "sold": "814K",
+    "tracks": 8,
+    "singles": 1,
+    "cert": "Platinum",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "ivory-meridian",
+    "title": "Ivory Meridian",
+    "artistId": "selene-okonkwo",
+    "label": "Okonkwo Audio",
+    "year": 2022,
+    "sold": "333K",
+    "tracks": 6,
+    "singles": 1,
+    "cert": "Gold",
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1786103385042-46800ce65919?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "ivory-lattice",
+    "title": "Ivory Lattice",
+    "artistId": "kite-and-ember",
+    "label": "Kite Ember",
+    "year": 2018,
+    "sold": "146K",
+    "tracks": 8,
+    "singles": 4,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1779636335067-4771cc074b86?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "dusk-lattice",
+    "title": "Dusk Lattice",
+    "artistId": "cassian-vale",
+    "label": "Vale Editions",
+    "year": 2018,
+    "sold": "69K",
+    "tracks": 9,
+    "singles": 2,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1536530639193-5ff82cdf18eb?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "silver-diary",
+    "title": "Silver Diary",
+    "artistId": "marble-current",
+    "label": "Marble Current",
+    "year": 2020,
+    "sold": "322K",
+    "tracks": 12,
+    "singles": 1,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1506547095036-4859caf9f94c?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "midnight-suite",
+    "title": "Midnight Suite",
+    "artistId": "anika-berg",
+    "label": "Berg Line",
+    "year": 2024,
+    "sold": "533K",
+    "tracks": 8,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1674213243182-7e216633b75e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "pale-harbor",
+    "title": "Pale Harbor",
+    "artistId": "night-market-choir",
+    "label": "Night Market Records",
+    "year": 2024,
+    "sold": "173K",
+    "tracks": 11,
+    "singles": 0,
+    "cert": null,
+    "streaming": [
+      "SP"
+    ],
+    "cover": "https://images.unsplash.com/photo-1769344357019-48f83b0a1ae2?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "dusk-mirror",
+    "title": "Dusk Mirror",
+    "artistId": "theo-marais",
+    "label": "Marais Editions",
+    "year": 2016,
+    "sold": "87K",
+    "tracks": 11,
+    "singles": 4,
+    "cert": null,
+    "streaming": [
+      "SP",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "cedar-sketch",
+    "title": "Cedar Sketch",
+    "artistId": "anika-berg",
+    "label": "Berg Line",
+    "year": 2022,
+    "sold": "642K",
+    "tracks": 13,
+    "singles": 4,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1783867874060-67a036879bec?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "coastal-bloom",
+    "title": "Coastal Bloom",
+    "artistId": "amara-quill",
+    "label": "Quill Station",
+    "year": 2024,
+    "sold": "632K",
+    "tracks": 7,
+    "singles": 4,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1769344356968-cfd603b649dd?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "river-parade",
+    "title": "River Parade",
+    "artistId": "luca-ferraro",
+    "label": "Ferraro Music",
+    "year": 2007,
+    "sold": "536K",
+    "tracks": 7,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "AM"
+    ],
+    "cover": "https://images.unsplash.com/photo-1781545043431-63ac69fba646?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "golden-transmission",
+    "title": "Golden Transmission",
+    "artistId": "cassian-vale",
+    "label": "Vale Editions",
+    "year": 2019,
+    "sold": "371K",
+    "tracks": 10,
+    "singles": 3,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "cinder-tide",
+    "title": "Cinder Tide",
+    "artistId": "juniper-hale",
+    "label": "Hale Press",
+    "year": 2013,
+    "sold": "464K",
+    "tracks": 7,
+    "singles": 2,
+    "cert": "Gold",
+    "streaming": [
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1779700300359-f739c764d654?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
+  },
+  {
+    "id": "willow-sonata",
+    "title": "Willow Sonata",
+    "artistId": "rowan-iversen",
+    "label": "Iversen Audio",
+    "year": 2017,
+    "sold": "307K",
+    "tracks": 11,
+    "singles": 0,
+    "cert": "Gold",
+    "streaming": [
+      "SP",
+      "AM",
+      "AZ"
+    ],
+    "cover": "https://images.unsplash.com/photo-1746799030153-466dbf70a13e?auto=format&fit=crop&w=500&h=500&q=85",
+    "coverSource": "remote"
   }
 ];
