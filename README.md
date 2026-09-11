@@ -105,12 +105,12 @@ Local `photo`/`cover` is a bundled filename (or `""` for none). Remote is an htt
 
 | Method | Path | Description |
 |--------|------|-------------|
-| `GET` | `/artists` | List artists |
+| `GET` | `/artists` | List artists. Optional `?imageSource=all\|local\|remote` (default all) |
 | `GET` | `/artists/:id` | Get artist |
 | `POST` | `/artists` | Create (`name` + `since` required) |
 | `PUT` | `/artists/:id` | Update |
 | `DELETE` | `/artists/:id` | Delete + cascade albums |
-| `GET` | `/albums` | List albums (enriched) |
+| `GET` | `/albums` | List albums (enriched). Optional `?imageSource=all\|local\|remote` (default all) |
 | `GET` | `/albums/:id` | Get album (enriched) |
 | `POST` | `/albums` | Create (`title` + `artistId` + `year` required) |
 | `PUT` | `/albums/:id` | Update |

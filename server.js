@@ -175,12 +175,23 @@ function asyncHandler(fn) {
   };
 }
 
+function parseImageSourceQuery(req) {
+  const raw = req.query.imageSource;
+  if (raw === undefined || raw === "") return { value: undefined };
+  const value = String(Array.isArray(raw) ? raw[0] : raw).toLowerCase().trim();
+  if (value === "all") return { value: undefined };
+  if (value === "local" || value === "remote") return { value };
+  return { error: 'imageSource must be "all", "local", or "remote"' };
+}
+
 // ─── Artists ─────────────────────────────────────────────────────────────────
 
 app.get(
   "/artists",
-  asyncHandler(async (_req, res) => {
-    res.json(await store.getArtists());
+  asyncHandler(async (req, res) => {
+    const parsed = parseImageSourceQuery(req);
+    if (parsed.error) return res.status(400).json({ message: parsed.error });
+    res.json(await store.getArtists({ imageSource: parsed.value }));
   })
 );
 
@@ -253,8 +264,10 @@ app.delete(
 
 app.get(
   "/albums",
-  asyncHandler(async (_req, res) => {
-    res.json(await store.getAlbums());
+  asyncHandler(async (req, res) => {
+    const parsed = parseImageSourceQuery(req);
+    if (parsed.error) return res.status(400).json({ message: parsed.error });
+    res.json(await store.getAlbums({ imageSource: parsed.value }));
   })
 );
 

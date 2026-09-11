@@ -7,6 +7,10 @@ Base URL: `http://localhost:3001`
 ```bash
 curl http://localhost:3001/artists
 
+curl "http://localhost:3001/artists?imageSource=local"
+
+curl "http://localhost:3001/artists?imageSource=remote"
+
 curl http://localhost:3001/artists/cleo-sterling
 
 curl -X POST http://localhost:3001/artists ^
@@ -25,6 +29,10 @@ curl -X DELETE http://localhost:3001/artists/:id
 ```bash
 curl http://localhost:3001/albums
 
+curl "http://localhost:3001/albums?imageSource=local"
+
+curl "http://localhost:3001/albums?imageSource=remote"
+
 curl http://localhost:3001/albums/debut
 
 curl -X POST http://localhost:3001/albums ^
@@ -42,5 +50,9 @@ curl -X DELETE http://localhost:3001/albums/:id
 
 ```powershell
 (Invoke-RestMethod http://localhost:3001/artists).Count
+(Invoke-RestMethod "http://localhost:3001/artists?imageSource=local").Count
+(Invoke-RestMethod "http://localhost:3001/artists?imageSource=remote").Count
 (Invoke-RestMethod http://localhost:3001/albums).Count
+(Invoke-RestMethod "http://localhost:3001/albums?imageSource=local").Count
+(Invoke-RestMethod "http://localhost:3001/albums?imageSource=remote").Count
 ```
